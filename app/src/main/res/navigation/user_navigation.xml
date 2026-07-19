@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@id/patientHomeFragment">
+    <fragment
+        android:id="@+id/patientHomeFragment"
+        android:name="com.app.sanad.users.patient.main.presentaion.HomeFragment"
+        android:label="fragment_patient_home"
+        tools:layout="@layout/fragment_user_home" >
+        <action
+            android:id="@+id/action_patientHomeFragment_to_numberHelpingFragment2"
+            app:destination="@id/numberHelpingFragment2" />
+        <action
+            android:id="@+id/action_patientHomeFragment_to_trackingMoodFragment"
+            app:destination="@id/trackingMoodFragment" />
+        <action
+            android:id="@+id/action_patientHomeFragment_to_notificationsFragment"
+            app:destination="@id/notificationsFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.app.sanad.users.patient.profile.presentation.ProfileFragment"
+        android:label="fragment_profile"
+        tools:layout="@layout/fragment_profile" >
+        <action
+            android:id="@+id/action_profileFragment_to_gratitudeListFragment"
+            app:destination="@id/gratitudeListFragment" />
+        <action
+            android:id="@+id/action_profileFragment_to_numberHelpingFragment2"
+            app:destination="@id/numberHelpingFragment2" />
+        <action
+            android:id="@+id/action_profileFragment_to_settingsFragment"
+            app:destination="@id/settingsFragment" />
+        <action
+            android:id="@+id/action_profileFragment_to_myPointsFragment"
+            app:destination="@id/myPointsFragment" />
+        <action
+            android:id="@+id/action_profileFragment_to_trackingMoodFragment"
+            app:destination="@id/trackingMoodFragment" />
+
+    </fragment>
+
+
+    <fragment
+        android:id="@+id/gratitudeListFragment"
+       tools:layout="@layout/fragment_gratitude_list"
+        android:name="com.app.sanad.users.patient.tools.gratitude.presentaion.GratitudeListFragment"
+        android:label="GratitudeListFragment"
+        app:popUpTo="@id/profileFragment"
+        app:popUpToInclusive="false" >
+        <action
+            android:id="@+id/action_gratitudeListFragment_to_gratitudeFragment"
+            app:destination="@id/gratitudeFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/gratitudeFragment"
+        tools:layout="@layout/fragment_gratitude"
+        android:name="com.app.sanad.users.patient.tools.gratitude.presentaion.GratitudeFragment"
+        android:label="GratitudeFragment" />
+
+    <navigation
+        android:id="@+id/chatting_navigation"
+        app:startDestination="@id/chatting_navigation.xml">
+        <include
+            app:graph="@navigation/chatting_navigation" />
+    </navigation>
+
+    <fragment
+        android:id="@+id/numberHelpingFragment2"
+        android:name="com.app.sanad.numbersHelping.NumberHelpingFragment"
+        android:label="NumberHelpingFragment" />
+    <activity
+        android:id="@+id/calenderActivity"
+        android:name="com.app.sanad.users.patient.calender.presentaion.CalenderActivity"
+        android:label="CalenderActivity" />
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="com.app.sanad.users.patient.profile.presentation.SettingsFragment"
+        android:label="SettingsFragment" />
+    <fragment
+        android:id="@+id/trackingMoodFragment"
+        android:name="com.app.sanad.users.patient.moodTracking.presentaion.TrackingMoodFragment"
+        android:label="TrackingMoodFragment" >
+        <argument
+            android:name="userId"
+            app:argType="string" />
+    </fragment>
+    <fragment
+        android:id="@+id/myPointsFragment"
+        android:name="com.app.sanad.users.patient.points.presentation.MyPointsFragment"
+        android:label="MyPointsFragment" >
+        <argument
+            android:name="currentDay"
+            app:argType="integer" />
+    </fragment>
+    <fragment
+        android:id="@+id/notificationsFragment"
+        android:name="com.app.sanad.notifications.presentation.NotificationsFragment"
+        android:label="NotificationsFragment" />
+
+
+</navigation>

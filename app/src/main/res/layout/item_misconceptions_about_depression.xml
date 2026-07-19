@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="@dimen/margin_large"
+
+    app:cardBackgroundColor="#86c3ec"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="@dimen/margin_large">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:paddingTop="50dp"
+            android:paddingStart="@dimen/margin_large"
+            android:layout_marginTop="@dimen/margin_large"
+            android:paddingEnd="@dimen/margin_large"
+            android:paddingBottom="8dp"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:textColor="@color/white"
+                android:layout_marginTop="@dimen/margin_large"
+                android:textSize="@dimen/text_size_large"
+                android:id="@+id/misconceptionText"
+                android:text="dfsd af s df df ad fda sd  df df ad fda sds dafadf dfas dfasd  df df ad fda sds dafadf dfas dfasd  df df ad fda sds dafadf dfas dfasd  df df ad fda sds dafadf dfas dfasd  df df ad fda sds dafadf dfas dfasd s dafadf dfas dfasd fdafdf sadfdfdf"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:textColor="#345779"
+                android:id="@+id/truthText"
+                android:layout_marginTop="@dimen/margin_medium"
+                android:textSize="@dimen/text_size_large"
+                android:text="dfsd af s df df ad fda sd  df df ad fda sds dafadf dfas dfasd  df df ad fda sds dafadf dfas dfasd  df df ad fda sds dafadf dfas dfasd  df df ad fda sds dafadf dfas dfasd  df df ad fda sds dafadf dfas dfasd s dafadf dfas dfasd fdafdf sadfdfdf"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="60dp"
+            app:cardBackgroundColor="@color/white"
+            app:cardCornerRadius="@dimen/margin_large">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:paddingStart="8dp"
+                android:paddingEnd="8dp">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:layout_gravity="center"
+                    app:cardBackgroundColor="#1e8ee3"
+                    app:cardCornerRadius="8dp">
+
+                    <TextView
+                        android:id="@+id/num"
+                        android:layout_width="35dp"
+                        android:layout_height="35dp"
+                        android:gravity="center"
+                        android:text="1"
+                        android:textColor="@color/white"
+                        android:textSize="16sp"
+
+                        />
+                </androidx.cardview.widget.CardView>
+
+                <TextView
+                    android:id="@+id/title"
+                    android:layout_width="match_parent"
+                    android:padding="4dp"
+
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="@dimen/margin_medium"
+                    android:layout_marginEnd="@dimen/margin_medium"
+                    android:gravity="center"
+                    android:textSize="@dimen/text_size_medium"
+android:textStyle="bold"
+                    android:text="dfsd af s fdafdf sadfdfdf" />
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/play"
+            android:layout_gravity="bottom|end"
+
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="4dp"
+            android:padding="@dimen/margin_medium"
+            android:layout_marginEnd="@dimen/margin_large"
+            app:layout_constraintEnd_toStartOf="@+id/ic_pause"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/icon_stop_sound" />
+
+    </FrameLayout>
+
+</androidx.cardview.widget.CardView>
+
+

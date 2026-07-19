@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/post_tracking_navigation.xml"
+    app:startDestination="@id/congratulationsFragment2">
+
+    <fragment
+        android:id="@+id/postDailyProgramFragment"
+        android:name="com.app.sanad.users.patient.moodTracking.presentaion.PostAssessmentFragment"
+        android:label="PostDailyProgramFragment" >
+        <action
+            android:id="@+id/action_postDailyProgramFragment_to_suggestionsFragment"
+            app:destination="@id/suggestionsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/congratulationsFragment2"
+        tools:layout="@layout/fragment_congratulations"
+        android:name="com.app.sanad.users.patient.moodTracking.presentaion.CongratulationsFragment"
+        android:label="CongratulationsFragment" >
+        <action
+            android:id="@+id/action_congratulationsFragment2_to_postDailyProgramFragment"
+            app:destination="@id/postDailyProgramFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/compareResultsFragment"
+        android:name="com.app.sanad.users.patient.moodTracking.presentaion.CompareResultsFragment"
+        android:label="CompareResultsFragment" />
+    <fragment
+        android:id="@+id/suggestionsFragment"
+        tools:layout="@layout/fragment_suggestions"
+        android:name="com.app.sanad.users.patient.moodTracking.presentaion.SuggestionsFragment"
+        android:label="SuggestionsFragment" >
+        <action
+            android:id="@+id/action_suggestionsFragment_to_compareResultsFragment"
+            app:destination="@id/compareResultsFragment" />
+    </fragment>
+</navigation>

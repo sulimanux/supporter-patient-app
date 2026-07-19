@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/library_navigation.xml"
+    app:startDestination="@id/libraryContentFragment">
+
+    <fragment
+        android:id="@+id/libraryContentFragment"
+        tools:layout="@layout/fragment_library_content"
+        android:name="com.app.sanad.getLibraryContent.presentaion.LibraryContentFragment"
+        android:label="LibraryContentFragment" >
+        <action
+            android:id="@+id/action_libraryContentFragment_to_customizedContentFragment"
+            app:destination="@id/customizedContentFragment" />
+        <action
+            android:id="@+id/action_libraryContentFragment_to_articleFragment"
+            app:destination="@id/articleFragment" />
+        <action
+            android:id="@+id/action_libraryContentFragment_to_misconceptionsAboutDepressionFragment"
+            app:destination="@id/misconceptionsAboutDepressionFragment" />
+
+    </fragment>
+    <fragment
+        android:id="@+id/customizedContentFragment"
+        tools:layout="@layout/fragment_customized_content"
+        android:name="com.app.sanad.getLibraryContent.presentaion.CustomizedContentFragment"
+        android:label="CustomizedContentFragment" >
+
+        <argument
+            android:name="libraryContentList"
+            app:argType="com.app.sanad.getLibraryContent.data.LibraryContent[]" />
+
+        <argument
+            android:name="textTitle"
+            app:argType="string" />
+        <action
+            android:id="@+id/action_customizedContentFragment_to_articleFragment"
+            app:destination="@id/articleFragment" />
+
+
+    </fragment>
+    <fragment
+        android:id="@+id/articleFragment"
+        tools:layout="@layout/fragment_article"
+        android:name="com.app.sanad.getLibraryContent.presentaion.ArticleFragment"
+        android:label="ArticleFragment" />
+    <fragment
+        android:id="@+id/misconceptionsAboutDepressionFragment"
+        android:name="com.app.sanad.getLibraryContent.presentaion.MisconceptionsAboutDepressionFragment"
+        android:label="MisconceptionsAboutDepressionFragment" />
+
+
+</navigation>

@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+    </data>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="12dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/margin_large"
+                android:layout_marginEnd="@dimen/margin_large"
+                android:layout_marginBottom="@dimen/margin_large"
+                android:orientation="vertical"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                   android:textColor="@color/black"
+                    style="@style/TextAppearance.AppCompat.Body1"
+android:layout_marginTop="@dimen/margin_large"
+                    android:layout_height="wrap_content"
+                    android:text="@string/allow_supporter_to"/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_marginTop="@dimen/margin_large"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="20dp"
+                            android:src="@drawable/ic_star" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="@dimen/margin_large"
+                            android:layout_weight="1"
+                            android:text="@string/view_daily_program_details"
+                            android:textColor="@color/black"
+                            />
+
+                        <Switch
+                            android:id="@+id/view_daily_program_details"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_marginTop="@dimen/margin_large"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_height="20dp"
+                            android:layout_width="wrap_content"
+
+                            android:src="@drawable/ic_star" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="@dimen/margin_large"
+                            android:layout_weight="1"
+                            android:text="@string/view_mood_tracking_details"
+                            android:textColor="@color/black"
+                            />
+
+                        <Switch
+                            android:id="@+id/view_mood_tracking_details"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            />
+                    </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:visibility="gone"
+
+                    android:layout_marginTop="@dimen/margin_large"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="20dp"
+                        android:src="@drawable/ic_star" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="@dimen/margin_large"
+                        android:layout_weight="1"
+                        android:text="@string/allow_encouragement_reply"
+                        android:textColor="@color/black"
+                        />
+
+                    <Switch
+android:id="@+id/allow_encouragement_reply"
+                        android:layout_height="wrap_content"
+                        android:layout_width="wrap_content"
+
+                        />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:visibility="gone"
+
+                    android:layout_marginTop="@dimen/margin_large"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <ImageView
+
+                        android:layout_height="20dp"
+                        android:layout_width="wrap_content"
+
+                        android:src="@drawable/ic_star" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+
+                        android:layout_marginStart="@dimen/margin_large"
+                        android:layout_weight="1"
+                        android:text="@string/allow_video_voice_call"
+                        android:textColor="@color/black"
+                        />
+
+                    <Switch
+                        android:id="@+id/allow_video_voice_call"
+                        android:layout_width="wrap_content"
+
+                        android:layout_height="wrap_content"
+
+                        />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="@dimen/margin_large"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <ImageView
+
+                        android:layout_height="20dp"
+                        android:layout_width="wrap_content"
+                        android:src="@drawable/ic_star" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="@dimen/margin_large"
+                        android:layout_weight="1"
+                        android:text="@string/allow_private_messages"
+                        android:textColor="@color/black"
+                        />
+
+                    <Switch
+                        android:id="@+id/allow_private_messages"
+                        android:layout_width="wrap_content"
+
+                        android:layout_height="wrap_content"
+
+                        />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/view_reporting"
+                    android:layout_width="match_parent"
+                    android:visibility="gone"
+                    android:layout_marginTop="@dimen/margin_large"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="20dp"
+                        android:src="@drawable/ic_star" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="@dimen/margin_large"
+                        android:layout_weight="7"
+                        android:text="@string/view_reports"
+                        android:textColor="@color/black"
+                        />
+
+                    <ImageView
+
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        app:tint="@color/medium_gray"
+                        android:src="@drawable/ic_forward_ios" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/notification"
+                    android:layout_width="match_parent"
+                     android:visibility="gone"
+                    android:layout_marginTop="@dimen/margin_large"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="20dp"
+                        android:src="@drawable/ic_star" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="@dimen/margin_large"
+                        android:layout_weight="7"
+                        android:text="@string/notifications"
+                        android:textColor="@color/black"
+                        />
+
+                    <ImageView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        app:tint="@color/medium_gray"
+                        android:src="@drawable/ic_forward_ios" />
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+</layout>

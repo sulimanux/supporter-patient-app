@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+
+
+            <com.google.android.exoplayer2.ui.PlayerView
+                android:id="@+id/exoPlayer"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:use_controller="true" />
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/ic_back"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_marginStart="@dimen/margin_large"
+                android:layout_marginTop="28dp"
+                android:padding="@dimen/margin_medium"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/ic_arrow_back_ios"
+                app:tint="@color/white" />
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/exoPlayer"
+                app:layout_constraintVertical_bias="1.0">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/subCategory"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="@dimen/margin_large"
+                        android:background="@drawable/corner_large"
+                        android:backgroundTint="#ebcdfb"
+                        android:paddingStart="@dimen/margin_large"
+                        android:paddingTop="@dimen/margin_small"
+                        android:paddingEnd="@dimen/margin_large"
+                        android:paddingBottom="@dimen/margin_small"
+                        android:text="الصحة النفسية"
+                        android:textSize="@dimen/text_size_large"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <ImageView
+                        android:id="@+id/share"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/circle_gray"
+                        android:padding="9dp"
+                        android:layout_margin="@dimen/margin_large"
+                        android:src="@drawable/ice_share"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:tint="@color/dark_gray" />
+                    <TextView
+                        android:id="@+id/title"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="@dimen/margin_large"
+                        android:ellipsize="end"
+                        android:maxLines="2"
+                        android:text="Tedfasdfsdafdfsdafsdfsdfdsfdfdfdsfdfdsfadfdsfdfdsfdsfsdfsdfsdffddfw"
+                        android:textSize="@dimen/text_size_large"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.0"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/subCategory" />
+
+                    <TextView
+                        android:id="@+id/date"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="@dimen/margin_large"
+                        android:text="2/10/2022"
+                        app:layout_constraintStart_toEndOf="@+id/appCompatImageView5"
+                        app:layout_constraintTop_toBottomOf="@+id/title" />
+
+                    <TextView
+                        android:id="@+id/labelDescription"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="@dimen/margin_large"
+                        android:text="@string/show_description"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/date" />
+
+                    <TextView
+                        android:id="@+id/textDescription"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="@dimen/margin_large"
+                        android:layout_marginEnd="47dp"
+                        android:layout_marginTop="@dimen/margin_large"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/date" />
+
+                    <androidx.appcompat.widget.AppCompatImageView
+                        android:id="@+id/iconShowDescription"
+                        android:layout_width="28dp"
+                        android:layout_height="24dp"
+                        android:src="@drawable/ic_down"
+                        app:layout_constraintBottom_toBottomOf="@+id/labelDescription"
+                        app:layout_constraintStart_toEndOf="@+id/labelDescription"
+                        app:layout_constraintTop_toTopOf="@+id/labelDescription"
+                        app:layout_constraintVertical_bias="0.0"
+                        app:tint="@color/black" />
+
+                    <androidx.appcompat.widget.AppCompatImageView
+                        android:id="@+id/iconHideDescription"
+                        android:layout_width="28dp"
+                        android:layout_height="28dp"
+                        android:visibility="gone"
+                        android:layout_marginEnd="@dimen/margin_large"
+                        android:background="@drawable/circle_gray"
+                        android:padding="@dimen/margin_small"
+                        android:src="@drawable/ic_close"
+                        app:layout_constraintBottom_toTopOf="@+id/textDescription"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:tint="@color/black" />
+
+                    <androidx.appcompat.widget.AppCompatImageView
+                        android:id="@+id/appCompatImageView5"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:src="@drawable/ic_calendar2"
+                        app:layout_constraintBottom_toBottomOf="@+id/date"
+                        app:layout_constraintStart_toStartOf="@+id/title"
+                        app:layout_constraintTop_toTopOf="@+id/date"
+                        app:layout_constraintVertical_bias="0.0"
+                        app:tint="@color/burnt_orange" />
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/margin_2_super"
+                        android:background="@drawable/corner_top_lift"
+                        android:backgroundTint="@color/light_gray"
+                        android:id="@+id/constraintLayout"
+                        android:padding="@dimen/margin_large"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.5"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/textDescription">
+
+                        <TextView
+                            android:id="@+id/textView41"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="@dimen/margin_large"
+                            android:text="@string/more_similar_videos"
+                            android:textSize="@dimen/text_size_large"
+                            app:layout_constraintBottom_toTopOf="@+id/recycler"
+                            app:layout_constraintStart_toStartOf="parent" />
+
+                        <TextView
+                            android:id="@+id/showAll"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="@dimen/margin_large"
+                            android:text="@string/show_all"
+                            android:textColor="@color/burnt_orange"
+                            android:textSize="@dimen/text_size_large"
+                            app:layout_constraintBottom_toTopOf="@+id/recycler"
+                            app:layout_constraintEnd_toEndOf="parent" />
+
+                        <androidx.recyclerview.widget.RecyclerView
+                            android:id="@+id/recycler"
+                            android:layout_width="match_parent"
+                            android:layout_height="160dp"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintHorizontal_bias="0.0"
+                            app:layout_constraintStart_toStartOf="parent"
+                            tools:listitem="@layout/item_view_most_common_content" />
+
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+            </ScrollView>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </FrameLayout>
+
+</layout>

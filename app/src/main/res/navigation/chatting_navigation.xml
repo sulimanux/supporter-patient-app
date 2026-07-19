@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/chatting_navigation.xml"
+    app:startDestination="@id/messagesListFragment">
+
+
+    <fragment
+        android:id="@+id/messagesListFragment"
+        tools:layout="@layout/fragment_messages_list"
+        android:name="com.app.sanad.chatting.presintation.MessagesListFragment"
+        android:label="MessagesListFragment" >
+        <action
+            android:id="@+id/action_messagesListFragment_to_chatFragment"
+            app:destination="@id/chatFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/chatFragment"
+        tools:layout="@layout/fragment_chat"
+        android:name="com.app.sanad.chatting.presintation.ChatFragment"
+        android:label="ChatFragment" >
+        <argument
+            android:name="partnerId"
+            app:argType="string" />
+        <argument
+            android:name="urlImagePartner"
+            app:argType="string" />
+        <argument
+            android:name="namePartner"
+            app:argType="string" />
+    </fragment>
+</navigation>

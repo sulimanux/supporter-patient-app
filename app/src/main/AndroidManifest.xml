@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+    <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+
+    <application
+        android:name="com.app.sanad.app.presentation.MyApplication"
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MyProject"
+        tools:targetApi="34">
+        <activity
+            android:name="com.app.sanad.base.BaseActivity"
+            android:exported="false"
+            android:theme="@style/Theme.MyProject" />
+        <activity
+            android:name="com.app.sanad.posts.presentation.PostsActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.app.sanad.users.patient.tools.UserToolsActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.app.sanad.users.supporter.tools.cofe.presintaion.SupportCofeActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.app.sanad.users.patient.tools.coffeeideas.presentaion.CofeActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.app.sanad.users.patient.moodTracking.presentaion.activties.PostAssessmentActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.app.sanad.users.patient.moodTracking.presentaion.activties.PreAssessmentActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.app.sanad.users.patient.calender.presentaion.CalenderActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.app.sanad.chatting.presintation.ChatActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.app.sanad.getLibraryContent.presentaion.LibraryActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.app.sanad.users.patient.dailyprogram.presentaion.DailyProgramActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.app.sanad.users.patient.supporters.presentation.SupportersActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.app.sanad.users.patient.profile.presentation.EditProfileActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.app.sanad.util.TermsPrivacyActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.app.sanad.users.patient.main.presentaion.UserScreensActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.app.sanad.users.supporter.main.SupporterScreenActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.app.sanad.auth.presentation.AuthActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.app.sanad.app.presentation.SplashActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_channel_id"
+            android:value="encouragementChannelId" />
+
+        <service
+            android:name="com.app.sanad.app.MyFirebaseMessagingService"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <receiver
+            android:name="com.app.sanad.util.AlarmReceiver"
+            android:exported="false" />
+        <receiver
+            android:name="com.app.sanad.util.BootReceiver"
+            android:exported="false" />
+    </application>
+
+</manifest>

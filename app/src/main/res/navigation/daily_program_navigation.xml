@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/dialy_program_navigation.xml"
+    app:startDestination="@id/educationalFragment">
+
+    <fragment
+        android:id="@+id/educationalFragment"
+        android:name="com.app.sanad.users.patient.dailyprogram.presentaion.EducationalFragment"
+        android:label="EducationalFragment">
+        <action
+            android:id="@+id/action_educationalFragment_to_spiritualFragment"
+            app:destination="@id/spiritualFragment" />
+        <action
+            android:id="@+id/action_educationFragment_to_behaviorActivationFragment"
+            app:destination="@id/behaviorActivationFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/behaviorActivationFragment"
+        android:name="com.app.sanad.users.patient.dailyprogram.presentaion.BehaviouralActivationFragment"
+        android:label="ActivityFragment" />
+
+
+
+    <fragment
+        android:id="@+id/spiritualFragment"
+        android:name="com.app.sanad.users.patient.dailyprogram.presentaion.SpiritualFragment"
+        android:label="BehaviorFragment" >
+        <action
+            android:id="@+id/action_spiritualFragment_to_activityFragment"
+            app:destination="@id/behaviorActivationFragment" />
+    </fragment>
+
+
+</navigation>

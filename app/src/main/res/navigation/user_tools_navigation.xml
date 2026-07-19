@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/user_tools_navigation.xml"
+    app:startDestination="@id/toolsFragment">
+
+    <fragment
+        android:id="@+id/mainBreathFragment"
+        android:name="com.app.sanad.users.patient.tools.breathing.presntaion.MainBreathFragment"
+        android:label="fragment_main_breath"
+        tools:layout="@layout/fragment_main_breath" />
+    <fragment
+        android:id="@+id/addSupplicationsFragment"
+        android:name="com.app.sanad.users.patient.tools.supplications.prisentation.AddSupplicationsFragment"
+        android:label="AddSupplicationsFragment" />
+    <fragment
+        android:id="@+id/mainSupplicationsFragment3"
+        android:name="com.app.sanad.users.patient.tools.supplications.prisentation.MainSupplicationsFragment"
+        android:label="MainSupplicationsFragment"
+        tools:layout="@layout/fragment_main_supplications">
+        <action
+            android:id="@+id/action_mainSupplicationsFragment_to_supplicationsFragment"
+            app:destination="@id/supplicationsFragment" />
+
+        <action
+            android:id="@+id/action_mainSupplicationsFragment_to_userSupplicationsFragment"
+            app:destination="@id/userSupplicationsFragment" />
+        <action
+            android:id="@+id/action_mainSupplicationsFragment_to_addSupplicationsFragment"
+            app:destination="@id/addSupplicationsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/userSupplicationsFragment"
+        android:name="com.app.sanad.users.patient.tools.supplications.prisentation.UserSupplicationsFragment"
+        android:label="UserSupplicationsFragment"
+        tools:layout="@layout/fragment_user_supplications">
+
+        <action
+            android:id="@+id/action_userSupplicationsFragment_to_addSupplicationsFragment"
+            app:destination="@id/addSupplicationsFragment" />
+        <action
+            android:id="@+id/action_userSupplicationsFragment_to_supplicationsFragment"
+            app:destination="@id/supplicationsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/supplicationsFragment"
+        android:name="com.app.sanad.users.patient.tools.supplications.prisentation.SupplicationsFragment"
+        android:label="SupplicationsFragment"
+        tools:layout="@layout/fragment_supplications"/>
+    <fragment
+        android:id="@+id/gratitudeFragment"
+        android:name="com.app.sanad.users.patient.tools.gratitude.presentaion.GratitudeFragment"
+        android:label="GratitudeFragment"
+        tools:layout="@layout/fragment_gratitude" />
+    <fragment
+        android:id="@+id/toolsFragment"
+        tools:layout="@layout/fragment_tools"
+        android:name="com.app.sanad.users.patient.tools.ToolsFragment"
+        android:label="ToolsFragment" >
+        <action
+            android:id="@+id/action_toolsFragment_to_gratitudeFragment2"
+            app:destination="@id/gratitudeFragment" />
+        <action
+            android:id="@+id/action_toolsFragment_to_mainSupplicationsFragment3"
+            app:destination="@id/mainSupplicationsFragment3" />
+        <action
+            android:id="@+id/action_toolsFragment_to_choosingBreathDurationFragment"
+            app:destination="@id/choosingBreathDurationFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/choosingBreathDurationFragment"
+        android:name="com.app.sanad.users.patient.tools.breathing.presntaion.ChoosingBreathDurationFragment"
+        android:label="fragment_choosing_breath_duration"
+        tools:layout="@layout/fragment_choosing_breath_duration" >
+        <action
+            android:id="@+id/action_choosingBreathDurationFragment_to_choosingSoundFragment"
+            app:destination="@id/choosingSoundFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/choosingSoundFragment"
+        android:name="com.app.sanad.users.patient.tools.breathing.presntaion.ChoosingSoundFragment"
+        android:label="fragment_choosing_sound"
+        tools:layout="@layout/fragment_choosing_sound" >
+        <action
+            android:id="@+id/action_choosingSoundFragment_to_mainBreathFragment"
+            app:destination="@id/mainBreathFragment"
+            app:popUpTo="@id/choosingBreathDurationFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+</navigation>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/supporterHomeFragment"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="@string/home_title" />
+
+    <item
+        android:id="@+id/chatting_navigation"
+        android:icon="@drawable/ic_mail"
+        android:title="@string/messages_title" />
+    <item
+        android:id="@+id/posts_navigation"
+        android:icon="@drawable/baseline_sharing"
+        android:title="@string/posts" />
+    <item
+        android:id="@+id/supporterProfileFragment"
+        android:icon="@drawable/ic_user"
+        android:title="@string/profile_title" />
+
+
+
+
+
+
+
+</menu>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/posts_navigation.xml"
+    app:startDestination="@id/postsFragment">
+
+    <fragment
+        android:id="@+id/postsFragment"
+        android:name="com.app.sanad.posts.presentation.PostsFragment"
+        android:label="PostsFragment" >
+        <action
+            android:id="@+id/action_postsFragment_to_displayArticleFragment2"
+            app:destination="@id/displayArticleFragment2" />
+        <action
+            android:id="@+id/action_postsFragment_to_displayGratitudeFragment2"
+            app:destination="@id/displayGratitudeFragment2" />
+        <action
+            android:id="@+id/action_postsFragment_to_displaySupplicationFragment2"
+            app:destination="@id/displaySupplicationFragment2" />
+    </fragment>
+    <fragment
+        android:id="@+id/displayArticleFragment2"
+        android:name="com.app.sanad.posts.presentation.DisplayArticleFragment"
+        android:label="DisplayArticleFragment" >
+        <argument
+            android:name="libraryContent"
+            app:argType="com.app.sanad.getLibraryContent.data.LibraryContent" />
+    </fragment>
+    <fragment
+        android:id="@+id/displayGratitudeFragment2"
+        android:name="com.app.sanad.posts.presentation.DisplayGratitudeFragment"
+        android:label="DisplayGratitudeFragment" >
+        <argument
+            android:name="gratitude"
+            app:argType="com.app.sanad.users.patient.tools.gratitude.data.entity.Gratitude" />
+    </fragment>
+    <fragment
+        android:id="@+id/displaySupplicationFragment2"
+        android:name="com.app.sanad.posts.presentation.DisplaySupplicationFragment"
+        android:label="DisplaySupplicationFragment" >
+        <argument
+            android:name="supplication"
+            app:argType="com.app.sanad.model.Supplication" />
+    </fragment>
+</navigation>

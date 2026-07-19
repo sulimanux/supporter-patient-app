@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mood_tracking_navigation.xml"
+    app:startDestination="@id/preMoodSelectionFragment2">
+
+    <fragment
+        android:id="@+id/preMoodSelectionFragment2"
+        tools:layout="@layout/fragment_pre_mood_selection"
+        android:name="com.app.sanad.users.patient.moodTracking.presentaion.PreMoodSelectionFragment"
+        android:label="PreMoodSelectionFragment" >
+        <action
+            android:id="@+id/action_preMoodSelectionFragment2_to_shareWhatEffectingMoodFragment2"
+            app:destination="@id/shareWhatEffectingMoodFragment2" />
+    </fragment>
+    <fragment
+        android:id="@+id/shareWhatEffectingMoodFragment2"
+        tools:layout="@layout/fragment_share_what_effecting_mood"
+        android:name="com.app.sanad.users.patient.moodTracking.presentaion.ShareWhatEffectingMoodFragment"
+        android:label="ShareWhatEffectingMoodFragment" />
+</navigation>

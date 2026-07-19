@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@id/supporterHomeFragment">
+
+    <fragment
+        android:id="@+id/supporterHomeFragment"
+        android:name="com.app.sanad.users.supporter.main.SupporterHomeFragment"
+        android:label="fragment_supporter_home"
+        tools:layout="@layout/fragment_supporter_home" >
+        <action
+            android:id="@+id/action_supporterHomeFragment_to_usersFragment"
+            app:destination="@id/usersFragment" />
+        <action
+            android:id="@+id/action_supporterHomeFragment_to_supporterToolsFragment"
+            app:destination="@id/supporterToolsFragment" />
+        <action
+            android:id="@+id/action_supporterHomeFragment_to_numberHelpingFragment"
+            app:destination="@id/numberHelpingFragment" />
+        <action
+            android:id="@+id/action_supporterHomeFragment_to_notificationsFragment2"
+            app:destination="@id/notificationsFragment2" />
+    </fragment>
+    <fragment
+        android:id="@+id/supporterProfileFragment"
+        android:name="com.app.sanad.users.supporter.profile.presentation.SupporterProfileFragment"
+        android:label="fragment_supporter_profile"
+        tools:layout="@layout/fragment_supporter_profile" >
+        <action
+            android:id="@+id/action_supporterProfileFragment_to_settingsSupporterFragment"
+            app:destination="@id/settingsSupporterFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/usersFragment"
+        android:name="com.app.sanad.users.supporter.partner.prestation.PatientFragment"
+        android:label="UsersFragment" >
+        <action
+            android:id="@+id/action_usersFragment_to_chatFragment"
+            app:destination="@id/chatFragment" />
+        <action
+            android:id="@+id/action_usersFragment_to_myPointsFragment2"
+            app:destination="@id/myPointsFragment2" />
+        <action
+            android:id="@+id/action_usersFragment_to_trackingMoodFragment2"
+            app:destination="@id/trackingMoodFragment2" />
+    </fragment>
+
+    <navigation
+        android:id="@+id/posts_navigation"
+        app:startDestination="@id/posts_navigation.xml">
+        <include
+            app:graph="@navigation/posts_navigation" />
+    </navigation>
+
+        <navigation
+        android:id="@+id/chatting_navigation"
+        app:startDestination="@id/chatting_navigation.xml">
+        <include
+            app:graph="@navigation/chatting_navigation" />
+    </navigation>
+
+
+    <fragment
+        android:id="@+id/chatFragment"
+        android:name="com.app.sanad.chatting.presintation.ChatFragment"
+        android:label="ChatFragment" >
+        <argument
+            android:name="partnerId"
+            app:argType="string" />
+        <argument
+            android:name="urlImagePartner"
+            app:argType="string" />
+        <argument
+            android:name="namePartner"
+            app:argType="string" />
+
+
+    </fragment>
+    <fragment
+        android:id="@+id/supporterToolsFragment"
+        android:name="com.app.sanad.users.supporter.tools.SupporterToolsFragment"
+        android:label="fragment_supporter_tools"
+        tools:layout="@layout/fragment_supporter_tools" >
+        <action
+            android:id="@+id/action_supporterToolsFragment_to_strengthBuildingPlanFragment"
+            app:destination="@id/strengthBuildingPlanFragment" />
+        <action
+            android:id="@+id/action_supporterToolsFragment_to_supporterCompassFragment"
+            app:destination="@id/supporterCompassFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/strengthBuildingPlanFragment"
+        android:name="com.app.sanad.users.supporter.tools.strengthBuildingPlan.StrengthBuildingPlanFragment"
+        android:label="StrengthBuildingPlanFragment" >
+        <action
+            android:id="@+id/action_strengthBuildingPlanFragment_to_stepsFragment"
+            app:destination="@id/stepsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/supporterCompassFragment"
+        android:name="com.app.sanad.users.supporter.tools.supporterCompass.SupporterCompassFragment"
+        android:label="SupporterCompassFragment" >
+        <action
+            android:id="@+id/action_supporterCompassFragment_to_stepsFragment"
+            app:destination="@id/stepsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/stepsFragment"
+        android:name="com.app.sanad.users.supporter.tools.StepsFragment"
+        android:label="StepsFragment" />
+    <fragment
+        android:id="@+id/numberHelpingFragment"
+        android:name="com.app.sanad.numbersHelping.NumberHelpingFragment"
+        android:label="NumberHelpingFragment" />
+    <fragment
+        android:id="@+id/myPointsFragment2"
+        android:name="com.app.sanad.users.patient.points.presentation.MyPointsFragment"
+        android:label="MyPointsFragment" >
+        <argument
+            android:name="currentDay"
+            app:argType="integer" />
+    </fragment>
+    <fragment
+        android:id="@+id/trackingMoodFragment2"
+        android:name="com.app.sanad.users.patient.moodTracking.presentaion.TrackingMoodFragment"
+        android:label="TrackingMoodFragment" >
+        <argument
+            android:name="userId"
+            app:argType="string" />
+    </fragment>
+    <fragment
+        android:id="@+id/settingsSupporterFragment"
+        android:name="com.app.sanad.users.supporter.profile.presentation.SettingsSupporterFragment"
+        android:label="SettingsSupporterFragment" />
+    <fragment
+        android:id="@+id/notificationsFragment2"
+        android:name="com.app.sanad.notifications.presentation.NotificationsFragment"
+        android:label="NotificationsFragment" />
+
+</navigation>

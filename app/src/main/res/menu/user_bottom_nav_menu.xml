@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/patientHomeFragment"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="@string/home_title" />
+
+
+    <item
+        android:id="@+id/chatting_navigation"
+        android:icon="@drawable/ic_mail"
+        android:title="@string/messages_title" />
+
+    <item
+        android:id="@+id/calenderActivity"
+        android:icon="@drawable/baseline_playlist_add_check_circle_24"
+        android:title="@string/daily_planner" />
+    <item
+        android:id="@+id/profileFragment"
+        android:icon="@drawable/ic_user"
+        android:title="@string/profile_title" />
+
+
+
+
+
+</menu>

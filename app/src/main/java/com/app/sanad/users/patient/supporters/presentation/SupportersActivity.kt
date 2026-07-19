@@ -1,0 +1,15 @@
+package com.app.sanad.users.patient.supporters.presentation
+
+import android.os.Bundle
+import androidx.appcompat.app.AppCompatActivity
+import dagger.hilt.android.AndroidEntryPoint
+import com.app.sanad.R
+
+@AndroidEntryPoint
+class SupportersActivity : AppCompatActivity() {
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        setContentView(R.layout.activity_supporters)
+
+    }
+}

@@ -1,0 +1,23 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+
+    <style name="Base.Theme.MyProject" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:textColorHighlight">@color/sky_blue</item>
+        <item name="android:windowBackground">@color/background_screen</item>
+        <!-- colorAccent is used as the default value for colorControlActivated,
+          which is used to tint widgets -->
+        <item name="colorAccent">@color/shade_orange</item>
+        <!-- colorPrimary is used for the default action bar background -->
+        <!--        <item name="colorPrimary">@color/my_awesome_color</item>-->
+
+        <!-- colorPrimaryDark is used for the status bar -->
+        <!--        <item name="colorPrimaryDark">@color/my_awesome_darker_color</item>-->
+
+        <!-- You can also set colorControlNormal, colorControlActivated
+       colorControlHighlight, and colorSwitchThumbNormal. -->
+
+    </style>
+
+    <style name="Theme.MyProject" parent="Base.Theme.MyProject" />
+</resources>

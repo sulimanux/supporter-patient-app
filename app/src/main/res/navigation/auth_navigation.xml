@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@id/mainAuthFragment">
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.app.sanad.auth.presentation.LoginFragment"
+        android:label="LoginFragment"
+        tools:layout="@layout/fragment_login">
+        <action
+            android:id="@+id/action_loginFragment_to_signUpFragment"
+            app:destination="@id/signUpFragment"
+            app:popUpTo="@id/loginFragment"
+            app:popUpToInclusive="true" />
+        <action
+            android:id="@+id/action_loginFragment_to_verificationEmailFragment"
+            app:destination="@id/verificationEmailFragment" />
+        <action
+            android:id="@+id/action_loginFragment_to_contactUsFragment"
+            app:destination="@id/contactUsFragment" />
+
+
+
+    </fragment>
+
+
+
+
+
+
+
+
+
+
+
+    <fragment
+        android:id="@+id/signUpFragment"
+        android:name="com.app.sanad.auth.presentation.SignUpFragment"
+        android:label="SignUpFragment"
+        tools:layout="@layout/fragment_sign_up">
+        <action
+            android:id="@+id/action_signUpFragment_to_loginFragment"
+            app:destination="@id/loginFragment"
+            app:popUpTo="@id/signUpFragment"
+            app:popUpToInclusive="true" />
+        <action
+            android:id="@+id/action_signUpFragment_to_contactUsFragment"
+            app:destination="@id/contactUsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/verificationEmailFragment"
+      tools:layout="@layout/fragment_verification_email"
+        android:name="com.app.sanad.auth.presentation.VerificationEmailFragment"
+        android:label="VerificationEmailFragment" >
+
+        <action
+            android:id="@+id/action_verificationEmailFragment_to_contactUsFragment"
+            app:destination="@id/contactUsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/contactUsFragment"
+        android:name="com.app.sanad.util.ContactUsFragment"
+        android:label="fragment_contact_us"
+        tools:layout="@layout/fragment_contact_us" />
+    <fragment
+        android:id="@+id/mainAuthFragment"
+        android:name="com.app.sanad.auth.presentation.MainAuthFragment"
+        android:label="fragment_main_auth"
+        tools:layout="@layout/fragment_main_auth" >
+        <action
+            android:id="@+id/action_mainAuthFragment_to_loginFragment"
+            app:destination="@id/loginFragment"
+            app:popUpTo="@id/mainAuthFragment"
+            app:popUpToInclusive="true" />
+        <action
+            android:id="@+id/action_mainAuthFragment_to_signUpFragment"
+            app:destination="@id/signUpFragment"
+            app:popUpTo="@id/mainAuthFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+</navigation>

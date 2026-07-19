@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@id/introAddingSupporterFragment">
+
+    <fragment
+        android:id="@+id/supportesFragment"
+        android:name="com.app.sanad.users.patient.supporters.presentation.SupportersFragment"
+        android:label="fragment_supportes"
+        tools:layout="@layout/fragment_supporters" >
+
+
+        <action
+            android:id="@+id/action_supportesFragment_to_supporterDetailsFragment"
+            app:destination="@id/supporterDetailsFragment">
+
+
+        </action>
+        <action
+            android:id="@+id/action_supportesFragment_to_addSupporterFragment"
+            app:destination="@id/addSupporterFragment" />
+
+    </fragment>
+
+
+    <fragment
+        android:id="@+id/addSupporterFragment"
+      tools:layout="@layout/fragment_add_supporter"
+        android:name="com.app.sanad.users.patient.supporters.presentation.AddSupporterFragment"
+        android:label="AddSupporterFragment" >
+        <action
+            android:id="@+id/action_addSupporterFragment_to_createNewInvitationCodeFragment"
+            app:destination="@id/createNewInvitationCodeFragment" />
+    </fragment>
+    <fragment
+        tools:layout="@layout/fragment_supporter_details"
+        android:id="@+id/supporterDetailsFragment"
+        android:name="com.app.sanad.users.patient.supporters.presentation.SupporterDetailsFragment"
+        android:label="SupporterDetailsFragment" >
+        <argument
+            android:name="supporter"
+            app:argType="com.app.sanad.auth.data.entity.UserProfile" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/createNewInvitationCodeFragment"
+        android:name="com.app.sanad.users.patient.supporters.presentation.CreateNewInvitationCodeFragment"
+        android:label="CreateNewInvitationCodeFragment" />
+    <fragment
+        android:id="@+id/instructionsFragment"
+        android:name="com.app.sanad.users.patient.supporters.presentation.InstructionsFragment"
+        android:label="InstructionsFragment" >
+        <action
+            android:id="@+id/action_instructionsFragment_to_supportesFragment"
+            app:destination="@id/supportesFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/introAddingSupporterFragment"
+        android:name="com.app.sanad.users.patient.supporters.presentation.IntroAddingSupporterFragment"
+        android:label="fragment_intro_adding_supporter"
+        tools:layout="@layout/fragment_intro_adding_supporter" >
+        <action
+            android:id="@+id/action_introAddingSupporterFragment_to_instructionsFragment"
+            app:destination="@id/instructionsFragment"
+            app:popUpTo="@id/introAddingSupporterFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+</navigation>

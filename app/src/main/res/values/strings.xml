@@ -1,0 +1,966 @@
+<resources>
+    <string name="app_name">Sanad</string>
+    <string name="arabic" translatable="false">اللغة العربية</string>
+    <string name="forgot_password_text">Forgot Password?</string>
+    <string name="login_title">Login</string>
+    <string name="welcome_back_text">Welcome back</string>
+    <string name="login_instruction">Please enter your information below to log in</string>
+    <string name="sign_in">Sign in</string>
+    <string name="no_account_text">Do not have an account?</string>
+    <string name="female">Female</string>
+    <string name="male">Male</string>
+    <string name="gender">Gender</string>
+    <string name="age_group">Age Group</string>
+    <string name="young_adulthood1">Young</string>
+    <string name="middle_age1">Middle</string>
+    <string name="young_adulthood">Young Adulthood (Under 40)</string>
+    <string name="middle_age">Middle Age (Under 60)</string>
+    <string name="older">Older Adults</string>
+    <string name="english" translatable="false">English Language</string>
+    <string name="label_choose_language">Choose your preferred language</string>
+    <string name="sign_up">Sign up</string>
+    <string name="current_lang">English</string>
+    <string name="password_hint">Password</string>
+    <string name="create_new_account">Create New Account</string>
+    <string name="contact_us">Contact Us</string>
+    <string name="save_registration_info">Save Registration Info</string>
+    <string name="email_hint">Email</string>
+    <string name="please_select_account_type">Please select account type</string>
+    <string name="invitation_code_hint">Invitation code</string>
+    <string name="already_have_account">Already have an account?</string>
+    <string name="user_name">User Name</string>
+    <string name="user">User</string>
+    <string name="supporter">Supporter</string>
+    <string name="ar" translatable="false">ar</string>
+    <string name="en" translatable="false">en</string>
+    <string name="forgot_password">Forgot your password?</string>
+    <string name="reset_password_instruction">Please enter the email you used to register, and we\'ll send you a link to reset your password.</string>
+    <string name="next">Next</string>
+    <string name="need_assistance">Need assistance?</string>
+    <string name="user_not_found">User not found</string>
+    <string name="enter_email">Please enter your email</string>
+    <string name="enter_valid_invitation">Please enter a valid invitation</string>
+    <string name="enter_password">Please enter a password</string>
+    <string name="select_age_group">Please select an age group</string>
+    <string name="verify_email_password">Please verify your email and password</string>
+    <string name="password_reset_email_sent">Password reset email sent successfully</string>
+    <string name="password_reset_email_failed">Failed to send password reset email</string>
+    <string name="pass_error">Please enter at least 6 letters or numbers</string>
+    <string name="email_error">Please enter a valid email address</string>
+    <string name="reset_password_success">Password reset email sent successfully</string>
+    <string name="reset_password_failure">Failed to send password reset email</string>
+    <string name="gender_selection">Gender Selection</string>
+    <string name="profile_title">My Profile</string>
+    <string name="home_title">Home</string>
+    <string name="messages_title">Messages</string>
+    <string name="points_text">Points</string>
+    <string name="supporters_text">Supporters</string>
+    <string name="emergency_help_text">Emergency</string>
+    <string name="edit_profile_text">Edit Profile</string>
+    <string name="profile_text">Profile</string>
+    <string name="shared_media_text">Shared Media</string>
+    <string name="settings_text">Settings</string>
+    <string name="logout_text">Logout</string>
+    <string name="help_text">How can I help you?</string>
+    <string name="reviews_text">My Reviews</string>
+    <string name="reports_text">My Reports</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="edit">Edit</string>
+    <string name="save">Save</string>
+    <string name="edit_profile_picture">Edit Profile Picture</string>
+    <string name="dialect">Dialect</string>
+    <string name="arabic_standard">Arabic (Standard)</string>
+    <string name="religious_content">Do you want religious content?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="enter_invitation">Please enter a valid invitation</string>
+    <string name="enter_username">Please enter a username</string>
+    <string name="select_gender">Please select gender</string>
+    <string name="select_age_category">Please select age category</string>
+    <string name="select_user_type">Please select user type</string>
+    <string name="enter_the_new_name">Please enter the new name</string>
+    <string name="the_username_has_been_changed_successfully">The username has been changed successfully</string>
+    <string name="update_failed">Update failed</string>
+    <string name="share_user_code">Share your user code with the person you want to be your supporter</string>
+    <string name="copy_code">Copy Code</string>
+    <string name="create_new_code">Create New Code</string>
+    <string name="add_supporter">Add Supporter</string>
+    <string name="supporter_code_is">The supporter\'s user code is</string>
+    <string name="code_already_used">This code has been used, please create a new code</string>
+    <string name="cannot_change_first_four">You cannot change the first four characters. Please enter four digits or letters only.</string>
+    <string name="current_code_hint">Current Code</string>
+    <string name="new_code_hint">New Code</string>
+    <string name="confirm">Confirm</string>
+    <string name="cancel">Cancel</string>
+    <string name="enter_four_digits_or_letters">Please enter four characters</string>
+    <string name="enter_new_code">Please enter a new code.</string>
+    <string name="new_code_created_successfully">New code created successfully.</string>
+    <string name="code_copied">Code copied successfully.</string>
+    <string name="new_code_length_exceeded">The new code must not exceed 4 characters</string>
+    <string name="no_supporters_text">You have not added any supporters yet</string>
+    <string name="add_supporter_instruction">You can add one or more supporters (up to 3 supporters maximum)</string>
+
+    <string name="understood">Okay</string>
+    <string name="supporters_count">Number of Supporters</string>
+    <string name="max_supporters_limit">The maximum limit for addition is 3 only. You cannot add more than 3 people as supporters</string>
+    <string name="add_new_supporter_hint">If you want to add a supporter who has not been added to your account before, click here</string>
+    <string name="add_new_supporter">Add New Supporter</string>
+    <string name="restore_supporter_hint">If you want to restore a supporter that you have previously removed, click here</string>
+    <string name="restore_supporter_with_account">Restore supporter has account</string>
+    <string name="active">Active</string>
+    <string name="not_active">Not Active</string>
+
+
+    <string name="view_reports">View Reports</string>
+    <string name="notifications">Notifications</string>
+    <string name="view_daily_program_details">View Daily Program Details</string>
+    <string name="view_mood_tracking_details">View Mood Tracking Details</string>
+    <string name="allow_encouragement_reply">Allow Encouragement Reply</string>
+    <string name="allow_video_voice_call">Allow Video/Voice Call</string>
+    <string name="allow_private_messages">Allow Private Messages</string>
+
+    <string name="allow_supporter_to">Allow supporter to</string>
+
+
+    <string name="notification_type">Notification Type</string>
+    <string name="daily_program_completion_notification">Supporter Notification on Completing Daily Program</string>
+    <string name="mood_tracking_update_notification">Supporter Notification on Mood Tracking Update</string>
+    <string name="psychological_test_result_notification">Supporter Notification on Psychological Test Result</string>
+
+
+    <string name="report_type">Report Type</string>
+    <string name="mood_report_only">Mood Report Only</string>
+    <string name="psychological_test_report_only">Psychological Test Report Only</string>
+    <string name="all">All</string>
+    <string name="time_range">Time Range</string>
+    <string name="annual_reports_only">Annual Reports Only</string>
+    <string name="monthly_reports_only">Monthly Reports Only</string>
+    <string name="weekly_reports_only">Weekly Reports Only</string>
+
+
+    <string name="confirm_temporarily_suspend_supporter">Are you sure you want to temporarily suspend the supporter? This means the supporter will not be able to see any of your activities or reports until you unsuspend them.</string>
+    <string name="suspend_temporarily">Suspend Temporarily</string>
+    <string name="suspend_supporter_temporarily">Suspend ... Temporarily</string>
+
+
+    <string name="confirm_remove_supporter">Are you sure you want to permanently remove the supporter?</string>
+    <string name="remove_supporter_confirmation">Yes, Remove Supporter</string>
+    <string name="remove_supporter">Remove ...</string>
+
+
+    <string name="confirm_remove_temporary_suspend">Are you sure you want to remove the temporary suspension from the supporter? This means the supporter will be able to see your activities and reports again.</string>
+    <string name="remove_temporary_suspend">Remove Temporary Suspension</string>
+
+
+    <string name="view_encouragement_messages">View Encouragement Messages</string>
+    <string name="remove_supporter_permanently">Remove Supporter Permanently</string>
+
+    <string name="logout_confirmation">Logout?</string>
+    <string name="logout_confirmation_dialog">Are you sure you want to logout from your account?</string>
+
+    <string name="confirm_new_password_hint">Confirm New Password</string>
+    <string name="new_password_hint">New Password</string>
+    <string name="current_password_hint">Current Password</string>
+    <string name="enter_current_password">Please enter your current password</string>
+    <string name="enter_new_password">Please enter a new password</string>
+    <string name="confirm_new_password">Please confirm your new password</string>
+    <string name="passwords_do_not_match">Passwords do not match</string>
+    <string name="password_changed_successfully">Password changed successfully</string>
+    <string name="password_change_failed">Failed to change password, please try again</string>
+
+    <string name="check_entered_password">Please check the  current password  you entered or try again later</string>
+    <string name="choose_your_preferred_dialect">Choose your preferred dialect</string>
+    <string name="gulf_dialect">Gulf Dialect</string>
+    <string name="syrian_dialect">Syrian Dialect</string>
+    <string name="iraqi_dialect">Iraqi Dialect</string>
+    <string name="egyptian_dialect">Egyptian Dialect</string>
+    <string name="standard_arabic">Standard Arabic</string>
+    <string name="gender_changed_successfully">Gender changed successfully</string>
+    <string name="age_group_changed_successfully">Age group changed successfully</string>
+    <string name="change_gender">Change Gender</string>
+    <string name="change_age_group">Change Age Group</string>
+    <string name="change_preferred_dialect">Change Your Preferred Dialect</string>
+    <string name="preferred_dialect">Preferred Dialect</string>
+    <string name="preferred_dialect_changed_successfully">Your preferred dialect has been changed successfully</string>
+    <string name="educational_content">Knowledge Bank</string>
+    <string name="learn_more">Learn More</string>
+    <string name="track_mood_status">Track Mood Status</string>
+    <string name="verified">Verified</string>
+    <string name="psychological_test">Psychological Test</string>
+    <string name="know_yourself_better">Know Yourself Better</string>
+    <string name="tasks_remaining">You have %1$d tasks remaining</string>
+    <string name="daily_program">Daily Program</string>
+    <string name="continue1">Continue</string>
+    <string name="completion_percentage">Completion Percentage</string>
+    <string name="welcome_message">Welcome</string>
+    <string name="congratulations">Congratulations!</string>
+    <string name="completion_message">Well done %1$s! You have completed the daily program and received a full mark. We hope you continue doing this every day.</string>
+    <string name="view_level">View Level</string>
+    <string name="okay">Okay</string>
+
+    <string name="first_level">First Level</string>
+    <string name="daily_program2">Daily Program</string>
+    <string name="start">Start</string>
+    <string name="task_1">Task 1: </string>
+    <string name="watch_video">Watch Video</string>
+    <string name="watch_video_description">In this task, you need to watch the video completely and then move on to the next task.</string>
+    <string name="test1" translatable="false">
+قال عالم النفس الألماني «فرانك لوباخ»:
+ "مهما بلغ شعورك بوحدة نفسك، فاعلم أنك لست بمفردك أبدًا."
+
+ قد تكون هذه الرسالة أمامك اليوم كي لا تتوقف مهما كان الشعور الذي يسكن بداخلك، الجميع هُنا يشعر بمشاعرك ويسعى للتخلص منها دون خجل.
+
+ (تأكد أن استسلامك للخجل من مشاعر لم تخترها بنفسك هو الذي ستخجل منه في الأصل يومًا ما).
+
+
+
+
+    </string>
+    <string name="test2" translatable="false">دعنا نتعرف على ما تشعر به معًا (تكون بخط عريض)
+
+ لا تظن أن مشاعرك غريبة ومختلفة، فالحياة تجبرنا أحيانًا على الشعور بها لنلحق بقطار القوة الذي يأتي فيما بعد.
+
+ هل أنت مستعد!
+
+</string>
+    <string name="previous">previous</string>
+    <string name="day">Day %1$d </string>
+    <string name="current_level">Level %1$d </string>
+    <string name="another_challenge">Another challenge</string>
+    <string name="mission">}Challenge %1$d:  %2$s</string>
+    <string name="take_a_few_minutes_and_write">Take a few minutes and write down what you are grateful for</string>
+    <string name="you_must_complete_all_previous_tasks">You must complete all the previous tasks for the day</string>
+    <string name="finish">Finish</string>
+    <string name="done">Done</string>
+    <string name="the_first_task_was_completed_successfully">The first task was completed successfully</string>
+    <string name="the_second_task_was_completed_successfully">The second task was completed successfully</string>
+    <string name="the_third_task_was_completed_successfully">The third task was completed successfully</string>
+    <string name="please_answer_the_question">Please answer the question</string>
+    <string name="gratitude">Gratitude</string>
+    <string name="do_you_want_to_pause_this_task_temporarily">Do You want to pause this task temporarily?</string>
+    <string name="you_can_exit_this_task_and_come_back_again_whatever_you_want">You can exit this task and come back again whatever you want</string>
+    <string name="pause_task_temporarily">Pause task temporarily</string>
+    <string name="suggested_challenges">Suggested Challenges</string>
+    <string name="well_done_you_will_get_a_star_when_you_complete_each_task_so_you_will_get_a_full_mark">Well done, you will get a star when you complete each task, so you will get a full mark</string>
+    <string name="did_you_complete_this_task_today_s_challenge">Did you complete this task</string>
+    <string name="yes_i_accomplished_it">Yes, I did</string>
+    <string name="no_i_didn_t_accomplished_it">No,I didn\'t</string>
+    <string name="bed_making">Bed making</string>
+    <string name="reading_book">Reading book</string>
+    <string name="writing_story">Writing story</string>
+    <string name="walking">Walking 1000 steps</string>
+    <string name="how_was_your_day">How was your day?</string>
+    <string name="tell_us_how_was_your_daily_program_did_it_go_well">Tell us how was your daily program? Did it go well?</string>
+    <string name="satisfied">satisfied</string>
+    <string name="unsatisfied">unSatisfied</string>
+    <string name="its_k">it\'s OK</string>
+    <string name="send">Send</string>
+    <string name="back_to_task">Bask to task</string>
+    <string name="you_will_not_go_to_the_next_day">if you do not finish this task, you will not  go to the next day</string>
+    <string name="show_all">Show All</string>
+    <string name="azcar">Supplications</string>
+    <string name="you_have_not_created_any_zecer_so_far">You haven\'t created any zecer yet...</string>
+    <string name="your_list">Your List</string>
+    <string name="suggested_supplications">suggested supplications</string>
+    <string name="add">add</string>
+    <string name="infinite_repetition">Infinite repetition</string>
+    <string name="write_the_supplication_that_you_want">Write a supplication that you want</string>
+    <string name="write_the_supplication_you_want_and_specify_the_number_of_repetitions_you_can_modify_that_at_any_time_you_want">Write the supplication you want and specify the number of repetitions. You can modify that at any time you want</string>
+    <string name="write_the_number_of_repetitions_you_want_to_reach">Write the number of repetitions you want to reach</string>
+    <string name="enter_the_number_here">Enter the number here...</string>
+    <string name="write_here">write here...</string>
+    <string name="number_not_valid">The number is not valid</string>
+    <string name="please_write_the_supplication_that_you_want">Please write a supplication that you want</string>
+    <string name="please_write_the_number_of_repetitions_you_want_to_reach">Please rite the number of repetitions you want to reach</string>
+    <string name="tools_that_help_you_change_your_mood_and_psychological_state_and_get_rid_of_overthinking_and_stress">Tools that help you change your mood and psychological state and get rid of overthinking and stress</string>
+    <string name="finish_exercise">Finish exercise</string>
+    <string name="starting_over">Starting over</string>
+    <string name="duration_of_exercise">Duration of exercise</string>
+    <string name="remaining_time_format">remaining</string>
+    <string name="click_on_the_box_below_to_get_started">Click on the box below to get started</string>
+    <string name="click_to_start">Click to start</string>
+    <string name="would_you_like_to_repeat_the_exercise_again">Would you like to repeat the exercise again?</string>
+    <string name="this_procedure_will_delete_the_current_exercise_data_and_replace_it_with_the_new_exercise_data">This procedure will delete the current exercise data and replace it with the new exercise data</string>
+    <string name="exhale_slowly">Exhale slowly  for  %1$d seconds</string>
+    <string name="inhale">Inhale  for  %1$d seconds</string>
+    <string name="take_rest">Rest for  %1$d seconds</string>
+    <string name="hold_air">Hold the air  for  %1$d seconds</string>
+    <string name="supplication_text">Supplication text:</string>
+    <string name="change_question">Change Question</string>
+    <string name="suggested_questions">suggested Questions</string>
+    <string name="have_you_had_the_opportunity_to_help_someone_new_how_do_you_feel_about_that">Have you had the opportunity to help someone new? How do you feel about that?</string>
+    <string name="what_is_the_good_thing_that_happened_to_you_this_week">What is the good thing that happened to you this week?</string>
+    <string name="what_is_the_nice_thing_someone_did_for_you_recently">What is the nice thing someone did for you recently?</string>
+    <string name="who_is_the_person_who_is_always_with_you_and_how_do_you_feel_about_them">Who is the person who is always with you, and how do you feel about them?</string>
+    <string name="should_answer_question">Please answer the question</string>
+    <string name="your_answer_has_been_sent">Your answer has been sent</string>
+    <string name="no_gratitude_text">You have not added any gratitude yet</string>
+    <string name="add_gratitude">Add gratitude</string>
+    <string name="modification">Modification</string>
+    <string name="sharing">Sharing</string>
+    <string name="delete">Delete</string>
+    <string name="copied">copied</string>
+    <string name="most_common">Most Common</string>
+    <string name="customized_for_you">Customized for you</string>
+    <string name="audio">audio</string>
+    <string name="video">video</string>
+    <string name="article">article</string>
+
+    <string name="most_common_content">Most common content</string>
+    <string name="a_list_of_the_most_popular_content_over_the_past_period_will_appear_here">A list of the most popular content over the past period will appear here</string>
+    <string name="more_similar_videos">More similar videos</string>
+    <string name="show_description">Show description</string>
+    <string name="suggest_other_audios">Suggest other audios</string>
+    <string name="suggest_other_articles">Suggest other articles</string>
+    <string name="how_are_you_today">How are you today?</string>
+    <string name="enter">Enter</string>
+    <string name="auxiliary_tools">Self-Help Tools</string>
+    <string name="emergency_help">Emergency Help</string>
+    <string name="don_t_hesitate_ask_for_help_now">Don\'t hesitate, ask for help now</string>
+    <string name="help_numbers">Help numbers</string>
+    <string name="easy_access_to_the_relevant_authorities">Easy access relevant authorities</string>
+    <string name="you_can_view_users_information">You can view users\' information</string>
+    <string name="users">Users</string>
+    <string name="posts">Posts</string>
+    <string name="you_can_see">You can see:</string>
+    <string name="you_can_view_the_results_of_the_user_s_daily_program">You can view the results of the user\'s daily program</string>
+    <string name="mood">Mood</string>
+    <string name="you_can_track_the_user_s_mood">You can track the user\'s mood</string>
+    <string name="see_what_has_been_shared_with_you">See what has been shared with you</string>
+    <string name="messaging">Messaging</string>
+    <string name="account">Account</string>
+
+    <string name="start_new_conversation">Start new conversation</string>
+    <string name="say_something">Say something...</string>
+    <string name="share_with">Share with .....</string>
+    <string name="share">Share</string>
+    <string name="display_content">Display content</string>
+    <string name="message_of_gratitude">Message of gratitude</string>
+    <string name="educational_content2">Educational content</string>
+    <string name="supplication_card">Supplication card</string>
+    <string name="display">Display</string>
+    <string name="learn_how_to_help_someone">Learn how to help someone</string>
+    <string name="supporter_compass">Supporter compass</string>
+    <string name="strength_build_plan">Strength build map</string>
+    <string name="you_are_not_alone_on_this_journey">You Are Not Alone in This Journey</string>
+    <string name="facing_stigma_and_shame_with_confidence">Facing Stigma and Shame with Confidence</string>
+    <string name="to_do">Call to Action: </string>
+    <string name="advice">Tip: </string>
+
+    <!-- Step numbers -->
+    <string name="step_1">Step 1:</string>
+    <string name="step_2">Step 2:</string>
+    <string name="step_3">Step 3:</string>
+    <string name="step_4">Step 4:</string>
+    <string name="step_5">Step5:</string>
+    <string name="step_6">Step 6:</string>
+    <string name="step_7">Step 7:</string>
+    <string name="step_8">Step 8:</string>
+    <string name="step_9">Step 9:</string>
+
+    <!-- Step titles -->
+    <string name="title_step_1">Facing Stigma and Shame with Confidence</string>
+    <string name="title_step_2">Expand Your Knowledge</string>
+    <string name="title_step_3">Build Your Support Network</string>
+    <string name="title_step_4">Finding Inner Peace</string>
+    <string name="title_step_final">Reward Yourself</string>
+
+    <string name="introduction">introduction</string>
+    <string name="next_step">Next step</string>
+    <string name="explore_more">Explore more</string>
+
+    <string name="mental_health_support_text">dasf
+</string>
+
+    <string name="description_step_1">
+        Family members and friends who provide support to individuals with mental illness often face societal judgments, especially in cultures where mental health issues are misunderstood or not openly discussed, leading to feelings of shame and stigma. This stigma can deeply affect supporters, causing self-blame and feelings of inadequacy. They may fear being blamed for their loved one’s condition or being socially rejected, which adds to their emotional burden and contributes to isolation. Additionally, this stigma may cause hesitation in seeking the necessary care for those facing mental health challenges.
+/nAs the saying goes, “Many are blamed though they bear no fault”, Be kind to yourself, your loved one’s mental struggles are beyond both your control and theirs, and you are doing your best to provide support. Free yourself from guilt and show yourself the same compassion that you offer to others. Remember that societal judgements and stigma often stem from a lack of knowledge and understanding about mental health. Every action you take to support your loved ones reflects your strength and dedication, regardless of whether society fully understands or appreciates it. Understand the importance of your role as a supporter, and do not let societal perceptions weaken your resolve. Your support is vital and can greatly impact the well-being of your loved ones
+</string>
+
+    <string name="to_do_step_1">
+Consider journaling your thoughts and feelings. This practice can help you process emotions and release the burden of guilt.</string>
+
+    <string name="description_step_2">
+        Understanding mental health benefits both you and your loved ones. The more you know, the stronger and more resilient you become. Replace blame with empowerment through knowledge; as a poet said:
+/nKnowledge clears the blindness from the heart of its possessor,/n
+ just as the moon brightens the darkness.
+</string>
+    <string name="to_do_step_2">
+Today, search for an article, video, or resource about mental health. Remember that every piece of information you add strengthens you.</string>
+
+    <string name="description_step_3">
+        You don’t have to carry this burden alone. Reach out to those who understand your situation and can provide support, whether through a support group or a trusted friend. The poet expressed:
+/nWhen the heavy burden is shared,/n
+ it becomes lighter on the necks [shoulders] of the people.
+    </string>
+
+    <string name="to_do_step_3">
+Reach out today and join a support group, talk to a friend you trust, or connect with an online community. You don’t have to face this alone.</string>
+
+    <string name="description_step_4">
+Connect with your spiritual side to discover strength and tranquillity. Engage in activities that provide you with a psychological outlet, whether through prayer, meditation, or quiet time, to help renew your energy. The poet Al-Mutanabbi said:
+/nBe gentle with yourself, for your nature is imperfect.
+</string>
+
+    <string name="to_do_step_4">
+Take a moment today to participate in prayer, meditation, or a calming activity.</string>
+
+
+    <string name="description_step_5">
+Caring for your loved ones is an act of love, but don’t forget about yourself. Make a plan to reward yourself, even with something simple, as every little gesture contributes to self-care. It’s important to commit to this.</string>
+
+    <string name="to_do_step_5">
+Celebrate something you did for yourself today, no matter how small.</string>
+
+    <string name="camposs_step_0">
+Helping someone who is suffering from depression is not just a single step; it is a series of thoughtful actions. Every step, no matter how small, is part of the journey towards recovery. Remember, you are part of a support system that can help guide your loved one out of the darkness of depression.
+</string>
+
+    <string name="recognizing_signs">Recognize the Signs</string>
+
+
+    <string name="description_camposs_step_1">The poet said:/n
+And sorrow takes a toll on the stout frame, /n/n
+while it greys the boy’s forelock and ages him./nDepression can appear like the clouds that precede a storm. You may not notice it at first, but over time, it intensifies and settles in, making it harder for your loved one to see the way forward. While you cannot stop the clouds, recognizing them early allows you to prepare. Understanding the symptoms helps in addressing any situation you face.
+</string>
+
+    <string name="step_2_title">Approach with Empathy</string>
+    <string name="step_2_desc">
+    When interacting with someone suffering from depression, avoid saying things like "Why are you so sad? You should be happy!". Such statements can give the impression that you are judging them, suggesting that what they are experiencing is trivial, even though it is beyond their control. This can make them feel worse or less inclined to open up. Instead of labelling their feelings, express your observations with empathy, such as saying, "I've noticed you seem a bit different lately", and reassure them by saying, "I'm here if you want to talk."/n/n
+When they decide to speak, practise active listening. This means giving them your full attention, maintaining eye contact, and responding with affirming gestures or brief verbal cues. Avoid interrupting them or offering immediate solutions; sometimes, they just need someone to listen.
+</string>
+    <string name="step_2_action">مارس الاستماع النشط وابتعد عن تقديم حلول فورية.</string>
+    <string name="step_1_action">
+Open gentle conversations about how they feel. Ask kindly: "How are you feeling today? It's okay if things aren't going well. I'm here to listen."</string>
+
+    <string name="step_3_title">Avoid Toxic Positivity</string>
+    <string name="step_3_desc">In your efforts to support someone struggling with depression, it\'s essential to recognize the difference between genuine encouragement and toxic positivity. While maintaining a positive outlook is important, it’s crucial to avoid overly simplistic phrases that may inadvertently diminish the reality of the person\'s struggle with depression. Phrases like "Just be happy!" "You have so much to be happy about!" or "You'll be fine; just give it time" may seem supportive, but they can come across as dismissive of their feelings./nInstead, acknowledge their emotions and reassure them that feeling sadness, frustration, or any negative emotions is normal during difficult times. You might say something like, "I know this is hard for you, and it's okay to feel this way". This approach fosters genuine connection, allowing them to express their feelings without pressure.</string>
+    <string name="step_3_action">اعترف بمشاعرهم وشجعهم على التعبير عن أنفسهم.</string>
+    <string name="step_4_title">Be Their Sanctuary</string>
+    <string name="step_4_desc">Imagine your loved one as a tree in the midst of a storm filled with negative thoughts and emotions. They don’t need additional storms in your interaction with them; instead, dedicate time for calm companionship. There’s no need to offer solutions—just be present. As the poet said:/n/nO healer of the soul, you are its physician,/n/n
+ So be gentle with a soul that has been neglected by its beloved.
+</string>
+    <string name="step_4_action">اقض وقتًا هادئًا معهم دون ضغط.</string>
+    <string name="step_5_title">Encourage Them to Seek Professional Help</string>
+    <string name="step_5_desc">Sometimes, the negative thoughts and emotions your loved one is experiencing can feel overwhelmingly heavy. Even if you try to console them, you cannot guide them on your own. This is where they need professional help. Gently suggest that they reach out to a doctor or counsellor for assistance, without applying pressure. You might say, "I think talking to a doctor could help you find some peace."
+</string>
+    <string name="step_5_action">Offer to assist them in searching for doctors or accompany them to their first appointment.</string>
+
+    <string name="step_6_title">Be Patient and Present</string>
+    <string name="step_6_desc">Recovering from depression is a gradual process, and it’s important to be patient. There will be good days and bad days. Continue to support them, even if you feel that your efforts are not yielding immediate results./n/n
+Think of it like planting seeds. At first, growth may not be visible. But with consistent care, the roots grow deeper, and eventually, the tree flourishes</string>
+    <string name="step_6_action">استمر في دعمه حتى لو لم تظهر النتائج فورًا.</string>
+
+    <string name="step_7_title">Recognize the Darkest Clouds</string>
+
+    <string name="step_7_desc">Sometimes, the journey takes a dangerous turn. Depression can lead to thoughts of self-harm or suicide, making vigilance even more crucial. Recognize the warning signs, such as withdrawal from others or talking about death\n\nDon’t be afraid to ask, "Are you thinking of harming yourself?". It’s a difficult question, but it could save a life. If the answer is yes, take immediate action by contacting a professional or emergency services. Your love and quick response can pull them out of that dark moment</string>
+
+    <string name="step_7_action">ابحث عن علامات التحذير واتخذ إجراءات سريعة إذا لزم الأمر.</string>
+
+    <string name="step_8_title">Offer Practical Support</string>
+    <string name="step_8_desc">Depression can make simple tasks feel overwhelming. Quietly step in to help your loved one with small tasks. Maybe cook a meal or assist with some household chores.
+        These small acts of help can lighten their load and give them space to focus on their mental health. As a poet said:\nWho is the healer for my ailments and pains,\n
+ or the companion to share my worries?\n
+I was once resilient, but certain trials,\n
+ have blended my strength with deep sorrow.\n
+Oh, my friend, when fate sought to diminish me,\n
+it found a heart still steadfast, unshaken by fear.\n
+Go ahead now and ask my heart about its turmoil,\n
+ for within it lies all manner of sickness and grief.\n
+Even the most eloquent tongue,\n
+cannot fully express the anguish between my ribs\n</string>
+    <string name="step_8_action">قدم المساعدة في المهام البسيطة لتخفيف العبء عنهم.</string>
+
+    <string name="step_9_title">Offer Light in Small Doses</string>
+    <string name="step_9_desc">Depression is like being trapped in a dark room. You can’t push them into the light, but you can open a window and let a small ray of light through. Encourage them to take small steps to engage in activities or do something they used to enjoy, even if only for short periods, like taking a walk or watching a favourite movie.
+</string>
+    <string name="step_9_action">Start with simple, achievable activities. Avoid overwhelming them with too much at once, and do celebrate the small victories along the way</string>
+
+
+    <string name="you_can_seek_help_and_psychological_support_n_from_the_relevant_authorities">You can seek help and psychological support \n from the relevant authorities</string>
+    <string name="no_internet">No Internet\n</string>
+    <string name="plan_your_day">Plan your day</string>
+    <string name="daily_planner">My Daily Planner</string>
+    <string name="no_plans_for_today">No plans for today. Add your tasks now!</string>
+
+    <string name="choose_day">Choose Day</string>
+    <string name="choose_the_day_you_would_like_to_plan">Choose the day you would like to plan</string>
+    <string name="let_s_get_started">Let\'s get started</string>
+    <string name="choose_activities">Choose activities</string>
+    <string name="choose_your_daily_activity_you_can_choose_more_than_one_activity">Choose your daily activity. You can choose more than one activity</string>
+    <string name="writing_short_story">Writing short story</string>
+    <string name="drink_a_cup_of_coffee_or_tea">Drink cup coffee, tea</string>
+    <string name="exposure_to_sunlight">Exposure to sunlight</string>
+    <string name="spend_time_with_a_pet">Spend time with a pet</string>
+    <string name="plant_care">Plant care</string>
+    <string name="reading_a_book">Reading a book</string>
+    <string name="create_your_own_activity">Create your own activity</string>
+    <string name="fill_out_the_required_fields_to_create_your_activity">Fill out the required fields to create your activity</string>
+    <string name="add_a_sticker_or_symbol_for_your_own_activity">Add a sticker or symbol for your own activity</string>
+    <string name="the_day_you_have_pre_selected_for_the_activity">The day you have pre-selected for the activity</string>
+    <string name="what_is_the_name_of_your_activity">What is the name of your activity</string>
+    <string name="describe_your_activity_in_a_simple_way_optional">Describe your activity in a simple way</string>
+    <string name="create_activity">Create activity</string>
+    <string name="everything_is_ready_now_you_can_start_now">Everything is ready now, you can start now</string>
+    <string name="great_job">Great job!</string>
+    <string name="today_s_plan_is_complete">Today\'s plan is complete</string>
+    <string name="day_plan">Day Plan</string>
+    <string name="tracking">tracking</string>
+    <string name="activity_name_is_required">Activity name is required</string>
+    <string name="special_activity">Special activity</string>
+    <string name="create_activity2">Create activity</string>
+    <string name="helping_someone_suffering_from_depression">Helping someone suffering from depression</string>
+    <string name="tap_the_emoji_that_best_matches_your_mood_at_this_moment">Tap the emoji that best matches your mood at this moment</string>
+    <string name="happy">Happy</string>
+    <string name="calm_relaxed">Calm/Relaxed</string>
+    <string name="anxious_overwhelmed">Anxious/Overwhelmed</string>
+    <string name="sad_down">Sad/Down</string>
+    <string name="tired_fatigued">Tired/Fatigued</string>
+    <string name="angry_irritated">Angry/Irritated</string>
+    <string name="let_s_start_now">Let\'s start now</string>
+    <string name="hi_let_s_check_in_with_how_you_re_feeling_right_now_before_we_start">Hi! Let\'s check in with how you\'re feeling right now before we start</string>
+    <string name="would_you_like_to_share_what_s_affecting_your_mood">Would you like to share what’s affecting your mood?</string>
+    <string name="work">Work</string>
+    <string name="friends">Friends</string>
+    <string name="health">"Health"</string>
+    <string name="family">Family</string>
+    <string name="money">Money</string>
+    <string name="other_reasons_write_here_optional">Other reasons, write here… (optional)</string>
+    <string name="let_s_see_how_today_s_program_helps_you_feel_better">Let’s see how today’s program helps you feel better!</string>
+    <string name="start_today_program">Start today program</string>
+    <string name="it_s_great_to_see_you_happy">It\'s great to see you happy!</string>
+    <string name="let_us_channel_that_positive_energy">Let us channel that positive energy and direct it towards things that provide even greater fulfilment and joy.</string>
+    <string name="share_your_happiness">Share your happiness with a loved one by calling or visiting them for a heartwarming catch-up. You can also plan a memorable activity together, like cooking a traditional meal, taking a walk in a nearby park, or watching a favourite movie to create lasting memories</string>
+    <string name="tip_use_the_app_s_daily_planne">Tip: Use the app\'s Daily Planner to plan a weekly social and family activities to make lasting memories and strengthen bonds</string>
+    <string name="start_a_creative_project">Start a creative project you\'ve been putting off, whether it\'s redecorating a room, designing handmade gifts, or learning a new art form. Dedicate time each day, even if it\'s just a small step, to make progress. Embrace the process and let it become an outlet for self-expression, bringing a sense of accomplishment and inspiration along the way</string>
+    <string name="use_your_energy">Use your energy and happiness to spread positivity by volunteering or helping someone in need. Whether it\'s lending a hand to a neighbor, or even donating goods to those less fortunate, your kindness will not only brighten someone else\'s day but will also increase your own sense of fulfillment</string>
+    <string name="there_s_nothing_like_the_feeling_of_peace">There’s nothing like the feeling of peace!</string>
+    <string name="let_s_hold_onto_this_tranquility">Let’s hold onto this tranquility and keep the calm vibes flowing</string>
+    <string name="enjoy_a_warm_cup">Enjoy a warm cup of herbal tea, such as شاي البابونج (chamomile) or شاي النعناع (mint tea), while reading a book or reflecting in your journal. Take a minute to relax and connect with your thoughts in a peaceful, calming environment</string>
+    <string name="tip_make_use_of_the_app">Tip: Make use of the app\'s Journaling Tool. You may share your thoughts to your supporter</string>
+    <string name="treat_yourself_to_a_self">Treat yourself to a self-care experience with a rejuvenating face mask, a soothing foot soak, or a manicure/pedicure for a polished, refreshed look</string>
+    <string name="tip_make_self_care_a_priority">Tip: Make self-care a priority by scheduling a weekly relaxation routine using Daily Planner tool available on the app to nurture your mind and body</string>
+    <string name="have_peaceful_evening">Have peaceful evening with your family by watching a cosy  movie night, engaging in a fun board game, or simply spending quiet time together</string>
+    <string name="tip_make_it_a_weekly">Tip: Make it a weekly ritual by scheduling \"family unwind time\" to strengthen bonds and relax.</string>
+    <string name="it_s_completely_okay">It’s completely okay to feel low on energy sometimes!</string>
+    <string name="let_s_take_small">Let’s take small, meaningful steps to recharge and rejuvenate.</string>
+    <string name="it_s_tough_feeling_down">It’s tough feeling down,</string>
+    <string name="but_remember_even">but remember, even the smallest positive steps can shift your mood and recharge your energy</string>
+    <string name="channel_your_anger_into">Channel your anger into a quick, intense workout like push-ups, jumping jacks, or high knees. This physical activity helps release pent-up frustration, reduce stress, and resets your mood. It’s an effective strategy to transform that angry energy into something positive and motivating!</string>
+    <string name="grab_a_pen">Grab a pen and let your wrath out on paper. Express yourself by scribbling an unsent letter. It\'s a therapeutic technique to release tension, frustration, and clear your thoughts!</string>
+    <string name="step_outside_and_take_deep_breaths_to_reset">Step outside and take deep breaths to reset</string>
+    <string name="tip_use_the_breathi">Tip: Use the Breathing Tool available on the app. Set the time you want (e.g., 5 min) and follow the breathing instructions provided to help you pace your breathing</string>
+    <string name="practice_deep">Practice deep breathing exercises to slow your heart rate</string>
+    <string name="tip_use_the_breathing_tool">Tip: Use the Breathing Tool available on the app. Set the time you want (e.g., 5 min) and follow the breathing instructions provided to help you pace your breathing</string>
+    <string name="take_a_mindful_slo">Take a mindful, slow walk outside and take in the sights, sounds, and smells of your surroundings. The nature soothes the anxious or overwhelmed mind and brings inner peace back!</string>
+    <string name="organise_your_workstation">Organise your workstation, bedroom, or living space to create a visually appealing and relaxing environment. Clearing clutter and organising belongings can help reduce anxiety, improve focus, and create a refreshing atmosphere that supports your well-being!</string>
+    <string name="write_down_three_things">Write down three things you’re grateful for today, even if they are small. Focusing on gratitude can help shift your mindset</string>
+    <string name="call_or_message_someone_you_trust">Call or message someone you trust to share your feelings. Sometimes, simply talking about what you\'re going through can lighten the emotional load and offer support</string>
+    <string name="watch_a_funny_show_movie">Watch a funny show, movie, or listen to a comedy podcast to bring some joy and laughter back into your day. Laughter is a powerful way to shift your mood and recharge your energy!</string>
+    <string name="tip_make_use_of_the">Tip: Make use of the app\'s Journaling Tool. You may share your gratitude to your supporter</string>
+    <string name="close_your_eyes_and_take">Close your eyes and take a 15-20-minute short nap to replenish your energy. This short nap is the ideal way to unwind, and improve your  focus, productivity, and mental clarity, especially after a busy day or long hours of work</string>
+    <string name="take_the_time_to_prepare"><![CDATA[Take the time to prepare a healthy meal with fresh ingredients such as vegetables, lean proteins, and whole grains to energise your body and support overall well-being. Enjoy the process of cooking as a sort of self-care, as well as the gratification of eating a nutritious, handmade meal]]></string>
+    <string name="take_a_few_minutes">Take a few minutes to gently stretch and relieve built-up tension in your body. Concentrate on areas of your neck, shoulders, and lower back that tend to accumulate stress. Simple movements like gentle neck rolls, shoulder shrugs, and seated twists can help reduce fatigue and improve flexibility</string>
+    <string name="anger_is_a_natural_emotion">Anger is a natural emotion</string>
+    <string name="let_s_redirect_it_in_a_positive_and_constructive_way_to_create_change_and_growth">Let’s redirect it in a positive and constructive way to create change and growth</string>
+    <string name="but_you_re_stronger_than_you_think_let_s_focus_on_calming_your_mind">but you’re stronger than you think. Let’s focus on calming your mind.</string>
+    <string name="feeling_overwhelmed_is_hard">Feeling overwhelmed is hard,</string>
+    <string name="here_are_some_suggestions_to_improve_your_mood">Here are some suggestions to improve your mood:</string>
+    <string name="here_are_some_suggestions_to_keep_your_mood_up">Here are some suggestions to keep your mood up:</string>
+    <string name="compare_results">Compare results!</string>
+    <string name="now_compare_your_mood_results_for_the_day">Now compare your mood results for the day</string>
+    <string name="here_s_how_your_mood_has_changed">Here\'s how your mood has changed</string>
+    <string name="during_today_s_programme">During today\'s programme</string>
+    <string name="well_done1">Well done</string>
+    <string name="well_done11">Well done</string>
+    <string name="you_have_completed">You have completed your daily program and obtained a full mark. We hope that you will continue doing this every day</string>
+    <string name="great_job_on_your_daily_program">Great job on your daily program!</string>
+    <string name="let_s_check_your_mood_now">Let\'s check your mood now</string>
+    <string name="after_today_s_programme">After today\'s programme</string>
+    <string name="before_today_s_programme">Before today\'s programme</string>
+    <string name="your_progress_has_been_saved">Your progress has been saved!</string>
+    <string name="review_your_mood_over_time">Review your mood over time....</string>
+    <string name="you_can_track_your_mood_by_clicking_on_the_emoji_at_the_top_of_your_daily_schedule_page">You can track your mood by clicking on the emoji at the top of your daily schedule page</string>
+    <string name="activity_1">Go to women\'s fitness club or gym to stay motivated.</string>
+    <string name="activity_2">Attend a session of Dabke in a women\'s group for fun and fitness.</string>
+    <string name="activity_3">Gather your male friends for an exciting outdoor football game and enjoy friendly competition.</string>
+    <string name="activity_4">Do equipment-free at-home workouts such as push-ups, and bodyweight squats.</string>
+    <string name="activity_5">Enjoy a day of fishing at a lake or the sea.</string>
+    <string name="activity_6">Take a camping trip with your loved ones.</string>
+    <string name="activity_7">Go for a solo walk to relax and clear your mind.</string>
+    <string name="activity_8">Gather your loved ones for a picnic in the park, where you can enjoy homemade food and play games.</string>
+    <string name="activity_9">Go on an outdoor photography adventure to capture landscapes or cityscapes.</string>
+    <string name="activity_10">Visit a traditional market (souk), explore handmade goods, and interact with vendors.</string>
+    <string name="activity_11">Lounge on the beach, go swimming, or take a walk along the shore.</string>
+    <string name="activity_12">Play traditional Arab board games such as Backgammon or Carrom with your loved ones.</string>
+    <string name="activity_13">Read from an Arab author\'s novel and immerse yourself in their cultural insights and narratives.</string>
+    <string name="activity_14">Plant trees, flowers, or herbs in your garden.</string>
+    <string name="activity_15">Practise the art of Arabic calligraphy.</string>
+    <string name="activity_16">Play traditional instruments such as the oud or tabla and immerse yourself in local music.</string>
+    <string name="activity_17">Practise the art of Henna, creating stunning, intricate designs.</string>
+    <string name="activity_18">Create healthier versions of traditional dishes with fresh, low-calorie ingredients.</string>
+    <string name="activity_19">Try your hand at making traditional desserts such as baklava, kunafa, and qatayef.</string>
+    <string name="activity_20">Give your car a refreshing thorough clean, inside and out.</string>
+    <string name="activity_21">Burn oud or bakhoor to give your clothes and home a soothing, opulent scent.</string>
+    <string name="activity_22">Enjoy a relaxing time at a traditional women-only bath (hamam) or spa.</string>
+    <string name="activity_23">Use traditional hair oils, such as argan or black seed, to give your hair a healthy, shiny finish.</string>
+    <string name="activity_24">Make and apply revitalising face masks with honey, rose water, and turmeric.</string>
+    <string name="activity_25">Prepare and share traditional dishes with neighbours or friends.</string>
+    <string name="activity_26">Invite close female friends for a delightful tea or coffee gathering and enjoy quality time together.</string>
+    <string name="activity_27">Host a fun outdoor BBQ with family and friends.</string>
+    <string name="activity_28">Attend a gathering with family and friends to bond and create lasting memories.</string>
+    <string name="activity_29">Cook a meal together with your family, share recipes, and enjoy quality time in the kitchen.</string>
+    <string name="activity_30">Organise or participate in charitable activities such as food distribution or volunteer work.</string>
+    <string name="activity_31">Listen to the Quran recitations or calming Nasheeds (Islamic songs).</string>
+    <string name="activity_32">Attend Quran study circles or lectures at your local mosque or community centre.</string>
+
+    <string name="change_language">Change Language</string>
+    <string name="you_have_completed_your_entire_plan_for_the_day_great_job">You have completed your entire plan for the day. Great job</string>
+    <string name="no_internet_connection">No internet connection</string>
+    <string name="mood_tracker">Mood tracker</string>
+    <string name="things_that_affected_your_mood">Things that affected your mood</string>
+    <string name="the_results_of_your_daily_program_completion_will">Results of completing the daily program within 30 days</string>
+    <string name="you_do_not_have_access_to_the_mood">You do not have access to the mood</string>
+    <string name="you_do_not_have_permission_to_view_the_daily_program">You do not have permission to view the daily program</string>
+    <string name="you_do_not_have_access_to_send_a_private_message">you do not have access to send a private message</string>
+    <string name="will_reset_the_current_day_from_beginning">will reset the current day from beginning</string>
+    <string name="encouragement_notification_channel_id">Encouragement messages</string>
+    <string name="encouragement_messages">Encouragement messages</string>
+    <string name="activities_reminder">Activities reminder</string>
+    <string name="a_whiff_of_faith">Whiff of faith</string>
+    <string name="a_step_towards_change">Step towards change</string>
+    <string name="time_of_adventure">Time of adventure</string>
+    <string name="morning">Morning</string>
+    <string name="afternoon">Afternoon</string>
+    <string name="evening">Evening</string>
+    <string name="activity_reminder">Activity Reminder</string>
+    <string name="where_am_i">📍Where am I now?</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="skip">skip</string>
+    <string name="choose_sound">Choose sound</string>
+    <string name="sound_rain">Sound Rain</string>
+    <string name="sound_sea">Sound Sea</string>
+    <string name="no_sound">No sound</string>
+    <string name="sound_air">Air breeze</string>
+    <string name="sound_birds">Bird sound</string>
+    <string name="caf_for_restructuring_ideas">Thought Restructuring Cafe!</string>
+    <string name="entry_to_caf">Entry to café</string>
+    <string name="choose_your_cup_carefully">Choose your cup carefully!</string>
+    <string name="coffee">The coffee</string>
+    <string name="result">Result</string>
+    <string name="bitter_coffee">Bitter coffee</string>
+    <string name="unbalanced_negative_thoughts">Unbalanced negative thoughts</string>
+    <string name="will_you_let_discouraging_thoughts_take_over_starting_your_day_with_feelings_of_helplessness_and_frustration">Will you allow discouraging thoughts to take over, starting your day feeling helpless and frustrated?</string>
+    <string name="temporary_comfort_but_in_the_end_you_ll_find_yourself_stuck_in_the_same_place_without_progress">Temporary relief, but ultimately, you\'ll find yourself in the same place without any progress</string>
+    <string name="over_sugary_coffee">Excessive Sugary Coffee</string>
+    <string name="escaping_from_reality">An Escape from Reality</string>
+    <string name="will_you_choose_to_escape_into_an_illusion_of_comfort_ignoring_real_problems_and_challenges">Will you choose to escape into the illusion of comfort, ignoring real problems and challenges?</string>
+    <string name="you_will_live_in_a_cycle_of_stress_and_hesitation_where_everything_seems_harder_than_it_really_is">You\'ll live in a cycle of stress and hesitation, where everything seems harder than it is.</string>
+    <string name="balanced_coffee">Balanced coffee</string>
+    <string name="positive_restructuring">A Positive Restructuring</string>
+    <string name="will_you_approach_your_day_with_a_realistic_and_balanced_mindset_embracing_challenges_consciously_and_seeking_solutions_instead_of_getting_stuck_on_obstacles">Will you face your day with a clear and balanced mindset, consciously accepting challenges, and looking for solutions instead of stopping at obstacles?</string>
+    <string name="this_cup_gives_you_the_strength_to_keep_growing_and_developing_without_exaggeration_or_minimization">This cup gives you the strength to continue growing and developing without over-emphasizing or underestimating.</string>
+    <string name="step_1_choose_your_thought">Step 1: Choose your thought!</string>
+    <string name="what_thought_is_on_your_mind_today">What thought is filling your cup today?</string>
+    <string name="my_thought">My thought:</string>
+    <string name="today_i_found_myself_thinking_about">Today, I found myself thinking about...</string>
+    <string name="now_which_cup_does_this_thought_belong_to">Now, which cup does this thought belong in?\n Click one of the options:</string>
+    <string name="exit_the_caf">Exit the café</string>
+    <string name="step_2_taste_the_idea_is_it_balanced">Step 2:Taste the idea – is it balanced?</string>
+    <string name="start_by_identifying_your_emotion"><font color='#5994d5'>Start by identifying your emotions and notice how these emotions influence your thinking:</font> What feelings does this idea generate? Do you feel anxious, fearful, or frustrated?</string>
+    <string name="one">1</string>
+    <string name="two">2</string>
+    <string name="three">3</string>
+    <string name="four">4</string>
+    <string name="five">5</string>
+    <string name="check_the_truth_of_the_idea_and_whether_there_is_evidence_to_support_it_is_this_idea_based_on_concrete_facts_or_merely_an_assumption_or_an_emotional_response_to_a_particular_situation"><font color='#5994d5'>Check the truth of the idea and whether there is evidence to support it:</font>Is this idea based on concrete facts or merely an assumption or an emotional response to a particular situation?</string>
+    <string name="consider_the_effect_of_the_idea"><font color='#5994d5'>Consider the effect of the idea on your behaviour:</font>How will this idea influence your actions and behaviour today?</string>
+    <string name="examine_the_available_evidence"><font color='#5994d5'>Examine the available evidence:</font>What evidence supports this idea? What evidence contradicts it? Is there information you may have overlooked?</string>
+    <string name="reframe_the_idea_what_do_i_have"><font color='#5994d5'>Reframe the idea:</font> What do I have to lose if I hold on to this idea, and what do I have to gain if I choose to view the situation more positively? How can you modify this idea to be morebalanced and realistic?</string>
+    <string name="before_you_drink">Before you ‘drink’ this idea, let\'s test it by answering the following questions:</string>
+    <string name="step_3_how_would">Step 3:How would you like to re-flavour your idea?</string>
+    <string name="just_as_you_add_sugar_or_milk_to_adjus">Just as you add sugar or milk to adjust the taste of your coffee, reframe your ideas in a balanced way.</string>
+    <string name="choose_the_method_that_works_best_for_you_to_prepare_the">Choose the method that works best for you to prepare the</string>
+    <string name="most_balanced_blend">most balanced blend</string>
+    <string name="restructure_with_a_supporter">Restructure with a supporter:</string>
+    <string name="exchange_cups_with_a_friend">Exchange cups with a friend</string>
+    <string name="restructure_yourself">Restructure yourself:</string>
+    <string name="take_a_moment_to_review_your_idea_use_the_challenge_questions_and_then_rewrite_it_in_a_more_balanced_style">Take a moment to review your idea, use the challenge questions, and then rewrite it in a more balanced style.</string>
+    <string name="friend_reset_the_thought_myself">friend Reset the thought myself</string>
+    <string name="share_your_idea">Share your idea with a supporter, who will help you reframe it from a new, more balanced perspective, and then send it back to you.</string>
+    <string name="step_4_now_adjust_the_mix">Step 4: Now, adjust the mix!</string>
+    <string name="rewrite_the_idea_in_a_more_balanced_way">Rewrite the idea in a more balanced way:</string>
+    <string name="a_better_way_to_think_about_this_is">A better way to think about this is…</string>
+    <string name="step_5_taste_the_new_thought">Step 5:Taste the New Thought</string>
+    <string name="now_read_the_reframed_thought_aloud_and_reflect_on_it">Now, read the reframed thought aloud and reflect on it:</string>
+    <string name="how_do_you_feel_now_that">How do you feel now that you\'ve reframed it? Are you more relaxed or positive? What\'s different now from what you initially thought about it?</string>
+    <string name="has_this_new_reframing">Has this new reframing changed the way you think about the situation? Are you more understanding or less stressed about it?</string>
+    <string name="how_can_you_continue">How can you continue to ‘prepare’ balanced thoughts every day? What steps can you take to continue to think in a positive and balanced way about life\'s challenges ahead?</string>
+    <string name="always_choose_thoughts_that">Always choose thoughts that give you strength and optimism and help you continually improve. Make every thought contribute to building a better version of yourself!</string>
+    <string name="stop_for_a_moment">Stop for a moment.. and be honest with yourself</string>
+    <string name="if_you_feel_that_restructuring">If you feel that restructuring the thought hasn\'t eased its burden, or that the negative thought still haunts you despite your efforts, or if a new thought doesn\'t make any difference to your feelings...</string>
+    <string name="don_t_hesitate_to_seek_help_from_a_mental_health_professional">Don\'t hesitate to seek help from a mental health professional</string>
+    <string name="step_6_implement_the_new_thought">Step 6: Implement the new thought</string>
+    <string name="now_that_you_ve_gained_a_more_balanced_perspective_it_s_time_to_put_it_into_practice">Now that you\'ve gained a more balanced perspective, it\'s time to put it into practice!</string>
+    <string name="do_you_want_to_solidify">Do you want to solidify the new thought and improve your mood?</string>
+    <string name="choose_a_simple_activity">Choose a simple activity that expresses this new change (e.g., taking a break, completing a postponed task)...</string>
+    <string name="and_schedule_it_in_your_calendar"><b><font color="#204167">And schedule it in your calendar today or this week,</font></b> so it becomes part of your reality.</string>
+    <string name="the_idea_is_not_complete"><b><font color="#5994d5">The idea</font></b> is not complete until it finds a place in your day and resonates in your mind.</string>
+    <string name="go_to_the_daily_planner">Go to the daily planner</string>
+    <string name="unrealistic_thinking">(unrealistic thinking)</string>
+    <string name="ignoring_challenges">Ignoring challenges or overly reassuring ones
+such as: "Everything will get better. I don't need
+to put in any effort!"</string>
+    <string name="negative_thinking">(negative thinking)</string>
+    <string name="depressing_thoughts">Depressing thoughts such as: "This
+is too hard. I'll never succeed.</string>
+    <string name="realistic_thinking">(Realistic Thinking)</string>
+    <string name="acknowledge_the_difficulties">Acknowledge the difficulties but with a positive outlook such as: “This is a challenge, but I can improve with time.</string>
+    <string name="please_enter_your_idea">Please enter your idea</string>
+    <string name="please_select_the_cup">Please select the cup</string>
+    <string name="please_answer_all_questions">Please answer all questions</string>
+    <string name="please_write_your_idea">Please Write Your Idea</string>
+    <string name="step_4_now_your_supporter">Step 4: Now, your supporter will help you to adjust the mix!</string>
+    <string name="your_friend_rephrases">Your friend rephrases your idea in a more balanced and realistic way.</string>
+    <string name="your_friend_s_reply">Your friend\'s reply</string>
+    <string name="choose_a_friend_whom_you_would_like_to_share_your_thoughts_with">Choose a friend whom you would like to share your thoughts with</string>
+    <string name="in_this_mindful_caf_we_filter">In this mindful café, we filter our thoughts like we filter our coffee, recalibrating their flavour step by step until we reach a balanced taste. Cup after cup, we give life a different flavour... a flavour that suits us.\n\nJust as coffee flavours vary, so do our ways of thinking. Some thoughts are bitter and burden the heart, others are overly sweet and distort reality, while others are balanced and give us true energy and inner clarity</string>
+    <string name="the_thought_restructuring_caf">the Thought Restructuring Café</string>
+    <string name="welcome_to">Welcome to</string>
+    <string name="through_this_simple_and_gentle">Through this simple and gentle exercise, you can help your loved one identify the ‘thought’ they consume every day. Does it exhaust them? Numb them? Or does it give them strength?\n\nFrom there, the journey begins to recreate a more balanced thought... a thought like a cup of coffee that refreshes you without exhausting you, and comforts you without numbing you.</string>
+    <string name="what_is_the_goal_of_the_thought_restructuring_caf"><font color='#35a1e8'>What is the goal of</font>  \"the Thought Restructuring Café?\"</string>
+    <string name="depression_isn_t_just">Depression isn\'t just a feeling of sadness; it\'s often accompanied by harsh, unrealistic thoughts. Thought Restructuring Cafe is designed to help your loved one deal with their negative thoughts without attacking or denial, and to do so through supportive, compassionate sharing and practical steps to reframe these thoughts and make them:</string>
+    <string name="more_realistic">More realistic</string>
+    <string name="less_harsh">Less harsh</string>
+    <string name="more_balanced">More balanced</string>
+    <string name="more_supportive_of_mental_health">More supportive of mental health</string>
+    <string name="in_simple_words">In simple words, this exercise is not about ‘changing mind’, but about gently guiding your loved one inside his/her mind until he/she sees that there is another cup he/she could choose.</string>
+    <string name="important2">important?</string>
+    <string name="why_is_the_caf_important"><font color='#35a1e8'>Why </font>is the thought restructuring cafe </string>
+    <string name="because_it_creates">Because it creates a safe space for sharing thoughts without judgement.</string>
+    <string name="because_it_gives_the_patient">Because it gives the patient a sense that they are not alone in confronting their thoughts.</string>
+    <string name="because_it_cultivates_the_concept_of_i_choose_my_thoughts_rather_than_my_thoughts_control_me">Because it cultivates the concept of I choose my thoughts rather than My thoughts control me.</string>
+    <string name="you_don_t_need">You don\'t need to be a psychotherapist... you just need to be a ‘thought buddy’. Someone who holds a second cup of coffee invites their loved ones to sit and talk... and then together they choose the thought that is worth ‘drinking’.</string>
+    <string name="note">Note</string>
+    <string name="before_you_begin"> before you begin:</string>
+    <string name="in_the_thought_restructuring">In the Thought Restructuring Café, we will walk you through how to help your loved one restructure their negative thoughts, enabling you to play a supportive and effective role, but in a safe and thoughtful manner. Our goal is not to replace a professional, but rather to be a conscious and supportive companion in a difficult moment, helping them see things from new perspectives and with a more balanced attitude.</string>
+    <string name="when_your_loved_one_shares_their_troubling_thoughts_with_you_they_give_you_a_window_into_their_inner_world_therefore_we_strongly_recommend_following_the_steps_outlined_in_the_guide_to_ensure_you_provide_the_best_possible_support_in_a_safe_manner">When your loved one shares their troubling thoughts with you, they give you a window into their inner world. Therefore, we strongly recommend following the steps outlined in the guide to ensure you provide the best possible support in a safe manner.</string>
+    <string name="this_exercise_is_intended_for_dealing_with_everyday_negative_thoughts_associated_with_depression_and_anxiety_not_for_acute_psychological_crises_if_you_notice_that_the_person_you_are_supporting">This exercise is intended for dealing with everyday negative thoughts associated with depression and anxiety, not for acute psychological crises. If you notice that the person you are supporting:</string>
+    <string name="expresses_a_desire_to_harm_themselves_or_others">expresses a desire to harm themselves or others,</string>
+    <string name="talks_about_suicide_or_a_complete_loss_of_interest_in_life">talks about suicide or a complete loss of interest in life,</string>
+    <string name="exhibits_a_complete_detachment_from_reality_or_exhibits_severe_disturbing_behavioural_changes">exhibits a complete detachment from reality, or exhibits severe, disturbing behavioural changes,</string>
+    <string name="this_is_an_indication">this is an indication that the situation requires immediate professional intervention. In this case, do not hesitate to contact a psychologist or emergency services.</string>
+    <string name="your_support_is_important">Your support is important, but in some situations, professional support becomes an absolute necessity.</string>
+    <string name="important">Important :</string>
+    <string name="this_is_the_thought">This is the thought that your loved one shared with you:</string>
+    <string name="the_thought_he_s_having">The thought he\'s having:</string>
+    <string name="the_cup_he_thinks_belongs_to">The cup he thinks belongs to:</string>
+    <string name="now_let_us_begin_together">to prepare the cup of change, and be a calm companion to those we love.</string>
+    <string name="what_does_cups_mean">What does cups mean?</string>
+    <string name="when_your_friend_write">When your friend writes down the idea they\'re having, they\'ll choose one of the three cups to which their idea belongs. Below, you\'ll find the meanings of the cups.</string>
+    <string name="receive_the_thought">Receive the thought with acceptance \n(without immediate rejection or correction)</string>
+    <string name="to_create_a_safe_space_for_conversation">To create a safe space for conversation without judgement, when someone shares a negative thought, such as:</string>
+    <string name="i_m_a_burden_on_everyone_my_existence_is_meaningless">I\'m a burden on everyone... My existence is meaningless</string>
+    <string name="no_that_s_not_true_or_why_do_you_think_that">No, that\'s not true! or Why do you think that?</string>
+    <string name="instead_say">Instead, say:</string>
+    <string name="i_think_this_is_a_painful">I think this is a painful thought... Let\'s try to understand it together.</string>
+    <string name="i_understand_that_you_feel">I understand that you feel this way, and let\'s go through it step by step</string>
+    <string name="don_t_say">Don\'t say:</string>
+    <string name="examine_the_thought_using_the_consciousness_filter">Examine the thought using the\n \"Consciousness Filter\"</string>
+    <string name="does_it_contain_expressions"><font color='#5994d5'>Is the thought exaggerated or harsh?</font> Does it contain expressions such as: I\'m always a failure or No one ever loves me?</string>
+    <string name="if_the_thought_is_generalizing_or_judgemental">If the thought is generalizing or judgemental, it\'s likely inaccurate and needs to be recalibrated</string>
+    <string name="does_the_thought_only_reflect_their_current"><font color='#5994d5'>Does the thought only reflect their current feelings?</font> Did they say it because they were just in an embarrassing situation, feeling lonely, or frustrated?</string>
+    <string name="if_so_this_is_often_a_temporary_thought_stemming">If so, this is often a temporary thought stemming from an emotion, not a fact they believe all the time, and we can mitigate its power</string>
+    <string name="does_the_thought_actually_seem_realistic_has_something"><font color='#5994d5'>Does the thought actually seem realistic?</font> Has something happened to confirm this thought? Or are emotions driving it?</string>
+    <string name="if_there_s_no_clear_evidence_it_s_likely_a_distorted_thought_due_to_their_psychological_state_and_they_can_be_gently_restructured">If there\'s no clear evidence, it\'s likely a distorted thought due to their psychological state, and they can be gently restructured.</string>
+    <string name="is_there_another_angle_they_could_see"><font color='#5994d5'>Is there another angle they could see?</font> Can I help them see details they\'ve forgotten or aspects they\'ve missed?</string>
+    <string name="rebalancing_begins_with_broadening_their_perspective_not_denying_it">Rebalancing begins with broadening their perspective, not denying it</string>
+    <string name="when_your_loved_one_shares">When your loved one shares a negative thought, don\'t rush to respond. Take a moment and ask yourself:</string>
+    <string name="the_purpose_of_these_questions_is_to_help_you_understand">The purpose of these questions is to help you understand the ‘cup’ your loved one is drinking from, before you gently and consciously offer them another</string>
+    <string name="prepare_a_cup_of_change_the_balanced_thought">Prepare a Cup of Change – The Balanced Thought</string>
+    <string name="use_the_previous_questions">Use the previous questions and help your loved one reframe the idea with a more balanced flavour… one that gives them a sense of comfort and a clearer vision of what they\'re going through.</string>
+    <string name="example">Example:</string>
+    <string name="i_m_a_burden_to_everyone">I\'m a burden to everyone</string>
+    <string name="you_re_going_through_a_difficult">You\'re going through a difficult time and need support. This is normal and doesn\'t diminish your value</string>
+    <string name="avoid_phrases_that_reflect">Avoid phrases that reflect</string>
+    <string name="excessive_positivity">excessive positivity</string>
+    <string name="everything_is_fine_and_there_s_nothing_wrong">Everything is fine and there\'s nothing wrong</string>
+    <string name="the_person_may_feel">The person may feel unheard or that their feelings are unjustified.</string>
+    <string name="yes_not_everything_is_fine_but_there_are_things">Yes, not everything is fine... but there are things you can handle, even if it takes small steps</string>
+    <string name="this_phrase_shows_empathy_and_reinforces_a_sense">This phrase shows empathy and reinforces a sense of empowerment without denying the pain.</string>
+    <string name="unsure_how_to_respond">When someone you love shares a negative thought with you, you feel you need to say something correct… but you\'re afraid to appear as if you\'re advising them or trying to quickly fix their feelings. Sometimes, it\'s really difficult to respond to a painful thought without sounding like we\'re advising them or making them feel wrong. But the truth is, you don\'t need to be a therapist…</string>
+    <string name="present_friend_idea">Present your friend\'s idea</string>
+    <string name="to_make_it_easier">To make it easier for you to get started, we\'ve prepared a set of simple, supportive phrases. Use them as a start and edit them in your own way.</string>
+    <string name="suggested_phrases_of_sympathy_and_containment">Phrases of sympathy and containment</string>
+    <string name="now_it_s_your_turn_take_a_breath">Now, it\'s your turn... Take a breath and think, if you were in his/her place, what would you need to hear? Write it down now.</string>
+    <string name="edit_the_suggestion">(Edit the suggestion or add your own response here...)</string>
+    <string name="thank_you_your_response_has_been_delivered">Thank you! Your response has been delivered.</string>
+    <string name="remember">Remember…</string>
+    <string name="you_re_not_here_to_take_away_their_pain">You\'re not here to take away their pain or fix everything, but to accompany them with kindness and patience, without pressure or judgement, while they rebuild themselves.</string>
+    <string name="now_let_us_begin_together6">Now, let us begin together,</string>
+    <string name="step_by_step">step by step...</string>
+    <string name="sometimes_we_say_words">Sometimes we say words with good intentions to comfort our loved ones, but they are exaggerated or unrealistic, leaving the person feeling misunderstood or disbelieved.</string>
+    <string name="remember2">Remember:</string>
+    <string name="balance_is_key">Balance is key</string>
+    <string name="don_t_minimize_the_pain">Don\'t minimize the pain or dramatize the problem. Just make room for realistic hope.</string>
+    <string name="unsure_how_to_respond0">Unsure how to respond?</string>
+    <string name="no_problem_let_s_start_simple">No problem… Let\'s start simple.</string>
+    <string name="it_s_enough_to_be_present_honest_and_caring">it\'s enough to be present, honest, and caring.</string>
+    <string name="phrase1">I\'m with you, and you don\'t have to go through these feelings alone.</string>
+    <string name="phrase2">I understand that you\'re tired, and your thoughts deserves to be considered, not passed over lightly.</string>
+    <string name="phrase3">We don\'t have to solve everything now... but we can start reorganizing your thoughts together.</string>
+    <string name="phrase4">I\'m with you, and you don\'t have to go through this alone.</string>
+    <string name="phrase5">I hear you... and we\'ll work through this together, step by step.</string>
+    <string name="phrase6">It\'s not wrong to feel this way... what matters is that you\'re not alone.</string>
+    <string name="phrase7">We don\'t have to fix everything now... but let\'s start understanding what\'s going on.</string>
+    <string name="phrase8">We don\'t have to change everything... but we can review this thought and see how to lighten its weight.</string>
+    <string name="phrase9">What do you think about reconsidering the idea together? Maybe if we look at it from a different perspective, its impact will be a little lighter.</string>
+    <string name="phrase10">I feel your pain... and everything that hurts you is important, even if no one else sees it as significant.</string>
+    <string name="phrase11">I know this is hard for you... but believe me, I\'m with you and I won\'t leave you to face it alone.</string>
+    <string name="please_enter_your_response">Please enter your response</string>
+    <string name="no_ideas_received_yet_nyou_can_only_continue_after_receiving_a_message_from_your_friend">No ideas received yet!\\nYou can only continue after receiving a message from your friend.</string>
+    <string name="welcome">Welcome</string>
+    <string name="new_invitation_code_has_been_created">New invitation code has been created</string>
+    <string name="supporter_s_permission_have_been_updated">Supporter\'s permission have been updated</string>
+    <string name="failed_try_again_later">Failed , try again later</string>
+    <string name="supporter_status_changed">supporter status changed</string>
+    <string name="no_internet_connectione">No Internet Connection</string>
+    <string name="please_check_your_internet_connection_and_try_again">Please check your internet connection and try again.</string>
+    <string name="try_again">Try again</string>
+    <string name="add_to_the_rosary">Add to the rosary</string>
+    <string name="please_select_supporter">Please Select Supporter</string>
+    <string name="shared_successfully">Shared successfully</string>
+    <string name="choose_the_appropriate_settings_for_you_workout">Choose the appropriate settings for you workout</string>
+    <string name="before_starting">Before starting</string>
+    <string name="choose_the_breathing_exercise_duration_that_suits_you">Choose the breathing exercise duration that suits you.</string>
+
+    <string name="minutes_10">10 minutes</string>
+    <string name="minutes_15">15 minutes</string>
+    <string name="minutes_20">20 minutes</string>
+    <string name="minutes_25">25 minutes</string>
+    <string name="minutes_30">30 minutes</string>
+    <string name="minutes_35">35 minutes</string>
+    <string name="minutes_40">40 minutes</string>
+    <string name="what_sound_would_you_like_to_hear_while_exercising">What sound would you like to hear while exercising?</string>
+    <string name="exercise_duration">Exercise duration</string>
+    <string name="update_success">Update Success</string>
+    <string name="immerse_yourself">Immerse yourself in your new home by reading engaging books and articles about the host country\'s history, culture, and social norms. This is an excellent method to engage with the new environment while also discovering amazing stories and traditions.</string>
+    <string name="invite_friends">Invite friends, neighbours, or other parents to watch together an Arabic film with English subtitles and discuss its cultural aspects and themes. It’s a great way to share and explore Arabic culture together.</string>
+    <string name="pair_up">Pair up with a neighbour or another parent to exchange language lessons. Spend half of your time speaking in one language and half in another.</string>
+    <string name="plan_an_outdoor">Plan an outdoor international potluck lunch with neighbours, colleagues, or other parents at your kids\' school. Invite everyone to bring a dish from their home country. This is a great way to share and learn about different cultures through food, fostering community and appreciation</string>
+    <string name="offer_to_teach">Offer to teach a cooking class on traditional Arabic cuisine at a local community centre, cultural organisation, or social club. This hands-on activity allows everyone cook and taste the dishes, making it an enjoyable way to share your culinary heritage and bond with others.</string>
+    <string name="organise_and_invite">Organise and invite your children\'s friends and parents to an outdoor activity where they can learn traditional Arabic dances such as “Dabke”  and songs while enjoying snacks. This activity is not only fun but also educational, encouraging children to embrace and celebrate cultural variety through dance and music.></string>
+
+    <string name="there_are_no_tasks_for_today">There are no tasks for today.</string>
+    <string name="you_haven_t_completed_the_post_mood_tracking_yet">You haven’t completed the Post Mood Tracking yet</string>
+    <string name="you_have_not_select_mood_yet">You have not select mood yet</string>
+    <string name="please_enter_what_is_affecting_your_current_mood">Please enter what is affecting your current mood</string>
+    <string name="name_app">Name of app</string>
+    <string name="let_start">Let\'s start your journey</string>
+    <string name="some_common_misconceptions_about_depression">Some Common Misconceptions About Depression</string>
+    <string name="misconception_1_title">Depression is Just Punishment</string>
+    <string name="misconception_1_false">Some people believe that depression is a punishment for mistakes or sins they have committed.</string>
+    <string name="misconception_1_truth">While life challenges, including mental health difficulties, can feel like tests, depression is a medical condition influenced by chemical imbalances, genetics, and environmental factors. Mental health issues should be addressed with care and appropriate treatment, just as physical illnesses are.</string>
+
+    <string name="misconception_2_title">Only "Crazy" People Suffer from Depression</string>
+    <string name="misconception_2_false">There\'s a widespread belief that those experiencing depression are crazy.</string>
+    <string name="misconception_2_truth">Depression can affect anyone, regardless of their background, education, or social status. Many people with depression lead seemingly normal lives while struggling internally.</string>
+
+    <string name="misconception_3_title">Depression Only Happens to People with Difficult Lives or Traumatic Experiences</string>
+    <string name="misconception_3_false">Some think that depression only affects individuals who have faced hardships or trauma.</string>
+    <string name="misconception_3_truth">Depression can occur in anyone, irrespective of life circumstances. It can arise from a combination of genetic, biological, and environmental factors.</string>
+
+    <string name="misconception_4_title">Depression is a Sign of Weakness</string>
+    <string name="misconception_4_false">Depression is often viewed as a personal failure or a sign of being "weak”.</string>
+    <string name="misconception_4_truth">Depression is a medical condition, not a reflection of a person\'s character or strength. It results from a complex interplay of genetic, biological, psychological, and environmental factors.</string>
+
+    <string name="misconception_5_title">Depression is Just Feeling Sad</string>
+    <string name="misconception_5_false">Many believe depression is simply prolonged sadness or frustration.</string>
+    <string name="misconception_5_truth">Depression is a complex health condition that involves persistent feelings of hopelessness, emptiness, and a loss of interest in activities. It affects emotional, physical, and cognitive functioning, not just mood.</string>
+
+    <string name="misconception_6_title">Depression Will Go Away on Its Own</string>
+    <string name="misconception_6_false">Some think depression will disappear with time.</string>
+    <string name="misconception_6_truth">Without proper treatment, depression can persist for months or even years and may worsen. Seeking help early leads to better outcomes.</string>
+
+    <string name="misconception_7_title">Seeking Mental Health Support is a Sign of Weakness</string>
+    <string name="misconception_7_false">In many cultures, there is a stigma against seeking therapy or counselling, seen as a sign of weakness.</string>
+    <string name="misconception_7_truth">Seeking professional help demonstrates strength and self-awareness. Taking steps to improve mental health is a courageous act, and mental health professionals are trained to provide effective support.</string>
+
+    <string name="misconception_8_title">Talking About Mental Health Should Be Private and Not Publicly Discussed</string>
+    <string name="misconception_8_false">Some believe that discussions about depression or mental health issues should remain private.</string>
+    <string name="misconception_8_truth">It’s essential to talk openly about mental health. The more we discuss it, the more comfortable people become seeking help.</string>
+
+    <string name="misconception_9_title">Antidepressants Are a Quick Fix</string>
+    <string name="misconception_9_false">Some believe that taking antidepressants will resolve depression instantly.</string>
+    <string name="misconception_9_truth">While antidepressants can be part of the treatment, they work best alongside therapy, lifestyle changes, and support. Medications may take time to be effective and may not work for everyone.</string>
+
+    <string name="misconception_10_title">Family and Social Support Alone is Enough to Treat Depression</string>
+    <string name="misconception_10_false">In some cultures, reliance on family and community support is considered sufficient to manage depression.</string>
+    <string name="misconception_10_truth">While family support is vital, depression often requires professional treatment, including therapy and medication. A comprehensive approach combining professional care and personal support is most effective.</string>
+
+    <string name="misconception_11_title">Religious Practices Alone Can Cure Depression</string>
+    <string name="misconception_11_false">Some believe that prayer or religious practices are enough to treat depression.</string>
+    <string name="misconception_11_truth">Faith can be a valuable source of strength, but depression is a medical condition requiring professional treatment. Combining spiritual support with medical care yields the best results.</string>
+    <string name="tools_to_help_you">Tools to help you to understand your loved one and help them to get out of their psychological state</string>
+    <string name="help_tools">Help tools</string>
+    <string name="test">Test</string>
+    <string name="no_internet_connection2">No internet connection!</string>
+    <string name="please_check_your_connection_and_try_again">please check your connection and try again.</string>
+    <string name="try_again3">Try again</string>
+    <string name="would_you_like_to_share_with_the_supporter">Would you like to share with the supporter</string>
+    <string name="follow_these_steps_to_add_your_supporter">Follow these steps\n to add your supporter</string>
+    <string name="minutes_1">1 minute</string>
+    <string name="minutes_2">2 minutes</string>
+    <string name="minutes3">3 minutes</string>
+    <string name="minutes_4">4 minutes</string>
+    <string name="minutes_5">5 minutes</string>
+    <string name="minutes_5_description">5 minutes equals 5 rounds, with each round lasting 60 seconds.</string>
+    <string name="minutes_4_description">4 minutes equals 4 rounds, with each round lasting 60 seconds.</string>
+    <string name="minutes_3_description">3 minutes equals 3 rounds, with each round lasting 60 seconds.</string>
+    <string name="minutes_2_description">2 minutes equals 2 rounds, with each round lasting 60 seconds.</string>
+    <string name="minutes_1_description">1 minute equals 1 round, the round lasting 60 seconds.</string>
+    <string name="illuminations">Illuminations</string>
+    <string name="q1">Think of a simple pleasure from your daily routine that you often take for granted. What is it, and why are you grateful for it?</string>
+    <string name="q2">Who in your life consistently supports you, and what specific actions of theirs make you feel grateful?</string>
+    <string name="q3">What challenge have you overcome recently, and what did you learn from it that you are grateful for?</string>
+    <string name="q4">What scent, sound, or taste from your childhood brings you a wave of warmth and gratitude now?</string>
+    <string name="q5">What aspect of your physical health, no matter how small, are you grateful for today?</string>
+    <string name="q6">What opportunity for learning or personal growth have you had recently that you are thankful for?</string>
+    <string name="just_now">just now</string>
+    <string name="min_ago">%d min ago</string>
+    <string name="h_ago">%d h ago</string>
+    <string name="yesterday">yesterday</string>
+    <string name="days_ago">%d days ago</string>
+    <string name="weeks_ago">%d weeks ago</string>
+    <string name="months_ago">%d months ago</string>
+    <string name="years_ago">%d years ago</string>
+    <string name="new_post_from">New post from %1$s</string>
+    <plurals name="minutes_ago">
+        <item quantity="one">%d minute ago</item>
+        <item quantity="other">%d minutes ago</item>
+    </plurals>
+
+    <plurals name="hours_ago">
+        <item quantity="one">%d hour ago</item>
+        <item quantity="other">%d hours ago</item>
+    </plurals>
+
+    <plurals name="days_ago">
+        <item quantity="one">%d day ago</item>
+        <item quantity="other">%d days ago</item>
+    </plurals>
+    <plurals name="weeks_ago">
+        <item quantity="one">%d week ago</item>
+        <item quantity="other">%d weeks ago</item>
+    </plurals>
+
+    <plurals name="months_ago">
+        <item quantity="one">%d month ago</item>
+        <item quantity="other">%d months ago</item>
+    </plurals>
+
+    <plurals name="years_ago">
+        <item quantity="one">%d year ago</item>
+        <item quantity="other">%d years ago</item>
+    </plurals>
+</resources>

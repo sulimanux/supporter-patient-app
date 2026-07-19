@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/calender_navigation.xml"
+    app:startDestination="@id/dailyPlannerFragment">
+
+    <fragment
+        android:id="@+id/dailyPlannerFragment"
+        android:name="com.app.sanad.users.patient.calender.presentaion.MainCalenderFragment"
+        android:label="DailyPlannerFragment" >
+        <action
+            android:id="@+id/action_dailyPlannerFragment_to_chooseActivitiesFragment"
+            app:destination="@id/chooseActivitiesFragment" />
+        <action
+            android:id="@+id/action_dailyPlannerFragment_to_dayPlanFragment"
+            app:destination="@id/dayPlanFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/chooseActivitiesFragment"
+        android:name="com.app.sanad.users.patient.calender.presentaion.ChooseActivitiesFragment"
+        android:label="ChooseActivitiesFragment" >
+        <action
+            android:id="@+id/action_chooseActivitiesFragment_to_createOwnActivityFragment"
+            app:destination="@id/createOwnActivityFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/createOwnActivityFragment"
+        android:name="com.app.sanad.users.patient.calender.presentaion.CreateOwnActivityFragment"
+        android:label="CreateOwnActivityFragment" >
+        <argument
+            android:name="flag"
+            app:argType="string" />
+    </fragment>
+    <fragment
+        android:id="@+id/dayPlanFragment"
+        android:name="com.app.sanad.users.patient.calender.presentaion.DayPlanFragment"
+        android:label="DayPlanFragment" >
+        <action
+            android:id="@+id/action_dayPlanFragment_to_createOwnActivityFragment"
+            app:destination="@id/createOwnActivityFragment" />
+        <action
+            android:id="@+id/action_dayPlanFragment_to_chooseActivitiesFragment"
+            app:destination="@id/chooseActivitiesFragment" />
+    </fragment>
+</navigation>

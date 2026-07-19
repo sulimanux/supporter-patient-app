@@ -1,0 +1,1022 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">سند</string>
+    <string name="forgot_password_text">هل نسيت كلمة المرور؟</string>
+    <string name="login_title">تسجيل الدخول</string>
+    <string name="welcome_back_text">مرحبا بعودتك</string>
+    <string name="login_instruction">الرجاء إدخال المعلومات الخاصة بك أدناه لتسجيل الدخول</string>
+    <string name="sign_in">تسجيل الدخول</string>
+    <string name="no_account_text">ليس لديك حساب؟</string>
+    <string name="female">أنثى</string>
+    <string name="male">ذكر</string>
+    <string name="gender">الجنس</string>
+    <string name="age_group">الفئة العمرية</string>
+    <string name="young_adulthood1">شباب</string>
+    <string name="middle_age1">متوسط</string>
+    <string name="young_adulthood">مرحلة الشباب (أقل من 40 سنه )</string>
+    <string name="middle_age">متوسط العمر ( أقل من 60 سنه )</string>
+    <string name="older">كبار السن</string>
+    <string name="label_choose_language">حدد لغتك المفضلة</string>
+    <string name="sign_up">إنشاء حساب</string>
+    <string name="current_lang">عربي</string>
+    <string name="password_hint">كلمة المرور</string>
+    <string name="create_new_account">انشاء حساب جديد</string>
+    <string name="contact_us">تواصل معنا</string>
+    <string name="email_hint">البريد الإلكتروني</string>
+    <string name="save_registration_info">حفظ معلومات التسجيل</string>
+    <string name="please_select_account_type">من فضلك قم بإختيار نوع الحساب</string>
+    <string name="invitation_code_hint">كود الدعوة</string>
+    <string name="already_have_account">لديك حساب بالفعل؟</string>
+    <string name="user_name">اسم المستخدم</string>
+    <string name="user">مستخدم</string>
+    <string name="supporter">داعم</string>
+    <string name="forgot_password">هل نسيت كلمة المرور الخاصة بك؟</string>
+    <string name="reset_password_instruction">من فضلك، أدخل البريد الإلكتروني الذي استخدمته للتسجيل حتى يتم إرسال رابط إعادة تعيين كلمة المرور.</string>
+    <string name="next">التالي</string>
+    <string name="need_assistance">بحاجة للمساعدة؟</string>
+    <string name="user_not_found">لم يتم العثور على هذا المستخدم</string>
+    <string name="enter_email">رجاءا إدخال البريد الإلكتروني</string>
+    <string name="enter_valid_invitation">رجاءا ادخل دعوة صحيح</string>
+    <string name="enter_password">رجاءا ادخل كلمة المرور</string>
+    <string name="select_age_group">رجاءا إختيار الفئة العمرية</string>
+    <string name="verify_email_password">رجاءا التحقق من البريد الإلكتروني وكلمة المرور</string>
+    <string name="password_reset_email_sent">تم إرسال البريد الإلكتروني لإعادة تعيين كلمة المرور بنجاح</string>
+    <string name="password_reset_email_failed">فشل إرسال البريد الإلكتروني لإعادة تعيين كلمة المرور</string>
+    <string name="pass_error">رجاءا ادخل على الاقل 6 احرف او ارقام</string>
+    <string name="email_error">رجاءا ادخل بريد الكترونى صحيح</string>
+    <string name="reset_password_success">تم إرسال البريد الإلكتروني لإعادة تعيين كلمة المرور بنجاح</string>
+    <string name="reset_password_failure">فشل إرسال البريد الإلكتروني لإعادة تعيين كلمة المرور</string>
+    <string name="gender_selection">تحديد الجنس</string>
+    <string name="profile_title">ملفى</string>
+    <string name="home_title">الرئيسية</string>
+    <string name="messages_title">الرسائل</string>
+    <string name="points_text">نقاطى</string>
+    <string name="supporters_text">الداعمين</string>
+    <string name="emergency_help_text">مساعدة طارئة</string>
+    <string name="edit_profile_text">تعديل ملفى</string>
+    <string name="profile_text">الملف الشخصى</string>
+    <string name="shared_media_text">صور ومقاطع تمت مشاركتها</string>
+    <string name="settings_text">اﻹعدادات</string>
+    <string name="logout_text">تسجيل خروج</string>
+    <string name="help_text">كيف يمكننى مساعدتك</string>
+    <string name="reviews_text">مراجعاتى</string>
+    <string name="reports_text">تقاريرى</string>
+    <string name="edit_profile">تعديل الملف الشخصى</string>
+    <string name="edit">تعديل</string>
+    <string name="save">حفظ</string>
+    <string name="edit_profile_picture">تحرير صورة الملف الشخصى</string>
+    <string name="dialect">اللهجة</string>
+    <string name="arabic_standard">العربية (الفصحى)</string>
+    <string name="religious_content">هل ترغب بمحتوى دينى؟</string>
+    <string name="yes">نعم</string>
+    <string name="no">لا</string>
+    <string name="enter_invitation">رجاءا ادخل دعوة صحيح</string>
+    <string name="enter_username">رجاءا ادخل اسم المستخدم</string>
+    <string name="select_gender">رجاءا إختيار الجنس</string>
+    <string name="select_age_category">رجاءا إختيار الفئة العمرية</string>
+    <string name="select_user_type">رجاءا إختيار نوع المستخدم</string>
+    <string name="enter_the_new_name">رجاءا ادخل الاسم الجديد</string>
+    <string name="the_username_has_been_changed_successfully">تم تغير اسم المستخدم بنجاح</string>
+    <string name="update_failed">لم تنجح عملية التحديث</string>
+    <string name="share_user_code">قم بمشاركة رمز المستخدم مع الشخص الذي ترغب في أن يكون داعمك</string>
+    <string name="copy_code">نسخ الكود</string>
+    <string name="create_new_code">إنشاء كود جديد</string>
+    <string name="add_supporter">إضافة داعم</string>
+    <string name="supporter_code_is">كود المستخدم الخاص بالداعم هو</string>
+    <string name="code_already_used">تم استخدام هذا الكود، يرجى إنشاء كود جديد</string>
+    <string name="cannot_change_first_four">لا يمكنك تغيير أول أربعة أحرف. يجب عليك إدخال أربعة أرقام أو أحرف فقط.</string>
+    <string name="current_code_hint">الكود الحالي</string>
+    <string name="new_code_hint">الكود الجديد</string>
+    <string name="confirm">تأكيد</string>
+    <string name="cancel">إلغاء</string>
+    <string name="enter_four_digits_or_letters">يرجى إدخال كود مكون من اربع حروف.</string>
+    <string name="enter_new_code">يرجى إدخال كود جديد.</string>
+    <string name="new_code_created_successfully">تم إنشاء كود جديد بنجاح.</string>
+    <string name="code_copied">تم نسخ الكود بنجاح.</string>
+    <string name="new_code_length_exceeded">لا يجب أن يتجاوز الكود الجديد اربع أحرف.</string>
+    <string name="no_supporters_text">لم تقم بإضافة داعمين حتى الآن</string>
+    <string name="add_supporter_instruction">يمكنك إضافة داعم أو أكثر (3 داعمين كحد أقصى)</string>
+    <string name="understood">حسنًا، فهمت</string>
+    <string name="supporters_count">عدد الداعمين</string>
+    <string name="max_supporters_limit">الحد الأقصى للإضافة هو 3 فقط. لا يمكنك إضافة أكثر من 3 أشخاص كداعمين</string>
+    <string name="add_new_supporter_hint">إذا كنت ترغب في إضافة داعم لم يتم إضافته من قبل إلى حسابك، اضغط هنا</string>
+    <string name="add_new_supporter">إضافة داعم جديد</string>
+    <string name="restore_supporter_hint">إذا كنت ترغب في استعادة داعم تمت إزالته مسبقًا، اضغط هنا</string>
+    <string name="restore_supporter_with_account">إستعادة داعم لديه حساب</string>
+    <string name="active">نشط</string>
+    <string name="not_active">موقوف مؤقتا</string>
+    <string name="view_reports">مشاهدة التقارير</string>
+    <string name="notifications">الإشعارات</string>
+    <string name="view_daily_program_details">الإطلاع على تفاصيل البرنامج اليومي</string>
+    <string name="view_mood_tracking_details">مشاهدة تفاصيل تتبع الحالة المزاجية</string>
+    <string name="allow_encouragement_reply">السماح بالرد برسالة تشجيعية</string>
+    <string name="allow_video_voice_call">السماح بمكالمة فيديو/صوت</string>
+    <string name="allow_private_messages">السماح بالرسائل الخاصة</string>
+    <string name="allow_supporter_to">السماح للداعم بـ</string>
+    <string name="notification_type">نوع الإشعار</string>
+    <string name="daily_program_completion_notification">إشعار الداعم عند إتمام برنامجي اليومي</string>
+    <string name="mood_tracking_update_notification">إشعار الداعم عند تحديث تتبع الحالة المزاجية</string>
+    <string name="psychological_test_result_notification">إشعار الداعم بنتيجة الاختبار النفسي</string>
+    <string name="report_type">نوع التقرير</string>
+    <string name="mood_report_only">تقرير الحالة المزاجية فقط</string>
+    <string name="psychological_test_report_only">تقرير نتائج الاختبار النفسي فقط</string>
+    <string name="all">الكل</string>
+    <string name="time_range">النطاق الزمني</string>
+    <string name="annual_reports_only">التقارير السنوية فقط</string>
+    <string name="monthly_reports_only">التقارير الشهرية فقط</string>
+    <string name="weekly_reports_only">التقارير الأسبوعية فقط</string>
+    <string name="confirm_temporarily_suspend_supporter">هل تريد بالتأكيد إيقاف الداعم مؤقتًا؟ هذا يعني أن الداعم لن يتمكن من رؤية أي أنشطة أو تقارير خاصة بك حتى تقوم بإلغاء إيقافه المؤقت</string>
+    <string name="suspend_temporarily">إيقاف مؤقت</string>
+    <string name="suspend_supporter_temporarily">إيقاف الداعم مؤقتًا</string>
+    <string name="confirm_remove_supporter">هل تريد بالتأكيد إزالة الداعم بشكل نهائي؟</string>
+    <string name="remove_supporter_confirmation">نعم، إزالة الداعم</string>
+    <string name="remove_supporter">إزالة ...</string>
+    <string name="confirm_remove_temporary_suspend">هل تريد بالتأكيد إزالة الإيقاف المؤقت عن الداعم؟ هذا يعني بأن الداعم سوف يتمكن من رؤية الأنشطة والتقارير الخاصة بك من جديد</string>
+    <string name="remove_temporary_suspend">إزالة الإيقاف المؤقت</string>
+    <string name="view_encouragement_messages">عرض الرسائل التشجيعية</string>
+    <string name="remove_supporter_permanently">إزالة الداعم نهائيا</string>
+
+    <string name="logout_confirmation">تسجيل الخروج؟</string>
+    <string name="logout_confirmation_dialog">هل أنت متأكد من تسجيل الخروج من حسابك؟</string>
+
+    <string name="confirm_new_password_hint">تأكيد كلمة المرور الجديدة</string>
+    <string name="new_password_hint">كلمة المرور الجديدة</string>
+    <string name="current_password_hint">كلمة المرور الحالية</string>
+
+    <string name="enter_current_password">الرجاء إدخال كلمة المرور الحالية الخاصة بك</string>
+    <string name="enter_new_password">الرجاء إدخال كلمة مرور جديدة</string>
+    <string name="confirm_new_password">الرجاء تأكيد كلمة المرور الجديدة</string>
+    <string name="passwords_do_not_match">كلمات المرور غير متطابقة</string>
+
+
+    <string name="password_changed_successfully">تم تغيير كلمة المرور بنجاح</string>
+    <string name="password_change_failed">فشل تغيير كلمة المرور، يرجى المحاولة مرة أخرى</string>
+
+    <string name="check_entered_password">رجاءً التحقق من كلمة المرور الحالية التي أدخلتها أو المحاولة في وقت لاحق</string>
+    <string name="choose_your_preferred_dialect">اختر لهجتك المفضلة</string>
+    <string name="gulf_dialect">اللهجة الخليجية</string>
+    <string name="syrian_dialect">اللهجة السورية</string>
+    <string name="iraqi_dialect">اللهجة العراقية</string>
+    <string name="egyptian_dialect">اللهجة المصرية</string>
+    <string name="standard_arabic">العربية (الفصحى)</string>
+    <string name="gender_changed_successfully">تم تعديل الجنس بنجاح</string>
+    <string name="age_group_changed_successfully">تم تعديل الفئة العمرية بنجاح</string>
+    <string name="change_gender">تغيير الجنس</string>
+    <string name="change_age_group">تغيير الفئة العمرية</string>
+    <string name="change_preferred_dialect">تغيير لهجتك المفضلة</string>
+    <string name="preferred_dialect">اللهجة المفضلة</string>
+    <string name="preferred_dialect_changed_successfully">تم تغيير لهجتك المفضلة بنجاح</string>
+    <string name="educational_content">بنك المعرفة</string>
+    <string name="learn_more">تعلم المزيد</string>
+    <string name="track_mood_status">تتبع الحالة المزاجية</string>
+    <string name="verified">تم التحقق</string>
+    <string name="psychological_test">اﻹختبار النفسي</string>
+    <string name="know_yourself_better">تعرف على نفسك أكثر</string>
+    <string name="welcome_message">مرحباً بك</string>
+    <string name="tasks_remaining">تبقى لديك %1$d  مهام عليك إنجازها</string>
+    <string name="daily_program">البرنامج اليومي</string>
+    <string name="continue1">مواصلة</string>
+    <string name="completion_percentage">نسبة الإكتمال</string>
+    <string name="congratulations">تهانينا لك</string>
+    <string name="completion_message">أحسنت %1$s، لقد أتممت برنامج اليومي وحصلت على العلامة الكاملة. نتمنى استمرارك في القيام بذلك يوميًا.</string>
+    <string name="view_level">مشاهدة المستوى</string>
+    <string name="okay">حسناً</string>
+    <string name="first_level">المستوى الأول</string>
+    <string name="daily_program2">برنامج اليوم</string>
+    <string name="start">البدء</string>
+    <string name="task_1"> المهمة 1:</string>
+    <string name="watch_video">مشاهدة فيديو</string>
+    <string name="watch_video_description">في هذه المهمة، عليك مشاهدة الفيديو كاملاً ومن ثم الانتقال إلى المهمة التالية.</string>
+    <string name="previous">السابق</string>
+    <string name="day">اليوم %1$d</string>
+    <string name="current_level">المستوى %1$d</string>
+    <string name="another_challenge">اقتراح تحدى اخر</string>
+    <string name="mission">التحدى  %1$d: %2$s</string>
+    <string name="take_a_few_minutes_and_write">خذ من وقتك بضع دقائق واكتب ما الذى تشعر باﻹمتنان له</string>
+    <string name="you_must_complete_all_previous_tasks">يجب عليك انهاء جميع مهام السابقة</string>
+    <string name="finish">إنهاء</string>
+    <string name="done">تم</string>
+    <string name="the_first_task_was_completed_successfully">تم إنهاء المهمة اﻷولى بنجاح</string>
+    <string name="the_second_task_was_completed_successfully">تم إنهاء المهمة الثانية بنجاح</string>
+    <string name="the_third_task_was_completed_successfully">تم إنهاء المهمة الثالثة بنجاح</string>
+    <string name="please_answer_the_question">يرجى الاجابة عن السؤال</string>
+    <string name="gratitude">الامتنان</string>
+    <string name="do_you_want_to_pause_this_task_temporarily">هل تود إيقاف هذه المهمة مؤقتا</string>
+    <string name="you_can_exit_this_task_and_come_back_again_whatever_you_want">يمكنك الخروج من المهمة مؤقتا و العودة إليها متي ما شئت</string>
+    <string name="pause_task_temporarily">إيقاف المهمة مؤقتا</string>
+    <string name="suggested_challenges">تحديات مقترحة</string>
+    <string name="well_done_you_will_get_a_star_when_you_complete_each_task_so_you_will_get_a_full_mark">أحسنت سوف تحصل على نجمة عند إنجازك لكل مهمة فبالتالى سوف تحصل على العلامة الكاملة</string>
+    <string name="did_you_complete_this_task_today_s_challenge">هل انهيت هذه المهمة؟</string>
+    <string name="yes_i_accomplished_it">نعم أنجزتها</string>
+    <string name="no_i_didn_t_accomplished_it">لا لم انجزها</string>
+    <string name="bed_making">Bed making</string>
+    <string name="reading_book">Reading book</string>
+    <string name="writing_story">Writing story</string>
+    <string name="walking">Walking 1000 steps</string>
+    <string name="how_was_your_day">كيف كان يومك اليوم؟</string>
+    <string name="tell_us_how_was_your_daily_program_did_it_go_well">اخبرنا كيف كان برنامجك اليومى هل سار على ما يرام؟</string>
+    <string name="satisfied">راضى</string>
+    <string name="unsatisfied">غير راضى</string>
+    <string name="its_k">لا بأس به</string>
+    <string name="send">ارسال</string>
+    <string name="back_to_task">العودة الى المهمة</string>
+    <string name="you_will_not_go_to_the_next_day">يجب انهاء هذه المهمة حتى تتمكن من الانتقال الى اليوم التالى</string>
+    <string name="show_all">عرض الكل</string>
+    <string name="azcar">الأذكار</string>
+    <string name="you_have_not_created_any_zecer_so_far">لم تقم بإنشاء اى ذكر حتى الان...</string>
+    <string name="your_list">قائمتك</string>
+    <string name="suggested_supplications">أذكار مقترحة</string>
+    <string name="add">إضافة</string>
+    <string name="infinite_repetition">تكرار لا نهائي</string>
+    <string name="write_the_supplication_that_you_want">اكتب الذكر/الدعاء المراد</string>
+    <string name="write_the_supplication_you_want_and_specify_the_number_of_repetitions_you_can_modify_that_at_any_time_you_want">قم بكتابة الذكر الذي تود و حدد عدد التكرارات للذكر المراد, يمكنك تعديل ذلك في أي وقت تشاء من خلال خانة قائمتك</string>
+    <string name="write_the_number_of_repetitions_you_want_to_reach">اكتب عدد التكرارات المراد الوصول اليه</string>
+    <string name="enter_the_number_here">أدخل العدد هنا...</string>
+    <string name="write_here">اكتب هنا...</string>
+    <string name="please_write_the_number_of_repetitions_you_want_to_reach">رجاءا اكتب عدد التكرارات المراد الوصول اليه</string>
+    <string name="number_not_valid">الرقم الذى ادخلته غير صالح</string>
+    <string name="please_write_the_supplication_that_you_want">رجاءا اكتب الذكر المراد</string>
+    <string name="tools_that_help_you_change_your_mood_and_psychological_state_and_get_rid_of_overthinking_and_stress">ادوات تساعدك على تغير حالتك المزاجية والنفسية\n والتخلص من التفكير الزائد والتوتر</string>
+    <string name="finish_exercise">إنهاء التمرين</string>
+    <string name="starting_over">البدء من جديد</string>
+    <string name="duration_of_exercise">مدة التمرين</string>
+    <string name="remaining_time_format">المتبقي
+</string>
+    <string name="click_on_the_box_below_to_get_started">قم بالضغط على الخانة بالاسفل للبدء</string>
+    <string name="click_to_start">اضغط هنا للبدء</string>
+    <string name="would_you_like_to_repeat_the_exercise_again">هل تود اعاده التمرين الحالى و البدء من جديد؟</string>
+    <string name="this_procedure_will_delete_the_current_exercise_data_and_replace_it_with_the_new_exercise_data">سوف يؤدى هذا الاجراء الى حذف بيانات التمرين الحالى واستبدالها ببيانات التمرين الجديد</string>
+    <string name="exhale_slowly">قم بالزفير ببطئ لمده %1$d ثوانى</string>
+    <string name="inhale">قم بالشهيق لمده %1$d ثوانى</string>
+    <string name="take_rest">راحة لمده %1$d ثوانى</string>
+    <string name="hold_air">احبس الهواء لمده %1$d ثوانى</string>
+    <string name="supplication_text">نص الذكر:</string>
+    <string name="change_question">تبديل السؤال</string>
+    <string name="suggested_questions">الأسئلة المقترحة</string>
+    <string name="have_you_had_the_opportunity_to_help_someone_new_how_do_you_feel_about_that">هل أتاحت لك الفرصة لمساعدة شخص ما الجديد؟ وكيف تشعر تجاه ذلك؟</string>
+    <string name="what_is_the_good_thing_that_happened_to_you_this_week">ما هو الشيء الجيد الذي حدث لك هذا الأسبوع؟</string>
+    <string name="what_is_the_nice_thing_someone_did_for_you_recently">ما هو الشيء الجميل الذي فعله شخص ما من أجلك مؤخرًا؟</string>
+    <string name="who_is_the_person_who_is_always_with_you_and_how_do_you_feel_about_them">من هو الشخص المتواجد معك دائمًا، وما هو شعورك تجاهه؟</string>
+    <string name="should_answer_question">الرجاء إضافة رد على السؤال</string>
+    <string name="your_answer_has_been_sent">لقد تم إرسال إجابتك</string>
+    <string name="no_gratitude_text">لم تقم بإضافة اى امنتان حتى الان</string>
+    <string name="add_gratitude">إضافة امتنان</string>
+    <string name="modification">تعديل</string>
+    <string name="sharing">مشاركة</string>
+    <string name="delete">حذف</string>
+    <string name="copied">تم النسخ</string>
+    <string name="most_common">الاكثر انتشارا</string>
+    <string name="customized_for_you">المخصصة لك</string>
+    <string name="audio">صوت</string>
+    <string name="video">فديو</string>
+    <string name="article">موضوع</string>
+    <string name="most_common_content">المحتوى الاكثر انتشارا</string>
+    <string name="a_list_of_the_most_popular_content_over_the_past_period_will_appear_here">ستظهر هنا قائمة لك لأفضل محتوى انتشاراً خلال الفترة الماضية</string>
+    <string name="more_similar_videos">المزيد من الفديوهات المشابهة</string>
+    <string name="show_description">عرض الوصف</string>
+    <string name="suggest_other_audios">اقتراح صوتيات اخرى</string>
+    <string name="suggest_other_articles">اقتراح موضوعات اخرى</string>
+    <string name="how_are_you_today">كيف حالك اليوم؟</string>
+    <string name="enter">دخول</string>
+    <string name="auxiliary_tools">أدوات المساعدة الذاتية
+</string>
+    <string name="emergency_help">المساعدة الطارئة</string>
+    <string name="don_t_hesitate_ask_for_help_now">لا تتردد, اطلب المساعدة الان</string>
+    <string name="help_numbers">ارقام مساعدة</string>
+    <string name="easy_access_to_the_relevant_authorities">الوصول للجهات المختصة بسهوله</string>
+    <string name="you_can_view_users_information">يمكنك الاطلاع على معلومات المستخدمين</string>
+    <string name="users">المستخدمين</string>
+    <string name="posts">المشاركات</string>
+    <string name="you_can_see">يمكنك الاطلاع على:</string>
+    <string name="you_can_view_the_results_of_the_user_s_daily_program">يمكنك الاطلاع على نتائج البرنامج اليومى للمستخدم</string>
+    <string name="mood">الحالة المزاجية</string>
+    <string name="you_can_track_the_user_s_mood">يمكنك  الحالة المزاجية الخاصة بالمستخدم</string>
+    <string name="see_what_has_been_shared_with_you">رؤية ما تم مشاركته معك </string>
+    <string name="messaging">مراسلة</string>
+    <string name="account">الحساب</string>
+    <string name="start_new_conversation">بدء محادثة جديده</string>
+    <string name="say_something">بدء محادثه...</string>
+    <string name="share_with">مشاركة مع....</string>
+    <string name="share">مشاركة</string>
+    <string name="display_content">عرض المحتوى</string>
+    <string name="message_of_gratitude">رسالة امتنان</string>
+    <string name="educational_content2">محتوى تثقيفى</string>
+    <string name="supplication_card">بطاقة تسبيح</string>
+    <string name="display">عرض</string>
+    <string name="learn_how_to_help_someone">تعرف على كيفية مساعدة شخص ما</string>
+    <string name="supporter_compass">بوصلة الداعم</string>
+    <string name="strength_build_plan">خريطة بناء القوة</string>
+    <string name="you_are_not_alone_on_this_journey">لست وحدك فى هذه الرحلة</string>
+    <string name="facing_stigma_and_shame_with_confidence">Facing Stigma and Shame with Confidence</string>
+    <string name="to_do">دعوة للعمل:</string>
+    <string name="advice">نصيحة:</string>
+
+
+    <!-- Step numbers -->
+    <string name="step_1">الخطوة الأولى:</string>
+    <string name="step_2">الخطوة الثانية:</string>
+    <string name="step_3">الخطوة الثالثة:</string>
+    <string name="step_4">الخطوة الرابعة:</string>
+    <string name="step_5">الخطوة الخامسة:</string>
+    <string name="step_6">الخطوة السادسة:</string>
+    <string name="step_7">الخطوة السابعة:</string>
+    <string name="step_8">الخطوة الثامنة:</string>
+    <string name="step_9">الخطوة التاسعة:</string>
+    <!-- Step titles -->
+    <string name="title_step_1">مواجهة الوصمة و العار بثقة</string>
+    <string name="title_step_2">وسع ثقافتك و معرفتك</string>
+    <string name="title_step_3">بناء شبكة دعمك</string>
+    <string name="title_step_4">إيجاد السلام الذاتي</string>
+    <string name="title_step_final">كافئ نفسك</string>
+    <string name="introduction">مقدمة</string>
+    <string name="explore_more">استكشف المزيد</string>
+    <string name="next_step">الخطوة التالية</string>
+
+    <string name="mental_health_support_text">
+    عند رعايتك لشخص عزيز يعاني من تحديات في الصحة النفسية، تذكر أن الأمراض النفسية منتشرة والكثير مصاب بها،
+    والعديد من الأسر تسير معك في درب الرعاية وتواجه مثلك صعوبات هذا الأمر.\n\n
+    عندما ننظر إلى ثقافتنا العربية، نجد أن فيها ترابط المجتمع والدعم المتبادل، كما قال الشاعر:\n
+    يعرفك الإخوان كل بنفسه … وخير أخ ما عرفتك الشدائد\n\n
+    وقال آخر:\n
+    أعين أخي أو صاحبي في بلائه … أقوم إذا عض الزمان وأقعد\n
+    ومن يفرد الإخوان فيما ينوبهم … تنبه الليالي مرةً وهو مفرد\n\n
+    وقال آخر:\n
+    هموم رجال في أمور كثيرة … وهمي من الدنيا صديق مساعد\n
+    نكون كروح بين جسمين قسمت … فجسماهما جسمان والروح واحد\n\n
+    بالنظر إلى أن رعاية الآخرين مسؤولية عظيمة، عليك الاهتمام بنفسك كي لا تقع بالتكلف أو التململ وتذكر قول الشاعر:\n
+    إذا المرء لا يرعاك إلى تكلفا … فدعه ولا تكثر عليه التأسفا\n\n
+    فمن يحتاج الرعاية هو أكثر الناس احتياجا لك بكامل رفاهيتك النفسية لذا يجب أن تهتم بذاتك لتقدم الدعم بشكل أقوى وأكثر رحمة لمن تحب.\n\n
+    أثناء رحلتك، ستواجه تحديات نفسية وعاطفية. هذه الخطوات تقدم لك رسائل ونصائح رئيسية لدعمك وإرشادك، لمساعدتك على بناء القوة والمرونة.
+</string>
+
+    <string name="description_step_1">
+    يواجه غالبًا أفراد العائلة والأصدقاء الذين يقدمون الدعم للأشخاص المصابين بالمرض النفسي أحكامًا من المجتمع،\n
+    خاصة في الثقافات التي يُساء فيها فهم قضايا الصحة النفسية أو لا يتم مناقشتها بشكل مفتوح، مما يؤدي إلى مشاعر العار والوصمة.\n\n
+    يمكن أن تؤثر هذه الوصمة على مقدمي الرعاية بشكل كبير، مما يتسبب في لوم الذات ومشاعر النقص.\n
+    ويخشون أن يُلاموا على حالة أحبائهم أو يتم رفضهم اجتماعيًا، مما يزيد من العبء العاطفي ويساهم في العزلة.\n\n
+    بالإضافة إلى ذلك، قد تؤدي هذه الوصمة إلى ترددهم في السعي للحصول على الرعاية اللازمة لمن يواجهون تحديات الصحة النفسية.\n\n
+    تقول الحكمة (رب ملوم لاذنب له) كن لطيفًا مع نفسك - فالصراعات النفسية التي يواجهها أحباؤك خارجة عن سيطرتك وسيطرتهم، وأنت تفعل ما بوسعك لتقديم الدعم.\n
+    لذا حرر نفسك من الشعور بالذنب وقدم لنفسك الرحمة بقدر التي تقدمها للآخرين.\n\n
+    تذكر أن الأحكام المجتمعية والوصمة غالبًا ما تنبع من نقص المعرفة والفهم فيما يتعلق بالصحة النفسية.\n
+    وتذكر بأن كل فعل تقوم به لدعم أحبائك يعكس قوتك وتفانيك، بغض النظر عما إذا كان المجتمع يفهمه بالكامل أو يعطيه قدره.\n\n
+    افهم أهمية دورك كمقدم رعاية ولا تدع التصورات المجتمعية تقلل من عزيمتك.\n
+    فدعمك ضروري ويمكن أن يؤثر بشكل كبير على رفاهية أحبائك.
+</string>
+    <string name="to_do_step_1">
+    فكر في كتابة أفكارك ومشاعرك في دفتر يوميات. يمكن أن تساعدك هذه الممارسة في معالجة العواطف، وإطلاق أعباء الشعور بالذنب.
+</string>
+
+    <string name="description_step_2">
+    التعرف على الصحة النفسية يفيدك أنت ومن تحب. فكلما زادت معرفتك، زادت قوتك وقدرتك على التحمل. استبدل اللوم بالتمكن عن طريق المعرفة.\n
+    قال الشاعر:\n
+    العِلم يجلو العَمَى عن قلبِ صاحبِه … كما يُجلِّي سوادَ الظُّلمةِ القمَرُ
+</string>
+    <string name="to_do_step_2">
+    ابحث اليوم عن مقال أو فيديو أو مصدر حول الصحة النفسية. وتذكر بأن كل معلومة تضيف إلى قوتك.
+</string>
+
+    <string name="description_step_3">
+ لا يتعين عليك تحمل هذا العبء بمفردك. تواصل مع من يفهمون موقفك ويمكنهم تقديم الدعم، سواء من خلال مجموعة دعم أو صديق موثوق به.\n
+    قال الشاعر:\n
+    إذا العبء الثقيل توزعته .. رقاب القوم خف على الرقاب</string>
+
+
+    <string name="to_do_step_3">
+    تواصل اليوم وانضم إلى مجموعة دعم، أو تحدث إلى صديق تثق به، أو تواصل مع مجتمع عبر الإنترنت. لا يجب أن تواجه هذا بمفردك.
+</string>
+
+    <string name="description_step_4">
+    تواصل مع جانبك الروحي لتجد القوة والسلام. مارس أعمالا تجد فيها متنفسا نفسيا سواء كان ذلك من خلال الصلاة أو التأمل أو قضاء وقت هادئ، لتساعدك في تجديد طاقتك.\n
+    قال المتنبي:\n
+    وَاِرفُق بِنَفسِكَ إِنَّ خَلقَكَ ناقِصٌ
+</string>
+
+
+    <string name="to_do_step_4">
+    خذ لحظة اليوم لتشارك في الصلاة أو التأمل أو نشاط هادئ
+</string>
+
+
+    <string name="description_step_5">
+    رعاية من تحب هي فعل من أفعال الحب، لكن لا تنسَ نفسك وضع خطة لتكافئها ولو بشيء وإن كان بسيطاً فكل لمسة تساعد في الوصول للعناية بالنفس فعليك أن تلتزم بها.
+</string>
+
+    <string name="to_do_step_5">
+    احتفل بشيء فعلته لنفسك اليوم، مهما كان بسيطًا.
+</string>
+
+    <string name="camposs_step_0">
+    مساعدة شخص يعاني من الاكتئاب ليست مجرد خطوة واحدة، بل هي سلسلة من الخطوات المدروسة. كل خطوة، حتى وإن كانت صغيرة، هي جزء من رحلة التعافي. تذكر أنك جزء من نظام الدعم الذي يمكن أن يساعد في إرشاد من تحب للخروج من ظلام الاكتئاب.\n
+
+</string>
+    <string name="recognizing_signs">التعرف على العلامات</string>
+
+    <string name="description_camposs_step_1">
+    قال الشاعر: والهم يخترم الجسيم نحافة …. ويشيب ناصية الصبي ويهرم\n
+    قد يظهر الاكتئاب مثل السحب التي تسبق العاصفة. فربما لا تلاحظها في البداية، ولكن بمرور الوقت، تتكثف وتستقر، مما يصعب على من تحب رؤية الطريق للأمام. لا يمكنك إيقاف السحب، ولكن التعرف عليها مبكرًا يسمح لك بالاستعداد. ففهم الأعراض يساعد في التعامل مع أي حالة تواجهها.
+</string>
+
+    <string name="step_2_title">الاقتراب بتعاطف</string>
+    <string name="step_2_desc">
+    عند التفاعل مع شخص يعاني من الاكتئاب، تجنب أن تقول مثلا: "لم أنت حزين هكذا؟ يجب أن تفرح!" فهذه العبارات قد تعطي انطباعا لمن تخاطبه بأنك تحكم عليه ببساطة أن ما يواجهه أمر عادي بينما ذلك خارج عن سيطرته ولا يستطيع التحكم به، مما يجعلهم يشعرون بأسوأ أو ربما أقل رغبة في الانفتاح. بدلاً من تصنيف مشاعرهم، عبر عن ملاحظاتك بتعاطف، مثل قولك: "لقد لاحظت أنك تبدو مختلفًا قليلًا في الآونة الأخيرة"، وطمئنهم بقولك: "أنا هنا إذا أردت التحدث."
+عندما يقررون التحدث، مارس الاستماع النشط. وهذا يعني إعطاء كامل انتباهك لهم، والحفاظ على التواصل البصري، والرد بإيماءات تأكيدية أو إشارات لفظية قصيرة. تجنب مقاطعتهم أو تقديم حلول فورًا؛ أحيانًا هم فقط بحاجة إلى شخص يستمع لهم.
+قال الشاعرفي حزنه على أبنائه:
+قالَت أُمَيمَةُ ما لِجِسمِكَ شاحِباً .. مُنذُ اِبتَذَلتَ وَمِثلُ مالِكَ يَنفَعُ
+أَم ما لِجَنبِكَ لا يُلائِمُ مَضجَعاً .. إِلّا أَقَضَّ عَلَيكَ ذاكَ المَضجَعُ
+وقال آخر في الحزن على أخيه:
+تقول سليمى ما لجسمك شاحبا … كأنك يحميك الشراب طبيب
+</string>
+    <string name="step_2_action">مارس الاستماع النشط وابتعد عن تقديم حلول فورية.</string>
+
+    <string name="step_1_action">
+    افتح محادثات لطيفة حول كيف يشعرون. اسأل بلطف: "كيف تشعر اليوم؟ لا بأس إذا لم تكن الأمور على ما يرام. أنا هنا للاستماع."
+</string>
+
+    <string name="step_3_title">تجنب الإيجابية السامة</string>
+    <string name="step_3_desc">في مساعيك لدعم شخص يعاني من الاكتئاب، من الضروري أن تدرك الفرق بين التشجيع الحقيقي والإيجابية السامة. بينما من المهم الحفاظ على نظرة إيجابية، من الضروري الابتعاد عن العبارات المبسطة للغاية التي قد تقلل بشكل غير مقصود من واقع صراع الشخص مع الاكتئاب. العبارات مثل "فقط كن سعيدًا!"، "لديك الكثير لتكون سعيدًا به!"، أو "ستكون بخير؛ فقط أعطها وقتًا" وتلك العبارات قد تبدو داعمة لكنها قد تظهر كأنها تتجاهل مشاعرهم.
+بدلاً من ذلك، اعترف بمشاعرهم وأكد لهم أن الشعور الحزن أو الإحباط أو أيّ من المشاعر السلبية أمر طبيعي في الأوقات الصعبة. يمكنك قول شيء مثل: "أعلم أن هذا صعب عليك، ومن الطبيعي أن تشعر هكذا." هذه الطريقة تعزز الاتصال الحقيقي، مما يتيح لهم التعبير عن مشاعرهم دون ضغط
+</string>
+    <string name="step_3_action">اعترف بمشاعرهم وشجعهم على التعبير عن أنفسهم.</string>
+
+
+    <string name="step_4_title">كن ملاذه</string>
+    <string name="step_4_desc">
+   تخيل أن من تحب مثل شجرة في وسط عاصفة مليئة بالأفكار والمشاعر السلبية ولا يحتاج في تدخلك معه إلى عواصف أخرى تعصف به ولكن خصص معه وقتًا للرفقة الهادئة فلا داعي لتقديم الحلول ولكن فقط كن موجودًا.
+أَلا يا طَبيبَ النَفسِ أَنتَ طَبيبُها … فَرِفقاً بِنَفسٍ قَد جَفاها حَبيبُها
+</string>
+    <string name="step_4_action">اقض وقتًا هادئًا معهم دون ضغط.</string>
+
+    <string name="step_5_title">شجعهم على طلب المساعدة المهنية</string>
+    <string name="step_5_desc">أحيانًا تكون الأفكار والمشاعر السلبية التي يمر بها من تحب ثقيلة جدًا، وحتى وإن حاولت مواساته، ولكن لا يمكنك إرشاده بمفردك. هنا يحتاج إلى مساعدة مهنية. اقترح بلطف أن يتواصل مع طبيب أو مستشار للحصول على المساعدة، وبدون ضغط. فيمكنك أن تقول: "أعتقد أن التحدث إلى طبيب قد يساعدك في العثور على بعض السلام.
+</string>
+    <string name="step_5_action">اعرض مساعدته في البحث عن أطباء أو مرافقتهم إلى أول موعد.</string>
+
+    <string name="step_6_title">كن صبورًا وموجودًا</string>
+    <string name="step_6_desc">
+التعافي من الاكتئاب هو عملية متراكمة، ومن المهم أن تكون صبورًا. سيكون هناك أيام جيدة وأيام سيئة. استمر في دعمه، حتى لو شعرت أن جهودك لا تؤتي ثمارها فورًا.
+فكر في الأمر مثل زراعة البذور. ففي البداية، لا يظهر النمو سريعا. ولكن مع العناية المستمرة، تتعمق الجذور وفي النهاية، تنمو الشجرة. </string>
+    <string name="step_6_action">استمر في دعمه حتى لو لم تظهر النتائج فورًا.</string>
+
+    <string name="step_7_title">تعرف على السحب الأكثر ظلمة</string>
+    <string name="step_7_desc">أحيانًا، يأخذ الطريق منعطفًا خطيرًا. فيمكن أن يؤدي الاكتئاب إلى التفكير في إيذاء النفس أو الانتحار، وهنا يكون اليقظة أكثر أهمية. تعرف على علامات التحذير، مثل الانسحاب من الآخرين أو الحديث عن الموت.
+لا تخف من أن تسأل: "هل تفكر في إيذاء نفسك؟" إنه سؤال صعب، ولكن قد ينقذ الحياة. إذا كانت الإجابة بنعم، اتخذ إجراءً على الفور واتصل بأخصائي أو خدمة الطوارئ. حبك واستجابتك السريعة يمكن أن يسحبهم من تلك اللحظة المظلمة.
+</string>
+    <string name="step_7_action">ابحث عن علامات التحذير واتخذ إجراءات سريعة إذا لزم الأمر.</string>
+
+    <string name="step_8_title">قدم الدعم العملي</string>
+    <string name="step_8_desc">
+   قد يجعل الاكتئاب المهام البسيطة مرهقة. تدخل بهدوء لمساعدة من تحب في المهام الصغيرة. ربما تطهو وجبة أو تساعد في بعض الواجبات المنزلية والأعمال البسيطة يمكن أن تخفف من العبء عنه وتمنحه مساحة للتركيز على صحتهم النفسية.
+مَن ذا الطّبيبُ لأدْوائي وأوجاعي .. أو الرّفيق على همّي وأزماعي
+قد كنتُ جَلْداً ولكنْ رُبَّ أقضِيَةٍ .. خَلَطْن جَلْداً على البلوى بمُلتاعِ
+يا صاحبي يوم رام الدّهرُ منقصتِي .. وراع منّي جَناناً غيرَ مرتاعِ
+قم سلِّ قلبِيَ عمّا في بَلابِلِهِ .. ففيه ما شئتَ من سَقْمٍ وأوجاعِ
+ليس اللّسانُ وإن أوْفَتْ براعتُهُ .. مترجماً عن جوىً ما بين أضلاعي
+</string>
+    <string name="step_8_action">قدم المساعدة في المهام البسيطة لتخفيف العبء عنهم.</string>
+
+    <string name="step_9_title">قدم الضوء بجرعات صغيرة</string>
+    <string name="step_9_desc">الاكتئاب مثل أن تكون محاصرًا في غرفة مظلمة. لا يمكنك دفعهم إلى النور، ولكن يمكنك فتح نافذة وترك شعاع صغير من الضوء يمر من خلالها. شجعهم على اتخاذ خطوات صغيرة للمشاركة في الأنشطة أو القيام بشيء كانوا يستمتعون به، حتى لو لفترات قصيرة، مثل المشي أو مشاهدة فيلم مفضل.
+</string>
+    <string name="step_9_action">ابدأ بأنشطة بسيطة وقابلة للتحقيق. تجنب إرهاقهم بالكثير دفعة واحدة، واحتفل بالإنجازات الصغيرة على طول الطريق.</string>
+    <string name="you_can_seek_help_and_psychological_support_n_from_the_relevant_authorities">بإمكانك طلب المساعدة والدعم النفسي \n من الجهات المختصة</string>
+    <string name="no_internet">No Internet\n</string>
+    <string name="plan_your_day">خطط يومك</string>
+    <string name="daily_planner">المخطط اليومى</string>
+    <string name="no_plans_for_today">لا توجد خطط لليوم. أضف مهامك الآن!</string>
+
+    <string name="choose_day">اختيار اليوم</string>
+    <string name="choose_the_day_you_would_like_to_plan">اختر اليوم الذي تود لبدء التخطيط</string>
+    <string name="let_s_get_started">هيا بنا لنبدء</string>
+    <string name="choose_activities">اختيار الانشطة</string>
+    <string name="choose_your_daily_activity_you_can_choose_more_than_one_activity">اختر نشاطك اليومي, يمكنك اختيار اكثر من نشاط </string>
+    <string name="writing_short_story">كتابة قصة قصيرة</string>
+    <string name="drink_a_cup_of_coffee_or_tea">شرب كوب من القهوة او الشاى</string>
+    <string name="exposure_to_sunlight">التعرض لاشعة الشمس</string>
+    <string name="spend_time_with_a_pet">قضاء وقت مع حيوان اليف</string>
+    <string name="plant_care">عناية بالنباتات</string>
+    <string name="reading_a_book">قراءة كتاب</string>
+    <string name="create_your_own_activity">انشئ نشاطك الخاص</string>
+    <string name="fill_out_the_required_fields_to_create_your_activity">قم بتعبئة الحقول المطلوبة لانشاء النشاط الخاص بك</string>
+    <string name="add_a_sticker_or_symbol_for_your_own_activity">اضف ملصقا او رمزا لنشاطك الخاص</string>
+    <string name="the_day_you_have_pre_selected_for_the_activity">اليوم الذى قمت مستبقا بإختياره للنشاط</string>
+    <string name="what_is_the_name_of_your_activity">ما اسم نشاطك</string>
+    <string name="describe_your_activity_in_a_simple_way_optional">اوصف نشاطك بشكل بسيط</string>
+    <string name="create_activity">إنشاء النشاط</string>
+    <string name="everything_is_ready_now_you_can_start_now">اصبح كل شئ جاهز الان يمكن البدء الان</string>
+    <string name="great_job">عمل رائع!</string>
+    <string name="today_s_plan_is_complete">اتمتت خطة اليوم</string>
+    <string name="day_plan">خطة اليوم</string>
+    <string name="tracking">تتبع</string>
+    <string name="activity_name_is_required">قم بإدخال اسم النشاط</string>
+    <string name="special_activity">نشاط خاص</string>
+    <string name="create_activity2">إنشاء النشاط</string>
+    <string name="helping_someone_suffering_from_depression">مساعدة شخص يعانى من الاكتئاب</string>
+    <string name="tap_the_emoji_that_best_matches_your_mood_at_this_moment">اضغط على الإيموجي الذي يعبر عن حالتك المزاجية الآن</string>
+    <string name="happy">سعيد</string>
+    <string name="calm_relaxed">هادئ/مسترخ</string>
+    <string name="anxious_overwhelmed">قلق/مرتبك</string>
+    <string name="sad_down">حزين/ محبط</string>
+    <string name="tired_fatigued">متعب/مرهق</string>
+    <string name="angry_irritated">غاضب/منزعج</string>
+    <string name="let_s_start_now">لنبدأ الان</string>
+    <string name="hi_let_s_check_in_with_how_you_re_feeling_right_now_before_we_start">مرحبًا! لنبدأ بفحص حالتك المزاجية قبل أن نبدأ البرنامج</string>
+    <string name="would_you_like_to_share_what_s_affecting_your_mood">هل ترغب في مشاركة ما يؤثر على حالتك المزاجية؟</string>
+    <string name="work">العمل</string>
+    <string name="friends">الاصدقاء</string>
+    <string name="health">"الصحة"</string>
+    <string name="family">العائلة</string>
+    <string name="money">المال</string>
+    <string name="other_reasons_write_here_optional">اسباب اخرى اكتب هنا…(إختياري)</string>
+    <string name="let_s_see_how_today_s_program_helps_you_feel_better">دعونا نرى كيف يساعدك برنامج اليوم على الشعور بالتحسن!</string>
+    <string name="start_today_program">ابدأ برنامج اليوم</string>
+    <string name="it_s_great_to_see_you_happy">1.من الرائع أن تشعر بالسعادة!</string>
+    <string name="let_us_channel_that_positive_energy"> دعنا نستثمر طاقتك الإيجابية ونوجهها لأشياء تمنحك مزيدًا من الفرح</string>
+    <string name="share_your_happiness">
+        شارك سعادتك مع شخص تحبه من خلال مكالمة أو زيارة من أجل قضاء وقت ممتع. كما يمكنكما معًا التخطيط لنشاط مميز ، كتحضير وجبة تقليدية، أو التنزه في حديقة قريبة، أو مشاهدة فيلم مفضل لخلق ذكريات جميلة
+    </string>
+    <string name="tip_use_the_app_s_daily_planne">نصيحة: استخدم أداة التخطيط اليومي في التطبيق لتحديد أنشطة اجتماعية وعائلية أسبوعية لتعزيز الروابط وخلق ذكريات دائمة</string>
+    <string name="start_a_creative_project">
+        ابدأ مشروعًا كنت تؤجله، مثل إعادة ترتيب غرفة، أو تصميم هدايا يدوية، أو تعلم شكل جديد من الفنون. خصص وقتًا يوميًا حتى لو كان بسيطًا لتحقيق التقدم. استمتع بمشروعك واتخذه وسيلة للتعبير عن الذات واستمد منه الشعور بالإنجاز والإلهام
+    </string>
+    <string name="use_your_energy">استخدم طاقتك وسعادتك لنشر الإيجابية من خلال التطوع أو مساعدة من يحتاج إلى دعم. سواءً كان ذلك بمساعدة جار، أو التبرع بمواد للمحتاجين، فإن لطفك لن يضيء يوم شخص آخر فحسب، بل سيزيد أيضًا من شعورك بالرضا</string>
+    <string name="there_s_nothing_like_the_feeling_of_peace">لا شيء يضاهي الشعور بالسلام!</string>
+    <string name="let_s_hold_onto_this_tranquility">ولذا دعنا نحافظ على هذا الهدوء وندعم تدفق الطاقة الإيجابية</string>
+    <string name="enjoy_a_warm_cup">استمتع بفنجان دافئ من شاي الأعشاب مثل شاي البابونج أو شاي النعناع أثناء قراءة كتاب أو التدوين في مفكرتك. أو خصص وقتًا للتأمل والاتصال بأفكارك في بيئة هادئة ومريحة</string>
+    <string name="tip_make_use_of_the_app">نصيحة: استخدم أداة التدوين في التطبيق لمشاركة أفكارك مع داعميك</string>
+    <string name="treat_yourself_to_a_self">دلل نفسك بتجربة عناية ذاتية مثل وضع قناع للوجه، أو نقع القدمين، أو جلسة مانيكير/باديكير للحصول على مظهر متجدد ومريح</string>
+    <string name="tip_make_self_care_a_priority">نصيحة: اجعل العناية الذاتية أولوية عن طريق جدولة روتين استرخاء أسبوعي باستخدام أداة التخطيط اليومي في التطبيق لرعاية جسمك وعقلك</string>
+    <string name="have_peaceful_evening">اقضِ مساءً هادئًا مع عائلتك من خلال مشاهدة فيلم ممتع، أو لعب لعبة لوحية</string>
+    <string name="tip_make_it_a_weekly">نصيحة: اجعلها عادة أسبوعية بجدولة "وقت الاسترخاء العائلي" لتعزيز الروابط والاسترخاء</string>
+    <string name="it_s_completely_okay">لا بأس أن تشعر بالإرهاق أحيانًا</string>
+    <string name="let_s_take_small">لذا دعنا نتخذ خطوات بسيطة وفعالة لاستعادة نشاطك وحيويتك</string>
+    <string name="it_s_tough_feeling_down">الشعور بالحزن أمر صعب</string>
+    <string name="but_remember_even">ولكن حتى الخطوات الإيجابية الصغيرة يمكن أن تغير حالتك المزاجية وتعيد شحن طاقتك</string>
+    <string name="channel_your_anger_into">مارس نشاطا رياضيا مكثفا مثل تمارين الضغط أو القفز. يساعد هذا النشاط البدني في تحرير الإحباط المكبوت، وتقليل التوتر، وإعادة توازن مزاجك. إنها استراتيجية فعّالة لتحويل الطاقة إلى شيء إيجابي ومحفز!</string>
+    <string name="grab_a_pen">امسك قلمًا ودون مشاعرك على الورق، واكتب رسالة دون نية إرسالها. إنها تقنية علاجية لتفريغ التوتر والإحباط وتنقية أفكارك!</string>
+    <string name="step_outside_and_take_deep_breaths_to_reset">اخرج واستنشق الهواء العميق لتهدئة نفسك</string>
+    <string name="tip_use_the_breathi">نصيحة: استخدم أداة التنفس في التطبيق لتنظيم أنفاسك وتخفيف التوتر</string>
+    <string name="practice_deep">مارس تمارين التنفس العميق لتهدئة ضربات قلبك</string>
+    <string name="tip_use_the_breathing_tool">نصيحة: استخدم أداة التنفس في التطبيق لتحديد الوقت المطلوب واتبع التعليمات المقدمة لك لمساعدتك على تنظيم أنفاسك</string>
+    <string name="take_a_mindful_slo">اخرج للمشي ببطء، وتأمل محيطك، واستمتع بالأصوات والروائح والطبيعة.   يمكن للطبيعة ان تهدئ العقل وتعيد السلام الداخلي</string>
+    <string name="organise_your_workstation">نظم مكان عملك، أو غرفة نومك، أو مساحتك الشخصية لإنشاء بيئة مريحة. تنظيم الأغراض والتخلص من الفوضى يمكن أن يساعد في تقليل القلق، وتحسين التركيز، وخلق بيئة منعشة تدعم صحتك النفسية!</string>
+    <string name="write_down_three_things">اكتب ثلاثة أشياء تشعرك بالامتنان هذا اليوم، حتى لو كانت بسيطة. التركيز على الامتنان يمكن أن يساعد في تغيير حالتك الذهنية</string>
+    <string name="call_or_message_someone_you_trust">تواصل مع شخص تثق به من خلال مكالمة أو رسالة وشاركه مشاعرك. في بعض الأحيان، مجرد التحدث عما تمر به يمكن أن يخفف العبء ويوفر الدعم</string>
+    <string name="watch_a_funny_show_movie">شاهد برنامجًا مضحكًا، أو فيلمًا ساخرا، أو استمع إلى بودكاست فكاهي لزيادة البهجة والضحك في يومك. الضحك وسيلة قوية لتغيير مزاجك واستعادة طاقتك!</string>
+    <string name="tip_make_use_of_the">نصيحة: استخدم أداة التدوين في التطبيق لمشاركة امتنانك مع داعميك</string>
+    <string name="close_your_eyes_and_take">أغلق عينيك وخذ قيلولة قصيرة لمدة 15-20 دقيقة لاستعادة طاقتك. هذه القيلولة مثالية للاسترخاء وتحسين التركيز والإنتاجية وصفاء الذهن، خاصة بعد يوم مزدحم أو ساعات عمل طويلة</string>
+    <string name="take_the_time_to_prepare">خصص وقتًا لتحضير وجبة صحية بمكونات طازجة مثل الخضروات، والبروتينات الخفيفة، والحبوب الكاملة لدعم صحتك العامة. استمتع بتجربة الطهي كجزء من رعاية ذاتك، واستشعر السعادة في تناول وجبة صحية محضرة يدويًا</string>
+    <string name="take_a_few_minutes">خصص بضع دقائق لممارسة تمارين التمدد بلطف لتخفيف التوتر المتراكم في جسمك. ركز على مناطق الرقبة، والكتفين، وأسفل الظهر التي تميل إلى جمع الإجهاد. حركات بسيطة مثل تدوير الرقبة بلطف، ورفع الكتفين وخفضهما، والالتفاف أثناء الجلوس يمكن أن تساعد في تقليل التعب وتحسين المرونة</string>
+    <string name="anger_is_a_natural_emotion">الغضب شعور طبيعي</string>
+    <string name="let_s_redirect_it_in_a_positive_and_constructive_way_to_create_change_and_growth">لذا دعنا نوجهه بطريقة إيجابية لتحقيق التغيير والنمو</string>
+    <string name="but_you_re_stronger_than_you_think_let_s_focus_on_calming_your_mind">ولكنك أقوى مما تعتقد؛ لذا دعنا نركز على تهدئة ذهنك</string>
+    <string name="feeling_overwhelmed_is_hard">الشعور بالقلق أمر صعب</string>
+    <string name="here_are_some_suggestions_to_improve_your_mood">إليك بعض الإقتراحات لتحسين حالتك المزاجية:</string>
+    <string name="here_are_some_suggestions_to_keep_your_mood_up">إليك بعض الإقتراحات للحفاظ على حالتك المزاجية:</string>
+    <string name="compare_results">مقارنة النتائج!</string>
+    <string name="now_compare_your_mood_results_for_the_day">الآن قارن نتائج حالتك المزاجية لهذا اليوم</string>
+    <string name="here_s_how_your_mood_has_changed">إليك كيف تغيرت حالتك المزاجية</string>
+    <string name="during_today_s_programme">أثناء برنامج اليوم</string>
+    <string name="well_done1">احسنت</string>
+    <string name="well_done11">احسنتي</string>
+    <string name="you_have_completed">لقد اتممت برنامجك اليومى وحصلت على العلامة الكاملة , نتمنى ان تستمر بفعل هذا كل يوم</string>
+    <string name="great_job_on_your_daily_program">عمل رائع فى برنامجك اليومى! </string>
+    <string name="let_s_check_your_mood_now">دعنا نفحص حالتك المزاجية الان</string>
+    <string name="after_today_s_programme">بعد برنامج اليوم</string>
+    <string name="before_today_s_programme">قبل برنامج اليوم</string>
+    <string name="your_progress_has_been_saved">تم حفظ تقدمك!</string>
+    <string name="review_your_mood_over_time">راجع حالتك المزاجية بمرور الوقت....</string>
+    <string name="you_can_track_your_mood_by_clicking_on_the_emoji_at_the_top_of_your_daily_schedule_page">يمكنك تتبع الحالة المزاجية من خلال النقر على الإيموجى الموجود فى اعلى الصفحة الخاصة ببرنامجك اليومى</string>
+    <string name="activity_1">اذهبي إلى نادي اللياقة أو الرياضة النسائي للحفاظ على حماسك.</string>
+    <string name="activity_2">احضري جلسة دبكة مع مجموعة نسائية للاستمتاع ولتحظي على اللياقة البدنية.</string>
+    <string name="activity_3">اجمع أصدقاءك من الرجال للعب مباراة كرة قدم في الهواء الطلق والاستمتاع بمنافسة ودية.</string>
+    <string name="activity_4">قم بتمارين منزلية بدون معدات مثل تمارين الضغط والقرفصاء باستخدام وزن الجسم.</string>
+    <string name="activity_5">استمتع بيوم من الصيد في بحيرة أو على البحر.</string>
+    <string name="activity_6">قم برحلة تخييم مع أحبائك.</string>
+    <string name="activity_7">امش في نزهة فردية لراحتك ولصفاء ذهنك.</string>
+    <string name="activity_8">اجمع أحبائك لنزهة في الحديقة حيث يمكنك الاستمتاع بالطعام المحضر في المنزل ولعب الألعاب.</string>
+    <string name="activity_9">انطلق في مغامرة تصوير في الهواء الطلق لالتقاط صور للمناظر الطبيعية أو الحضرية.</string>
+    <string name="activity_10">زر سوقًا من التراث الشعبي لاستكشاف المنتجات اليدوية والتفاعل مع البائعين.</string>
+    <string name="activity_11">استرخِ على الشاطئ، أو استمتع بالسباحة، أو قم بالمشي على طول الساحل.</string>
+    <string name="activity_12">العب ألعاب الطاولة العربية التراثية مثل طاولة الزهر أو الكرم مع أحبائك.</string>
+    <string name="activity_13">اقرأ من رواية لكاتب عربي وتعمق في رؤيته الثقافية وسرده المميز.</string>
+    <string name="activity_14">ازرع الأشجار أو الزهور أو الأعشاب في حديقتك.</string>
+    <string name="activity_15">تمرن على فن الخط العربي.</string>
+    <string name="activity_16">قم بعزف الآلات الموسيقية التراثية مثل العود أو الطبلة وانغمس في ألحان الموسيقى المحلية.</string>
+    <string name="activity_17">مارسي فن الحناء وابتكري تصاميم رائعة ومميزة.</string>
+    <string name="activity_18">حضري نسخة صحية من طبق تراثي باستخدام مكونات طازجة ومنخفضة السعرات الحرارية.</string>
+    <string name="activity_19">جربي إعداد الحلويات التراثية مثل البقلاوة، والكنافة، والقطايف.</string>
+    <string name="activity_20">قم بالغسيل والتنظيف الكامل لسيارتك من الداخل والخارج.</string>
+    <string name="activity_21">قومي بإشعال العود أو البخور لإضفاء رائحة مريحة وفاخرة على ملابسك ومنزلك.</string>
+    <string name="activity_22">استمتعي بوقت استرخاء في حمام تقليدي أو في منتجع صحي مخصص للنساء.</string>
+    <string name="activity_23">استخدمي الزيوت التقليدية للشعر، مثل زيت الأرجان أو زيت الحبة السوداء، لمنح شعرك مظهرًا صحيًا ولامعًا.</string>
+    <string name="activity_24">قومي بتحضير واستخدام أقنعة وجه منعشة مستخلصة من العسل وماء الورد والكركم.</string>
+    <string name="activity_25">حضري طبقًا تقليديا وشاركيه مع الجيران أو الأصدقاء.</string>
+    <string name="activity_26">ادعي صديقاتك المقربات لجلسة شاي أو قهوة واستمتعن بوقت مميز معًا.</string>
+    <string name="activity_27">استضف حفلة شواء ممتعة في الهواء الطلق مع العائلة والأصدقاء.</string>
+    <string name="activity_28">احضر تجمعًا عائليًا أو مع الأصدقاء لتعزيز الروابط وخلق ذكريات دائمة.</string>
+    <string name="activity_29">قم بتحضير وجبة مع أفراد أسرتك، وشارك معهم الوصفات، واستمتع بوقتك في المطبخ.</string>
+    <string name="activity_30">نظم أو شارك في أنشطة خيرية كتوزيع الطعام أو العمل التطوعي.</string>
+    <string name="activity_31">استمع إلى تلاوات من القرآن الكريم أو الأناشيد الإسلامية الهادئة.</string>
+    <string name="activity_32">احضر حلقات تدارس القرآن الكريم أو محاضرات في المسجد المحلي أو مركز مجتمعي.</string>
+    <string name="change_language">تغير اللغة</string>
+    <string name="you_have_completed_your_entire_plan_for_the_day_great_job">لقد اتممت خطة اليوم بالكامل هذا عمل رائع</string>
+    <string name="no_internet_connection">لا يوجد إتصال بالأنترنت</string>
+    <string name="mood_tracker">متتبع الحالة المزاجية</string>
+    <string name="things_that_affected_your_mood">الأشياء التى اثرت على حالتك المزاجية</string>
+    <string name="the_results_of_your_daily_program_completion_will"> نتائج انجاز البرنامج اليومى خلال ال 30 يوما</string>
+    <string name="you_do_not_have_access_to_the_mood">ليس لديك صلاحية للاطلاع على الحالة المزاجية</string>
+    <string name="you_do_not_have_permission_to_view_the_daily_program">ليس لديك صلاحية للاطلاع على البرنامج اليومى</string>
+    <string name="you_do_not_have_access_to_send_a_private_message">ليس لديك صلاحية لإرسال رسالة خاصة</string>
+    <string name="will_reset_the_current_day_from_beginning">سيتم إعادة تعيين اليوم الحالي من البداية</string>
+    <string name="encouragement_notification_channel_id">Encouragement messages</string>
+    <string name="encouragement_messages">رسائل تشجيعية
+</string>
+    <string name="activities_reminder">Activities reminder</string>
+    <string name="a_whiff_of_faith">نفحة إيمانية</string>
+    <string name="a_step_towards_change">خطوة نحو التغيير</string>
+    <string name="time_of_adventure">ميدان المغامرة</string>
+    <string name="morning">الصباح</string>
+    <string name="afternoon">بعد الظهيره</string>
+    <string name="evening">المساء</string>
+    <string name="activity_reminder">تذكير بالانشطة</string>
+    <string name="where_am_i">📍أين أنا الآن؟</string>
+    <string name="skip">تخطى</string>
+    <string name="choose_sound">اختيار الصوت</string>
+    <string name="sound_rain">صوت المطر</string>
+    <string name="sound_sea">صوت البحر</string>
+    <string name="no_sound">بلا صوت</string>
+    <string name="sound_air">نسيم الهواء</string>
+    <string name="sound_birds">صوت الطيور</string>
+    <string name="caf_for_restructuring_ideas">مقهى إعادة هيكلة الافكار</string>
+    <string name="entry_to_caf">الدخول للمقهى</string>
+    <string name="choose_your_cup_carefully">اختر كوبك بعناية</string>
+    <string name="coffee">القهوة</string>
+    <string name="result">النتيجة</string>
+    <string name="bitter_coffee">القهوة المرة</string>
+    <string name="unbalanced_negative_thoughts">أفكار سلبية غير متوازنة</string>
+    <string name="will_you_let_discouraging_thoughts_take_over_starting_your_day_with_feelings_of_helplessness_and_frustration">هل ستسمح للأفكار المحبطة أن تسيطر عليك، فتبدا يومك بشعور من العجز والإحباط؟</string>
+    <string name="temporary_comfort_but_in_the_end_you_ll_find_yourself_stuck_in_the_same_place_without_progress">ستعيش في دائرة من التوتر والتردد، حيث يبدو كل شيء أصعب مما هو عليه</string>
+    <string name="over_sugary_coffee">القهوة السكرية الزائدة</string>
+    <string name="escaping_from_reality">هروب من الواقع</string>
+    <string name="will_you_choose_to_escape_into_an_illusion_of_comfort_ignoring_real_problems_and_challenges">هل ستختار الهروب إلى وهم الراحة، متجاهلاً المشكلات والتحديات الحقيقية؟</string>
+    <string name="you_will_live_in_a_cycle_of_stress_and_hesitation_where_everything_seems_harder_than_it_really_is">ستعيش في دائرة من التوتر والتردد، حيث يبدو كل شيء أصعب مما هو عليه.</string>
+    <string name="balanced_coffee">القهوة المتوازنة</string>
+    <string name="positive_restructuring">إعادة هيكلة إيجابية</string>
+    <string name="will_you_approach_your_day_with_a_realistic_and_balanced_mindset_embracing_challenges_consciously_and_seeking_solutions_instead_of_getting_stuck_on_obstacles">هل ستناول يومك بعقلية واقعية ومتزنة، تتقبل التحديات بوعي، وتبحث عن حلول بدلاً من التوقف عند العقبات؟</string>
+    <string name="this_cup_gives_you_the_strength_to_keep_growing_and_developing_without_exaggeration_or_minimization">هذا الفنجان يمنحك القوة لمواصلة النمو والتطور دون تهويل أو تهوين</string>
+    <string name="step_1_choose_your_thought">الخطوة ١: اختر فكرتك!</string>
+    <string name="what_thought_is_on_your_mind_today">ما الفكرة التي تدور في ذهنك اليوم؟</string>
+    <string name="my_thought">فكرتي:</string>
+    <string name="today_i_found_myself_thinking_about">اليوم، وجدت نفسي أفكر في...</string>
+    <string name="now_which_cup_does_this_thought_belong_to">الآن، إلى أي فنجان تنتمي هذه الفكرة؟</string>
+    <string name="exit_the_caf">الخروج من المقهى</string>
+    <string name="step_2_taste_the_idea_is_it_balanced">الخطوة ٢: تذوق الفكرة – هل هي متوازنة؟</string>
+    <string name="start_by_identifying_your_emotion"><font color='#5994d5'>ابدأ بتحديد المشاعر ولاحظ كيف تؤثّر هذه المشاعر على تفكيرك</font> ما هي المشاعر التي تولدها هذه الفكرة؟ هل تشعر بالقلق، الخوف، أو الإحباط؟</string>
+    <string name="one">١</string>
+    <string name="two">٢</string>
+    <string name="three">٣</string>
+    <string name="four">٤</string>
+    <string name="five">٥</string>
+    <string name="check_the_truth_of_the_idea_and_whether_there_is_evidence_to_support_it_is_this_idea_based_on_concrete_facts_or_merely_an_assumption_or_an_emotional_response_to_a_particular_situation"><font color='#5994d5'>تحقق من حقيقة الفكرة وما إذا كانت هناك أدلة تدعمها</font> هل هذه الفكرة مبنية على حقائق ملموسة أم مجرد افتراضات أو استجابة عاطفية لحالة معينة؟</string>
+    <string name="consider_the_effect_of_the_idea"><font color='#5994d5'>فكر في تأثير الفكرة على سلوكك</font> كيف ستؤثر هذه الفكرة على تصرفاتك وسلوكك اليوم؟</string>
+    <string name="examine_the_available_evidence"><font color='#5994d5'> افحص الأدلة المتاحة</font> ما هي الأدلة التي تدعم هذه الفكرة؟ وما هي الأدلة التي تتناقض معها؟ هل هناك معلومات قد تكون غفلت عنها؟</string>
+    <string name="reframe_the_idea_what_do_i_have"><font color='#5994d5'>أعد صياغة الفكرة</font> ماذا سأشعر إذا تمسكت بهذه الفكرة، وما الذي يمكنني كسبه إذا اخترت رؤية الموقف بشكل أكثر إيجابية؟ كيف يمكنك تعديل هذه الفكرة لتكون أكثر توازنًا وواقعية؟</string>
+    <string name="before_you_drink">قبل أن "تجرب" هذه الفكرة، لنختبرها بالإجابة على الأسئلة التالية:</string>
+    <string name="step_3_how_would">الخطوة ٣: كيف تود إعادة ضبط نكهة فكرتك؟</string>
+    <string name="just_as_you_add_sugar_or_milk_to_adjus">كما تضيف السكر أو الحليب لتعديل مذاق قهوتك، أعد صياغة أفكارك بطريقة متوازنة.</string>
+    <string name="choose_the_method_that_works_best_for_you_to_prepare_the">اختر الطريقة التي تناسبك لتحضير </string>
+    <string name="most_balanced_blend">المزيج الأكثر توازنًا</string>
+    <string name="restructure_with_a_supporter">أعد الهيكلة مع الداعم:</string>
+    <string name="exchange_cups_with_a_friend">تبادل الفناجل مع صديق</string>
+    <string name="restructure_yourself">إعادة الهيكلة بنفسك:</string>
+    <string name="take_a_moment_to_review_your_idea_use_the_challenge_questions_and_then_rewrite_it_in_a_more_balanced_style">خذ لحظة لمراجعة فكرتك، استخدم أسئلة التحدي، ثم أعد كتابتها بأسلوب أكثر اتزانًا.</string>
+    <string name="friend_reset_the_thought_myself">أعد ضبط الفكرة بنفسي</string>
+    <string name="share_your_idea">شارك فكرتك مع الداعم، ليساعدك في إعادة صياغتها بمنظور جديد وأكثر اتزانًا، ثم يرسلها إليك.</string>
+    <string name="step_4_now_adjust_the_mix">الخطوة ٤: إعادة الهيكلة بنفسك</string>
+    <string name="rewrite_the_idea_in_a_more_balanced_way">الان عدل المزيج! \n أعد كتابةالفكرة بطريقة أكثر توازنا</string>
+    <string name="a_better_way_to_think_about_this_is">طريقة أفضل للتفكير فى هذا هى ..</string>
+    <string name="step_5_taste_the_new_thought">الخطوة ٥ : تذوق الفكرة الجديدة </string>
+    <string name="now_read_the_reframed_thought_aloud_and_reflect_on_it">الآن، اقرأ بصوت عال الفكرة بعد أعادة صياغتها وتأمل فيها: </string>
+    <string name="how_do_you_feel_now_that">كيف تغير شعورك الآن بعد إعادة صياغة الفكرة؟ هل أصبح لديك شعور بالراحة أو الإيجابية أكثر؟
+ما الذي اختلف عن البداية ؟
+</string>
+    <string name="has_this_new_reframing">هل غيرت هذه الصياغة الجديدة من طريقة تفكيرك حول الموقف ؟ هل أصبحت أكثر تفهماً أو أقل توتراً تجاهه؟ </string>
+    <string name="how_can_you_continue">كيف يمكنك الاستمرار في " تحضير " أفكار متوازنة كل يوم؟ ما هي الخطوات التي يمكنك اتخاذها لتستمر في التفكير بشكل إيجابي و متوازن في تحديات الحياة المقبلة ؟</string>
+    <string name="always_choose_thoughts_that">دائماً اختر الأفكار التي تمنحك القوة والتفاؤل. و تساعدك على التحسن المستمر. أجعل كل فكرة تساهم في بناء نسخة أفضل من نفسك</string>
+    <string name="stop_for_a_moment">توقف لحظة...وكن صادقاً مع نفسك. </string>
+    <string name="if_you_feel_that_restructuring">إذا شعرت أن إعادة هيكلة الفكرة لم تخفف من ثقلها، أو أن الفكرة السلبية ما زالت تلاحقك رغم محاولتك، أو إذا لم تحدث الفكرة الجديدة أي فرق في مشاعرك...</string>
+    <string name="don_t_hesitate_to_seek_help_from_a_mental_health_professional">فلا تتردد في طلب المساعدة من مختص نفسي. </string>
+    <string name="step_6_implement_the_new_thought">الخطوة ٦ : نقد الفكرة الجديدة </string>
+    <string name="now_that_you_ve_gained_a_more_balanced_perspective_it_s_time_to_put_it_into_practice">الآن بعد أن حصلت على منظور أكثر توازنا، حان وقت التطبيق </string>
+    <string name="do_you_want_to_solidify">هل ترغب في ترسيخ الفكرة الجديدة و تحسين مزاجك ؟ </string>
+    <string name="choose_a_simple_activity">اختر نشاطاً بسيطاً يعبر عن هذا التغيير الجديد ( مثل: أخذ استراحة, إتمام مهمة مؤجلة ) .... </string>
+    <string name="and_schedule_it_in_your_calendar"><b><font color="#204167">و جدولها اليوم أو هذا الأسبوع في تقويمك</font></b> حتى تكون جزءاً من واقعك</string>
+    <string name="the_idea_is_not_complete"> <b><font color="#5994d5">فالفكرة</font></b> لا تكتمل إلا عندما تجد مكاناً في يومك, كما وجدت صدى في عقلك</string>
+    <string name="go_to_the_daily_planner">انتقل إلى المخطط اليومي</string>
+    <string name="unrealistic_thinking">(التفكير غير الواقعي)</string>
+    <string name="ignoring_challenges">تجاهل التحديات أو الطمأنة المفرطة مثل: "كل شيء سيتحسن لا أحتاج بذل أي جهد!"</string>
+    <string name="negative_thinking">(التفكير السلبي)</string>
+
+    <string name="depressing_thoughts">أفكار محبطة مثل:
+"هذا صعب جدا. لن أنجح أبدا"
+</string>
+    <string name="realistic_thinking">(التفكير الواقعي)</string>
+    <string name="acknowledge_the_difficulties">الاعتراف بالصعوبات لكن مع رؤية إيجابية مثل: "هذا تحد، لكن يمكنني التحسن مع الوقت"</string>
+    <string name="please_enter_your_idea">يرجى إدخال فكرتك</string>
+    <string name="please_select_the_cup">يرجى اختيار الكوب</string>
+    <string name="please_answer_all_questions">يرجى الإجابة على جميع الأسئلة</string>
+    <string name="please_write_your_idea">يرجى كتابة فكرتك</string>
+    <string name="step_4_now_your_supporter">الخطوة ٤: الآن، سيساعدك داعمك على تعديل المزيج!</string>
+    <string name="your_friend_rephrases">صديقك يعيد صياغة فكرتك بطريقة أكثر توازنًا وواقعية.</string>
+    <string name="your_friend_s_reply">رد صديقك</string>
+    <string name="choose_a_friend_whom_you_would_like_to_share_your_thoughts_with">اختر صديقك الذى تود تبادل افكارك معه...</string>
+    <string name="in_this_mindful_caf_we_filter">في هذا المقهى الذهني، نُصفّي أفكارنا كما نُصفّي قهوتنا، ونُعيد ضبط نكهتها خطوة بخطوة، حتى نصل إلى المذاق المتوازن. فنجانًا بعد فنجان، نمنح الحياة طعمًا مختلفًا… طعمًا يليق بنا\n\n
+تمامًا كما تختلف نكهات القهوة، تختلف أيضًا طرق التفكير. بعض الأفكار تكون مرّة تثقل القلب، وأخرى زائدة الحلاوة تزيّف الواقع، بينما هناك أفكار متوازنة تمنحنا طاقة حقيقية ووضوحًا داخليًا</string>
+    <string name="the_thought_restructuring_caf">مقهى إعادة هيكلة الأفكار!</string>
+    <string name="welcome_to">مرحبًا بك في</string>
+    <string name="through_this_simple_and_gentle">من خلال هذا التمرين البسيط واللطيف، يمكنك أن تساعد من تحب على التعرّف إلى "الفكر" الذي يشربه كل يوم، هل هو يرهقه؟ يخدّره؟ أم يمنحه قوة؟\n\nومن هناك، تبدأ الرحلة لإعادة تحضير فكرة أكثر توازنًا... فكرة تُشبه فنجان القهوة الذي يُنعشك دون أن يُرهقك، ويواسيك دون أن يُخدّرك.</string>
+    <string name="what_is_the_goal_of_the_thought_restructuring_caf"><font color='#35a1e8'>ما هدف </font>\"مقهى إعادة الأفكار؟ \"</string>
+    <string name="depression_isn_t_just">الاكتئاب ليس فقط شعور بالحزن، بل غالبًا ما يكون محاطًا بأفكار قاسية، وغير واقعية.مقهى الأفكار مصمم لمساعدة الشخص العزيز عليك في التعامل مع أفكاره السلبية دون هجوم أو إنكار، بل من خلال مشاركة داعمة، حنونة، وخطوات عملية لإعادة صياغة هذه الافكار، وجعلها:
+</string>
+    <string name="more_realistic">أكثر واقعية
+</string>
+    <string name="less_harsh">أقل قسوة
+</string>
+    <string name="more_balanced">أقرب للتوازن
+</string>
+    <string name="more_supportive_of_mental_health">أكثر دعمًا للصحة النفسية</string>
+    <string name="in_simple_words">بكلمات بسيطة، هذا التمرين ليس عن "تغيير رأيه"، بل عن مرافقته بلطف داخل عقله حتى يرى بأن هناك فنجانًا آخر يمكنه اختياره.</string>
+    <string name="why_is_the_caf_important"><font color = '#35a1e8'> لماذا</font> مقهى إعادة الأفكار</string>
+    <string name="important2">مهم</string>
+
+    <string name="because_it_creates">لأنه يخلق مساحة آمنة للتفكير دون حُكم.
+</string>
+    <string name="because_it_gives_the_patient">لأنه يمنح المريض شعورًا بأنه ليس وحده في مواجهة أفكاره.
+</string>
+    <string name="because_it_cultivates_the_concept_of_i_choose_my_thoughts_rather_than_my_thoughts_control_me">لأنه يزرع مفهوم "أنا أختار أفكاري" بدل "أفكاري تتحكم بي".</string>
+    <string name="you_don_t_need">أنت لا تحتاج أن تكون معالجًا نفسيًا... أنت فقط تحتاج أن تكون "رفيق فكر".شخص يُمسك بيده فنجان القهوة الثاني، ويدعو من يحب للجلوس والحديث... ثم يختاروا معًا الفكرة التي تستحق أن تُشرب.
+</string>
+    <string name="note">ملاحظة</string>
+    <string name="before_you_begin"> قبل البدء:</string>
+    <string name="in_the_thought_restructuring">فى مقهى الأفكار، سنرافقك خطوة بخطوة لتعلّم كيف تساعد من تحب فى إعادة هيكلة أفكاره السلبية لتمكينك من لعب دور داعم وفعّال، ولكن بطريقة آمنة ومدروسة. هدفنا ليس أن تحل محل المختص، بل أن تكون رفيقًا واعيًا وداعمًا في لحظة صعبة، وأن تساعده على رؤية الأمور من زوايا جديدة وبنَفَس أكثر توازنًا.
+</string>
+    <string name="when_your_loved_one_shares_their_troubling_thoughts_with_you_they_give_you_a_window_into_their_inner_world_therefore_we_strongly_recommend_following_the_steps_outlined_in_the_guide_to_ensure_you_provide_the_best_possible_support_in_a_safe_manner">حين يشاركك من تحب ما يزعجه من أفكار، فهو يمنحك نافذة على عالمه الداخلي. ولهذا، نوصي بشدة بـ اتباع الخطوات كما وردت في الدليل، لضمان تقديم الدعم بأفضل شكل ممكن، وبطريقة آمنة.
+</string>
+    <string name="this_exercise_is_intended_for_dealing_with_everyday_negative_thoughts_associated_with_depression_and_anxiety_not_for_acute_psychological_crises_if_you_notice_that_the_person_you_are_supporting">هذا التمرين مخصص للتعامل مع الأفكار السلبية اليومية المرتبطة بالاكتئاب والقلق، وليس للأزمات النفسية الحادة.إذا لاحظت أن الشخص الذي تدعمه:
+</string>
+    <string name="expresses_a_desire_to_harm_themselves_or_others">يُعبّر عن رغبة في إيذاء نفسه أو الآخرين،
+</string>
+    <string name="talks_about_suicide_or_a_complete_loss_of_interest_in_life">يتحدث عن الانتحار أو فقدان الرغبة الكاملة في الحياة،
+</string>
+    <string name="exhibits_a_complete_detachment_from_reality_or_exhibits_severe_disturbing_behavioural_changes">يُظهر انفصالًا تامًا عن الواقع، أو تغيّرات سلوكية مقلقة بشكل حاد،</string>
+    <string name="this_is_an_indication">فهذا مؤشر على أن الوضع يتطلب تدخّلًا مهنيًا فوريًا. في هذه الحالة، لا تتردد في التواصل مع مختص نفسي أو خدمات الطوارئ.
+</string>
+    <string name="your_support_is_important"> وجودك مهم، لكن في بعض المواقف، الدعم المهني يصبح ضرورة لا بديل لها</string>
+    <string name="important">تنبيه مهم:</string>
+    <string name="this_is_the_thought">هذه هي الرسالة التي وصلتك من صديقك:
+</string>
+    <string name="the_thought_he_s_having">الفكرة التي تراوده:</string>
+    <string name="the_cup_he_thinks_belongs_to"> الفنجان الذي يعتقد أنها تنتمي إليه:</string>
+    <string name="now_let_us_begin_together">لنحضّر فنجان التغيير، ونكون الرفيق الهادئ لمن نحب
+</string>
+    <string name="what_does_cups_mean">ما معنى الفناجين؟</string>
+    <string name="when_your_friend_write">عندما يقوم صديقك بكتابة الفكرة التي تراوده دائما سيختار أحد الفناجين الثلاثة التي تنتمي إليها فكرته. إليك على الطاولة بالأسفل شرح المعاني الفناجين.</string>
+    <string name="receive_the_thought">استقبل الفكرة باحتواء\n (من دون رفض أو تصحيح فوري)</string>
+    <string name="to_create_a_safe_space_for_conversation">لخلق مساحة آمنة للحديث دون حكم، عندما يشاركك الشخص فكرة سلبية، مثل:</string>
+    <string name="i_m_a_burden_on_everyone_my_existence_is_meaningless">أنا عبء على الكل... وجودي ما له معنى.</string>
+    <string name="no_that_s_not_true_or_why_do_you_think_that">لا، مو صحيح!" أو "ليش بتفكر هيك؟</string>
+    <string name="instead_say">قل بدلاً من ذلك:</string>
+    <string name="i_think_this_is_a_painful">أنا شايف إنها فكرة موجعة... خلينا نحاول نفهمها سوي.</string>
+    <string name="i_understand_that_you_feel">أفهم إنك حاسس بهالشي، وخلينا نمر عليها خطوة خطوة.</string>
+    <string name="don_t_say">لا تقل:</string>
+    <string name="examine_the_thought_using_the_consciousness_filter">افحص الفكرة باستخدام "مصفاة الوعي"
+</string>
+    <string name="does_it_contain_expressions"><font color='#5994d5'>هل الفكرة فيها مبالغة أو كلام قاسي؟</font> هل تحتوي على كلمات مثل:"أنا فاشل دائمًا" أو "ما حدا يحبني أبدًا"</string>
+    <string name="if_the_thought_is_generalizing_or_judgemental">إذا كانت الفكرة فيها تعميم أو أحكام مطلقة، فهي على الأرجح غير دقيقة وتحتاج لإعادة توازن</string>
+    <string name="does_the_thought_only_reflect_their_current"><font color='#5994d5'>هل الفكرة تعكس شعوره الحالي فقط؟</font> هل قالها لأنه كان للتو في موقف محرج أو يشعر بالوحدة أو الإحباط؟</string>
+    <string name="if_so_this_is_often_a_temporary_thought_stemming">إذا نعم، فهذه غالبًا فكرة مؤقتة ناتجة عن شعور، وليست حقيقة يؤمن بها طوال الوقت، ونقدر نخفف قوتها.</string>
+    <string name="does_the_thought_actually_seem_realistic_has_something"><font color='#5994d5'>هل تبدو الفكرة واقعية فعلًا؟
+</font> هل حدث شيء يثبت هذه الفكرة؟  أم أن المشاعر فقط هي التي تحركها؟ هل تبدو الفكرة واقعية فعلًا؟</string>
+    <string name="if_there_s_no_clear_evidence_it_s_likely_a_distorted_thought_due_to_their_psychological_state_and_they_can_be_gently_restructured">إذا ما في دليل واضح، فهي غالبًا فكرة مشوّهة بسبب الحالة النفسية، ويمكن العمل على إعادة هيكلتها بلطف.</string>
+    <string name="is_there_another_angle_they_could_see"><font color='#5994d5'>هل هناك زاوية أخرى ممكن يراها؟
+</font> هل أقدر أساعده يشوف تفاصيل نسيها أو جانب ما انتبه له؟ هل هناك زاوية أخرى ممكن يراها؟</string>
+    <string name="rebalancing_begins_with_broadening_their_perspective_not_denying_it">إعادة التوازن تبدأ من توسيع النظرة، مش نفيها.</string>
+    <string name="when_your_loved_one_shares">حين يشاركك من تحب فكرة سلبية، لا تستعجل الرد. خذ لحظة واسأل نفسك:
+</string>
+    <string name="the_purpose_of_these_questions_is_to_help_you_understand">الهدف من هذه الأسئلة مساعدتك على فهم "الفنجان" الذي يشربه من تحب، قبل أن تعرض عليه فنجانًا آخر بلطف ووعي.
+</string>
+    <string name="prepare_a_cup_of_change_the_balanced_thought">تحضّير فنجان التغيير – الفكرة المتوازنة
+</string>
+    <string name="use_the_previous_questions">استعن بالأسئلة السابقة، وساعد من تحب على إعادة تحضير الفكرة بنكهة أكثر توازنًا… نكهة تمنحه شعورًا بالراحة، ورؤية أوضح لما يمرّ به
+</string>
+    <string name="example">مثال:</string>
+    <string name="i_m_a_burden_to_everyone">أنا عبء على كل الناس.</string>
+    <string name="you_re_going_through_a_difficult">أنت تمر بمرحلة صعبة، وتحتاج دعم، وهذا شيء طبيعي وما بنقص من قيمتك</string>
+    <string name="avoid_phrases_that_reflect">تجنّب العبارات التي تعكس</string>
+    <string name="excessive_positivity">الإيجابية الزائدة</string>
+    <string name="everything_is_fine_and_there_s_nothing_wrong">كل شيء تمام وما في مشكلة.</string>
+    <string name="the_person_may_feel">قد يشعر الشخص أنه غير مسموع أو أن مشاعره غير مبررة.
+</string>
+    <string name="yes_not_everything_is_fine_but_there_are_things">صح، مش كل شيء تمام… بس في أشياء تقدر تتعامل معها، حتى لو بخطوات صغيرة.</string>
+    <string name="this_phrase_shows_empathy_and_reinforces_a_sense">هذه الجملة تُظهر التعاطف، وتعزز الشعور بالقدرة دون إنكار الألم.</string>
+
+    <string name="present_friend_idea">عرض الفكرة التى تراود صديقك</string>
+    <string name="to_make_it_easier">علشان نسهّل عليك البداية، جهزنا لك مجموعة من العبارات البسيطة والداعمة، استخدمها كبداية، وحرّرها بطريقتك</string>
+    <string name="suggested_phrases_of_sympathy_and_containment">عبارات تعاطف واحتواء</string>
+    <string name="now_it_s_your_turn_take_a_breath">والآن، جاء دورك… خذ نفسًا وفكّر، لو كنت مكانه، ماذا كنت تحتاج أن تسمع؟ أكتبها الآن.
+</string>
+    <string name="edit_the_suggestion">(قم بتعديل الاقتراح أو اضف بكتابة ردك الخاص هنا...)</string>
+    <string name="thank_you_your_response_has_been_delivered">شكرا لك! تم تسليم رسالتك
+</string>
+    <string name="remember">تذكر...</string>
+    <string name="you_re_not_here_to_take_away_their_pain">أنت لست هنا لتحمل عنهم الألم اولإصلاح كل شيء، بل لترافقهم بلُطف وصبر، دون ضغط وأحكام،  بينما يعيدون بناء أنفسهم.</string>
+    <string name="now_let_us_begin_together6">والآن، دعنا نبدأ معًا</string>
+    <string name="step_by_step">خطوة بخطوة…</string>
+    <string name="sometimes_we_say_words">أحيانًا نقول كلمات بنية طيبة لنريح من نحب، لكنها تكون مبالغ فيها أو بعيدة عن الواقع، مما يجعل الشخص يشعر بعدم الفَهم أو بعدم التصديق.</string>
+    <string name="remember2">تذكّر:</string>
+    <string name="balance_is_key">التوازن هو المفتاح</string>
+    <string name="don_t_minimize_the_pain">لا نهوّن من الألم، ولا نُهوّل المشكلة. فقط نمنح مساحة للأمل الواقعي</string>
+    <string name="unsure_how_to_respond0">محتار كيف ترد؟</string>
+    <string name="no_problem_let_s_start_simple">مو مشكلة… خلينا نبدأ من مكان بسيط.</string>
+    <string name="it_s_enough_to_be_present_honest_and_caring">يكفي تكون حاضر، صادق، ومهتم.</string>
+    <string name="unsure_how_to_respond">لما يشاركك شخص تحبه فكرة سلبية، تحس إنك لازم تقول شيء "صح"… لكن تخاف تظهر وكأنك تنصحه أو تحاول تصلّح مشاعره بسرعة. وأحيانًا، فعلاً بيكون من الصعب الرد على فكرة مؤلمة من غير ما نبدو ناصحين أو نُشعره إنه غلطان. بس الحقيقة أنت ما تحتاج تكون معالج…</string>
+        <string name="phrase1">أنا معك، ومش لازم تمر بهاي المشاعر لحالك.</string>
+        <string name="phrase2">أفهم إنك تعبان، وفكرتك تستحق نوقف عندها، مو نمرّ عليها مرور الكرام.</string>
+        <string name="phrase3">مش لازم نحل كل شيء الآن… بس نقدر نبدأ سوا نعيد ترتيب الأفكار.</string>
+        <string name="phrase4">أنا معك، ومش لازم تمر بهالشي وحدك.</string>
+        <string name="phrase5">أنا سامعك… ورح نمر على هالفكرة سوا، خطوة بخطوة.</string>
+        <string name="phrase6">مش غلط تحس هيك… المهم إنك مش لوحدك.</string>
+        <string name="phrase7">مو ضروري نصلح كل شي الآن… بس خلينا نبدأ نفهم شو صاير سوا.</string>
+        <string name="phrase8">مش لازم نغير كل شي… بس نقدر نراجع هالفكرة ونشوف كيف نخفف ثقلها.</string>
+        <string name="phrase9">شو رأيك نعيد النظر بالفكرة سوا؟ يمكن لو شفناها من زاوية ثانية، تخفّ وطأتها شوي.</string>
+        <string name="phrase10">حاسس بألمك… وكل شي بيوجعك مهم، حتى لو حدا تاني ما شافه كبير.</string>
+        <string name="phrase11">بعرف إن هالشي ثقيل عليك… بس صدقني، أنا معك وما رح أتركك تواجهه لحالك.</string>
+    <string name="please_enter_your_response">رجاءا اضف ردك الخاص</string>
+    <string name="no_ideas_received_yet_nyou_can_only_continue_after_receiving_a_message_from_your_friend">لا يوجد اى افكار مستلمة حتى الان!\n لا يمكنك الاستمرار إلا بعد استلام رسالة من صديقك</string>
+    <string name="welcome">مرحبا</string>
+    <string name="new_invitation_code_has_been_created">تم إنشاء كود دعوة جديد</string>
+    <string name="supporter_s_permission_have_been_updated">تم تحديث صلاحيات الداعم</string>
+    <string name="failed_try_again_later">فشل، حاول مرة أخرى لاحقًا</string>
+    <string name="supporter_status_changed">تم تغيير حالة الداعم</string>
+    <string name="please_check_your_internet_connection_and_try_again">يرجى التحقق من اتصالك بالإنترنت والمحاولة مرة أخرى</string>
+    <string name="try_again">حاول مرة آخرى</string>
+    <string name="add_to_the_rosary">إضافة الى السبحة</string>
+    <string name="please_select_supporter">الرجاء تحديد الداعم
+</string>
+    <string name="shared_successfully">تمت المشاركة بنجاح
+</string>
+    <string name="choose_the_appropriate_settings_for_you_workout">اختر الإعدادات المناسبة لتمرينك الخاص.</string>
+    <string name="before_starting">قبل البدء</string>
+    <string name="choose_the_breathing_exercise_duration_that_suits_you">قم باختيار مدة تمرين التنفس المناسبة لك</string>
+
+    <string name="minutes_10">١٠ دقائق</string>
+    <string name="minutes_15">١٥ دقيقة</string>
+    <string name="minutes_20">٢٠ دقيقة</string>
+    <string name="minutes_25">٢٥ دقيقة</string>
+    <string name="minutes_30">٣٠ دقيقة</string>
+    <string name="minutes_35">٣٥ دقيقة</string>
+    <string name="minutes_40">٤٠ دقيقة</string>
+    <string name="what_sound_would_you_like_to_hear_while_exercising">ما الصوت الذ ى تود سماعه اثناء التمرين؟</string>
+    <string name="exercise_duration">مدة التمرين
+</string>
+    <string name="update_success">تم تحديث بنجاح</string>
+    <string name="immerse_yourself">انغمس في موطنك الجديد بقراءة كتب ومقالات شيقةٍ وممتعةٍ تتناول تاريخ البلد المضيف وثقافته وعاداته الاجتماعية. إنها طريقة ممتازة للتفاعل مع البيئة الجديدة، واكتشاف قصص وتقاليد رائعة.</string>
+    <string name="invite_friends">ادعُ أصدقاءك أو جيرانك أو أولياء أمور آخرين لمشاهدة فيلمٍ عربي مع ترجمة إنجليزية، ثم ناقشوا جوانبه الثقافية وموضوعاته. إنها طريقة رائعة لمشاركة الثقافة العربية واستكشافها معاً.</string>
+    <string name="pair_up">شارك جارًا أو وليّ أمر آخر في دروس تبادل اللغة؛ خصّص نصف الوقت للتحدّث بإحدى اللغات والنصف الآخر باللغة الأخرى.</string>
+    <string name="plan_an_outdoor">نظّم غداءً مشتركًا في الهواء الطلق مع جيرانك أو زملائك في العمل أو أولياء أمور الأطفال في مدرسة أطفالك. ادعُ الجميع لإحضار طبق من بلدهم الأصلي. إنها فرصة رائعة لتبادل الأطعمة والتعرّف على الثقافات المختلفة وبناء روابط مجتمعية.</string>
+    <string name="offer_to_teach">اعرض تقديم ورشة طبخ حول الأطباق العربية التقليدية في مركز ثقافي أو نادي اجتماعي أو مركز مجتمعي؛ حيث يشارك الجميع في إعداد وتذوّق الوصفات بأنفسهم. فهذا النشاط العملي ليس فقط فرصة لمشاركة ثقافتك ، بل أيضًا لتعزيز الروابط الاجتماعية بطريقة ممتعة.</string>
+    <string name="organise_and_invite">ادعُ أصدقاء أطفالك وأولياء أمورهم إلى فعالية خارجية لتعلّم رقصات عربية تقليدية مثل “الدبكة” والاستماع إلى الأغاني العربية، مع تقديم المقبلات الخفيفة. تجمع هذه الفعالية بين الترفيه والتعليم، وتُشجّع الأطفال على استكشاف والاحتفاء بالتنوع الثقافي عبر الموسيقى والحركة</string>
+    <string name="there_are_no_tasks_for_today">لا يوجد مهام لهذا اليوم</string>
+    <string name="you_haven_t_completed_the_post_mood_tracking_yet">لم تكمل الاختبار الثاني بعد انهاء مهمات اليوم.</string>
+    <string name="you_have_not_select_mood_yet">رجاءا اختيار الإيموجى الذى يعبر عن حالتك الان</string>
+    <string name="please_enter_what_is_affecting_your_current_mood">الرجاء إدخال ما يؤثر على حالتك المزاجية الحالية</string>
+    <string name="name_app">سند</string>
+    <string name="let_start">لنبدأ رحتلك</string>
+    <string name="some_common_misconceptions_about_depression">بعض المفاهيم الخاطئة حول الاكتئاب</string>
+    <string name="misconception_1_title">الاكتئاب هو مجرد عقاب</string>
+    <string name="misconception_2_title">فقط الأشخاص "المجانين" يعانون من الاكتئاب</string>
+    <string name="misconception_3_title">الاكتئاب يحدث فقط للأشخاص الذين مروا بحياة صعبة أو تجارب صادمة</string>
+    <string name="misconception_4_title">الاكتئاب علامة على الضعف</string>
+    <string name="misconception_5_title">الاكتئاب مجرد شعور بالحزن</string>
+    <string name="misconception_6_title">الاكتئاب سيختفي من تلقاء نفسه</string>
+    <string name="misconception_7_title">طلب المساعدة في الصحة النفسية علامة على الضعف</string>
+    <string name="misconception_8_title">الحديث عن الصحة النفسية أمر خاص ولا ينبغي التحدث عنه علنًا</string>
+    <string name="misconception_9_title">مضادات الاكتئاب هي الحل السريع</string>
+    <string name="misconception_10_title">الدعم العائلي والاجتماعي كافٍ لعلاج الاكتئاب</string>
+    <string name="misconception_11_title">العلاج الديني وحده يمكن أن يعالج الاكتئاب</string>
+
+    <string name="misconception_1_false">يعتقد البعض أن الاكتئاب هو عقوبة لأخطاء أو ذنوب ارتكبها.</string>
+    <string name="misconception_1_truth">الحقيقة: بينما يمكن أن تُعتبر التحديات في الحياة، بما في ذلك صعوبات الصحية النفسية، اختبارات يواجهها الإنسان في حياته. وتذكر أن الاكتئاب حالة طبية تشمل اختلالات كيميائية، وعوامل وراثية، وظروف بيئية؛ لذا يجب التعامل مع مشكلات الصحة النفسية بعناية وفهم للعلاج المناسب، مثل ما يتم التعامل مع الأمراض الجسدية.</string>
+
+    <string name="misconception_2_false">يغلب الاعتقاد الخاطئ أن الأشخاص الذين يعانون من الاكتئاب هم من يُعتبرون "مجانين".</string>
+    <string name="misconception_2_truth">الحقيقة: الاكتئاب يمكن أن يؤثر على أي شخص، بغض النظر عن خلفيته، تعليمه، أو وضعه الاجتماعي. وتذكر بان العديد من الأشخاص الذين يعانون من الاكتئاب يعيشون حياتهم بشكل طبيعي، ولكنهم يعانون داخليًا.</string>
+
+    <string name="misconception_3_false">يعتقد البعض أن الاكتئاب يحدث فقط لأولئك الذين مروا بتجارب صادمة أو صعوبات حياتية.</string>
+    <string name="misconception_3_truth">الحقيقة: الاكتئاب يمكن أن يؤثر على أي شخص، بغض النظر عن ظروف حياته. فقد ينشأ بسبب مجموعة من العوامل، بما في ذلك العوامل الوراثية أو البيئية.</string>
+
+    <string name="misconception_4_false">هناك اعتقاد أن الاكتئاب هو فشل شخصي أو علامة على كون الشخص "ضعيفًا".</string>
+    <string name="misconception_4_truth">الحقيقة: الاكتئاب هو حالة طبية، وليس انعكاسًا لشخصية أو قوة الفرد. وهو ناتج عن مزيج من العوامل الوراثية، والبيولوجية، والبيئية، والنفسية.</string>
+
+    <string name="misconception_5_false">يعتقد الكثيرون أن الاكتئاب هو مجرد حزن طويل الأمد أو شعور بالإحباط.</string>
+    <string name="misconception_5_truth">الحقيقة: الاكتئاب هو حالة صحية معقدة تشمل مشاعر مستمرة من اليأس، والفراغ، وفقدان الاهتمام بالأنشطة. كما يؤثر على الوظائف الجسدية والعاطفية والمعرفية، وليس المزاج فقط.</string>
+
+    <string name="misconception_6_false">يعتقد البعض أن الاكتئاب سيختفي بمرور الوقت من تلقاء نفسه.</string>
+    <string name="misconception_6_truth">الحقيقة: بدون العلاج المناسب، يمكن أن يستمر الاكتئاب لشهور أو حتى سنوات، وقد يزداد سوءًا مع الوقت. لذا فإن الحصول على المساعدة مبكرًا يؤدي إلى نتائج أفضل.</string>
+
+    <string name="misconception_7_false">في العديد من الثقافات العربية، هناك وصمة اجتماعية ضد طلب العلاج أو الاستشارة. قد يعتقد البعض أن الذهاب إلى أخصائي نفسي أو طبيب نفسي هو علامة على الضعف أو نقص الإيمان في قوة الشخص.</string>
+    <string name="misconception_7_truth">طلب المساعدة المهنية هو علامة على القوة، وإدراك الحاجة للمساعدة، واتخاذ خطوات لتحسين الصحة النفسية هو عمل شجاع، فالمتخصصون في الصحة النفسية مدربون لدعم الأفراد في إدارة حالتهم بشكل فعال</string>
+
+    <string name="misconception_8_false">يعتقد البعض أن الحديث عن الاكتئاب أو أي مشكلة نفسية يجب أن يتم في إطار ضيق ولا يجب التحدث عنها علنًا.</string>
+    <string name="misconception_8_truth">من الضروري التحدث عن الصحة النفسية، فكلما فتح النقاش حوله؛ كلما أصبح الناس أكثر راحة في البحث عن العلاج.</string>
+
+    <string name="misconception_9_false">يعتقد البعض أن تناول مضادات الاكتئاب سيحل الاكتئاب بسرعة.</string>
+    <string name="misconception_9_truth">بينما يمكن أن تكون مضادات الاكتئاب جزءًا من العلاج، فإنها تعمل بشكل أفضل عندما تُستخدم جنبًا إلى جنب مع العلاج النفسي، فمع تغييرات نمط الحياة، والدعم قد يستغرق الأمر وقتًا حتى تؤثر الأدوية بشكل كامل، ويجب التذكير بأن بعض الأدوية ربما لا تكون فعالة مع الجميع.</string>
+
+    <string name="misconception_10_false">في الثقافة العربية، يعتمد الكثيرون على دعم الأسرة والمجتمع، معتقدين أن الحب والرعاية من أفراد العائلة فقط كافية لعلاج الاكتئاب.</string>
+    <string name="misconception_10_truth">بينما يعتبر الدعم العائلي مهمًا، إلا أن الاكتئاب غالبًا ما يتطلب علاجًا مهنيًا يشمل العلاج النفسي والأدوية، فالنهج الشامل الذي يجمع بين الرعاية المهنية والدعم من الأحباء هو الأكثر فعالية.</string>
+
+    <string name="misconception_11_false">يعتقد البعض أن الصلاة أو العبادات الدينية كافية لعلاج الاكتئاب.</string>
+    <string name="misconception_11_truth">الدين يمكن أن يكون مصدرًا هامًا للمساعدة في تخطي الاكتئاب، لكن الاكتئاب يعتبر حالة طبية تتطلب علاجًا مهنيًا، والجمع بين العلاج الطبي والدعم الروحي هو الأكثر فعالية.</string>
+    <string name="tools_to_help_you">أدوات تساعدك على فهم من تحب ومساعدته على الخروج من حالته النفسية</string>
+    <string name="help_tools">أدوات المساعدة
+</string>
+    <string name="test">أختبار</string>
+    <string name="no_internet_connection2">لا يوجد اتصال بالإنترنت!</string>
+    <string name="please_check_your_connection_and_try_again">يرجى التحقق من اتصالك ومحاولة مرة أخرى.</string>
+    <string name="try_again3">إعادة المحاولة</string>
+    <string name="would_you_like_to_share_with_the_supporter">هل تود مشاركه مع الداعم</string>
+    <string name="follow_these_steps_to_add_your_supporter">اتبع الخطوات التالية\n لإضافة داعمك</string>
+    <string name="minutes_1">دقيقة</string>
+    <string name="minutes_2">دقيقتان</string>
+    <string name="minutes3">٣ دقائق</string>
+    <string name="minutes_4">٤ دقائق</string>
+    <string name="minutes_5">٥ دقائق</string>
+    <string name="minutes_1_description">دقيقة واحدة تساوي جولة واحدة، وتستغرق  الجولة ٦٠ ثانية.</string>
+    <string name="minutes_2_description">دقيقتان تساويان جولتين، وتستغرق كل جولة ٦٠ ثانية.</string>
+    <string name="minutes_3_description">٣ دقائق تساوي ٣ جولات، وتستغرق كل جولة ٦٠ ثانية.</string>
+    <string name="minutes_4_description">٤ دقائق تعادل ٤ جولات، وتستغرق كل جولة ٦٠ ثانية</string>
+    <string name="minutes_5_description">٥ دقائق تساوي ٥ جولات، وتستغرق كل جولة ٦٠ ثانية.</string>
+    <string name="illuminations">إضاءات</string>
+    <string name="q1">فكر في متعة بسيطة من روتينك اليومي غالبًا ما تعتبرها أمرًا مسلمًا به. ما هي، ولماذا أنت ممتن لها؟</string>
+    <string name="q2">من هو الشخص في حياتك الذي يدعمك باستمرار، وما هي أفعاله التي تجعلك تشعر بالامتنان؟</string>
+    <string name="q3">ما هو التحدي الذي تجاوزته مؤخرًا، وماذا تعلمت منه وتشعر بالامتنان له؟</string>
+    <string name="q4">ما هي الرائحة أو الصوت أو الطعم من طفولتك الذي يجعلك تشعر بالدفء والامتنان عند تذكره الآن؟</string>
+    <string name="q5">ما هو الجانب من صحتك الجسدية، مهما كان صغيرًا، الذي أنت ممتن له اليوم؟</string>
+    <string name="q6">ما هي فرصة التعلم أو النمو الشخصي التي حظيت بها مؤخرًا وأنت ممتن لها؟</string>
+    <string name="just_now">الآن</string>
+    <string name="min_ago">قبل %d دقيقة</string>
+    <string name="h_ago">قبل %d ساعة</string>
+    <string name="yesterday">أمس</string>
+    <string name="days_ago">قبل %d يوم</string>
+    <string name="weeks_ago">قبل %d أسبوع</string>
+    <string name="months_ago">قبل %d شهر</string>
+    <string name="years_ago">قبل %d سنة</string>
+    <string name="new_post_from">New post from %1$s</string>
+
+    <plurals name="minutes_ago">
+        <item quantity="zero">الآن</item>
+        <item quantity="one">قبل دقيقة</item>
+        <item quantity="two">قبل دقيقتين</item>
+        <item quantity="few">قبل %d دقائق</item>
+        <item quantity="many">قبل %d دقيقة</item>
+        <item quantity="other">قبل %d دقيقة</item>
+    </plurals>
+
+    <plurals name="hours_ago" tools:ignore="MissingQuantity">
+        <item quantity="one">قبل ساعة</item>
+        <item quantity="two">قبل ساعتين</item>
+        <item quantity="few">قبل %d ساعات</item>
+        <item quantity="many">قبل %d ساعة</item>
+        <item quantity="other">قبل %d ساعة</item>
+    </plurals>
+
+    <plurals name="days_ago" tools:ignore="MissingQuantity">
+        <item quantity="one">قبل يوم</item>
+        <item quantity="two">قبل يومين</item>
+        <item quantity="few">قبل %d أيام</item>
+        <item quantity="many">قبل %d يوم</item>
+        <item quantity="other">قبل %d يوم</item>
+    </plurals>
+    <plurals name="weeks_ago" tools:ignore="MissingQuantity">
+        <item quantity="one">قبل أسبوع</item>
+        <item quantity="two">قبل أسبوعين</item>
+        <item quantity="few">قبل %d أسابيع</item>
+        <item quantity="many">قبل %d أسبوع</item>
+        <item quantity="other">قبل %d أسبوع</item>
+    </plurals>
+
+    <plurals name="months_ago" tools:ignore="MissingQuantity">
+        <item quantity="one">قبل شهر</item>
+        <item quantity="two">قبل شهرين</item>
+        <item quantity="few">قبل %d أشهر</item>
+        <item quantity="many">قبل %d شهر</item>
+        <item quantity="other">قبل %d شهر</item>
+    </plurals>
+
+    <plurals name="years_ago" tools:ignore="MissingQuantity">
+        <item quantity="one">قبل سنة</item>
+        <item quantity="two">قبل سنتين</item>
+        <item quantity="few">قبل %d سنوات</item>
+        <item quantity="many">قبل %d سنة</item>
+        <item quantity="other">قبل %d سنة</item>
+    </plurals>
+</resources>

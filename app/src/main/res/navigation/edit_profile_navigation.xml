@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@id/editProfileFragment">
+
+    <fragment
+        android:id="@+id/editProfileFragment"
+        tools:layout="@layout/fragment_edit_profile"
+        android:name="com.app.sanad.users.patient.profile.presentation.EditProfileFragment"
+        android:label="EditProfileFragment" >
+        <action
+            android:id="@+id/action_editProfileFragment_to_changePassFragment"
+            app:destination="@id/changePassFragment" />
+        <action
+            android:id="@+id/action_editProfileFragment_to_changeUserNameFragment"
+            app:destination="@id/changeUserNameFragment" />
+        <action
+            android:id="@+id/action_editProfileFragment_to_editAgeFragment"
+            app:destination="@id/editAgeFragment" />
+        <action
+            android:id="@+id/action_editProfileFragment_to_editGenderFragment"
+            app:destination="@id/editGenderFragment" />
+        <action
+            android:id="@+id/action_editProfileFragment_to_editDialectFragment"
+            app:destination="@id/editDialectFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/changePassFragment"
+        android:name="com.app.sanad.users.patient.profile.presentation.ChangePassFragment"
+       tools:layout="@layout/fragment_change_pass"
+        android:label="ChangePassFragment" />
+    <fragment
+        android:id="@+id/changeUserNameFragment"
+      tools:layout="@layout/fragment_change_user_name"
+        android:name="com.app.sanad.users.patient.profile.presentation.ChangeUserNameFragment"
+        android:label="ChangeUserNameFragment" />
+    <fragment
+        tools:layout="@layout/fragment_edit_age"
+        android:id="@+id/editAgeFragment"
+        android:name="com.app.sanad.users.patient.profile.presentation.EditAgeFragment"
+        android:label="EditAgeFragment" />
+    <fragment
+        android:id="@+id/editGenderFragment"
+        tools:layout="@layout/fragment_edit_gender"
+        android:name="com.app.sanad.users.patient.profile.presentation.EditGenderFragment"
+        android:label="EditGenderFragment" />
+    <fragment
+        android:id="@+id/editDialectFragment"
+        android:name="com.app.sanad.users.patient.editprofile.EditDialectFragment"
+        android:label="fragment_edit_dialect"
+        tools:layout="@layout/fragment_edit_dialect" />
+</navigation>

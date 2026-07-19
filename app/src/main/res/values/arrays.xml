@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="array_status">
+        <item>اختر حالتك المزاجية الحالية</item>
+        <item>عطلان هم</item>
+        <item>عايز اصرخ/ انفجر</item>
+        <item>عاوز اهرب من الواقع </item>
+        <item>ما أحس بالحب</item>
+        <item>مخنوق</item>
+        <item>أشعر أني غاضب</item>
+        <item>لا أستطيع الشعور بالمتعة</item>
+        <item>لا أستطيع البكاء بالرغم من حاجتي لذلك</item>
+    </string-array>
+</resources>

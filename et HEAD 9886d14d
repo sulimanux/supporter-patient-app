@@ -1,0 +1,493 @@
+[33mcommit 2dae63ca0f8d389708aa3e019e896749d6df6984[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m
+Author: muhammednashat <mnashat.dev@gmail.com>
+Date:   Wed May 13 10:20:23 2026 +0300
+
+    implement notifications for posts, chat, and coffee ideas
+
+[33mcommit 9886d14d7cb5c381aa770bb31e44d60cb4d2baf6[m
+Author: muhammednashat <mnashat.dev@gmail.com>
+Date:   Sat May 9 12:12:00 2026 +0300
+
+    add
+
+[33mcommit f8dff017e0cdca6153daf926f4f022f8dd66994b[m
+Author: muhammednashat <mnashat.dev@gmail.com>
+Date:   Wed May 6 11:40:21 2026 +0300
+
+    create app view model
+
+[33mcommit 3764c4704359ed9639ee4329594a247909bfd4d9[m
+Author: muhammednashat <mnashat.dev@gmail.com>
+Date:   Tue May 5 10:45:36 2026 +0300
+
+    change background
+
+[33mcommit 827306a016ebf5fb02f537d56b1cbb0ccd49bb12[m
+Author: muhammednashat <mnashat.dev@gmail.com>
+Date:   Sun May 3 10:58:00 2026 +0300
+
+    set color backgroun
+
+[33mcommit 262e94b0f2fb0448adcd3e207b68cf75e3413d04[m
+Author: muhammednashat <mnashat.dev@gmail.com>
+Date:   Fri May 1 18:39:21 2026 +0300
+
+    send notifications
+
+[33mcommit a9ff97b375891b6f0c255ecfeb007561010e7057[m
+Author: muhammednashat <mnashat.dev@gmail.com>
+Date:   Tue Apr 28 10:44:40 2026 +0300
+
+    test send notificaion
+
+[33mcommit c13eb5d52b36c2999b46ac198b838d88a10bb172[m
+Author: muhammednashat <mnashat.dev@gmail.com>
+Date:   Fri Apr 24 12:14:24 2026 +0300
+
+    d
+
+[33mcommit 98aa17b93ecd4617a9f0368822a63a99e5aede57[m
+Author: muhammednashat <mnashat.dev@gmail.com>
+Date:   Thu Mar 26 14:39:27 2026 +0200
+
+    sdf
+
+[33mcommit de2a5cc9a55c0b3cf06b21f9a256784f3f9ed004[m
+Author: muhammednashat <mnashat.dev@gmail.com>
+Date:   Wed Mar 25 13:45:13 2026 +0200
+
+    dfa
+
+[33mcommit 7bebf2c1f2f80484b192e79f0b67ed0c4b62c99c[m
+Author: muhammednashat <mnashat.dev@gmail.com>
+Date:   Mon Mar 23 13:53:55 2026 +0200
+
+    df
+
+[33mcommit ef88063c090a46a0d542853552e8e5679f5e27e0[m
+Author: muhammednashat <mnashat.dev@gmail.com>
+Date:   Wed Mar 18 17:32:57 2026 +0200
+
+    refactoring
+
+[33mcommit b8497a8de7cc5b967b350cc6327accef4aa42b87[m
+Author: muhammednashat <mnashat.dev@gmail.com>
+Date:   Mon Mar 16 22:53:42 2026 +0200
+
+    Refactor project structure and reorganize data layer
+
+[33mcommit cddde5d23942f8c404988f2d2ed5cdc3a18ce580[m
+Author: muhammednashat <mnashat.dev@gmail.com>
+Date:   Thu Mar 12 23:01:03 2026 +0200
+
+    Refactor project structure and reorganize data layer
+
+[33mcommit 97a0b2a4297154c6867048e5d72d0baeabd31b02[m
+Author: muhammednashat <mnashat.dev@gmail.com>
+Date:   Fri Feb 27 17:30:22 2026 +0200
+
+    create ui for instructions adding supporter
+
+[33mcommit 2ce2671690d5f6a8f79b5452bd00ac75a1c9984e[m
+Author: muhammednashat <mnashat.dev@gmail.com>
+Date:   Thu Feb 26 09:01:57 2026 +0200
+
+    implement instructions process
+
+[33mcommit fef1df54917b80e6502977d9742128e1c25f419e[m
+Author: muhammednashat <mnashat.dev@gmail.com>
+Date:   Sat Feb 21 08:48:39 2026 +0200
+
+    improve text-to-speech functionality and breathing tool UI
+    
+    - Enhances `TextToSpeechUtil` with a `Status` LiveData to track initialization, start, error, and completion states.
+    - Updates `ArticleFragment` to observe TTS status and toggle the play/stop icon accordingly.
+    - Refines the `MainBreathFragment` UI by updating the remaining time display and breathing phase instructions.
+    - Refactors breathing duration and sound lists into `BreathingRepo`.
+    - Adjusts layout constraints and styles in `fragment_main_breath.xml` and `item_view_breathing_duration.xml`.
+    - Fixes `remaining_time_format` string resource in both English and Arabic translations.
+    - Implements `OnInitListener` in `EducationalFragment` for TTS support.
+
+[33mcommit e39eed43981a616639a5b6260389f626a953a99c[m
+Author: muhammednashat <mnashat.dev@gmail.com>
+Date:   Tue Feb 3 13:44:37 2026 +0200
+
+    improve text-to-speech functionality and breathing tool UI
+    
+    - Enhances `TextToSpeechUtil` with a `Status` LiveData to track initialization, start, error, and completion states.
+    - Updates `ArticleFragment` to observe TTS status and toggle the play/stop icon accordingly.
+    - Refines the `MainBreathFragment` UI by updating the remaining time display and breathing phase instructions.
+    - Refactors breathing duration and sound lists into `BreathingRepo`.
+    - Adjusts layout constraints and styles in `fragment_main_breath.xml` and `item_view_breathing_duration.xml`.
+    - Fixes `remaining_time_format` string resource in both English and Arabic translations.
+    - Implements `OnInitListener` in `EducationalFragment` for TTS support.
+
+[33mcommit 9a18b07e8f21cbc36819b2f101899a0b5e5ee51e[m
+Author: muhammednashat <mnashat.dev@gmail.com>
+Date:   Sat Jan 31 08:46:27 2026 +0200
+
+    improve text-to-speech functionality and breathing tool UI
+    
+    - Enhances `TextToSpeechUtil` with a `Status` LiveData to track initialization, start, error, and completion states.
+    - Updates `ArticleFragment` to observe TTS status and toggle the play/stop icon accordingly.
+    - Refines the `MainBreathFragment` UI by updating the remaining time display and breathing phase instructions.
+    - Refactors breathing duration and sound lists into `BreathingRepo`.
+    - Adjusts layout constraints and styles in `fragment_main_breath.xml` and `item_view_breathing_duration.xml`.
+    - Fixes `remaining_time_format` string resource in both English and Arabic translations.
+    - Implements `OnInitListener` in `EducationalFragment` for TTS support.
+
+[33mcommit d2fe7fc8337f65f8904c7d96c33cffb78a5adc70[m
+Author: muhammednashat <mnashat.dev@gmail.com>
+Date:   Sat Jan 24 08:37:14 2026 +0200
+
+    implement no internet layout in chatting screens
+
+[33mcommit 0aace4b848f1879d3ed021f2e8ba1549b35f10fc[m
+Author: muhammednashat <mnashat.dev@gmail.com>
+Date:   Mon Jan 19 08:35:00 2026 +0200
+
+    implement no internet layout in chatting screens
+
+[33mcommit cf568db0d20355bdd417d0adbd579cd939f8d138[m
+Author: muhammednashat <mnashat.dev@gmail.com>
+Date:   Fri Jan 16 11:12:46 2026 +0200
+
+    Refactor: Add comments and improve code style in library feature
+    
+    This commit introduces comprehensive comments across the library content feature, including fragments, adapters, and the ViewModel. It aims to improve code readability and maintainability.
+    
+    Key changes include:
+    - Adding KDoc comments to classes, methods, and properties to explain their purpose.
+    - Refactoring click listeners and navigation logic for better clarity.
+    - Streamlining adapter implementations and removing redundant code.
+    - In the `LibraryViewModel`, implementing a filter to exclude the currently viewed article from the suggested content list.
+    - Updating a `ToDo.kt` file with notes on the library feature.
+
+[33mcommit 2921dc6dbfae09a4d5bcf3eda79e921b4c4bcdac[m
+Author: muhammednashat <mnashat.dev@gmail.com>
+Date:   Fri Jan 9 16:43:58 2026 +0200
+
+    ddfds
+
+[33mcommit 87b61cc5e83d01f9c302cc38481b7c01c1593484[m
+Author: muhammednashat <mnashat.dev@gmail.com>
+Date:   Wed Jan 7 09:51:11 2026 +0200
+
+    dfa
+
+[33mcommit aef624c1c622084c9a922b7d5c227d4837ca50f5[m
+Author: muhammednashat <mnashat.dev@gmail.com>
+Date:   Tue Jan 6 16:58:27 2026 +0200
+
+    adf
+
+[33mcommit 63061b2f97b702adafc8154a419ed2b12ab47258[m
+Author: muhammednashat <mnashat.dev@gmail.com>
+Date:   Tue Jan 6 09:23:27 2026 +0200
+
+    Refactor: Add comments and improve code style in library feature
+    
+    This commit introduces comprehensive comments across the library content feature, including fragments, adapters, and the ViewModel. It aims to improve code readability and maintainability.
+    
+    Key changes include:
+    - Adding KDoc comments to classes, methods, and properties to explain their purpose.
+    - Refactoring click listeners and navigation logic for better clarity.
+    - Streamlining adapter implementations and removing redundant code.
+    - In the `LibraryViewModel`, implementing a filter to exclude the currently viewed article from the suggested content list.
+    - Updating a `ToDo.kt` file with notes on the library feature.
+
+[33mcommit 80d18009623991bc1445881589112e8b8c7e4cb7[m
+Author: muhammednashat <mnashat.dev@gmail.com>
+Date:   Sun Jan 4 16:53:59 2026 +0200
+
+    afdS
+
+[33mcommit 1f1c6b83cf0a0ea10ff9d73ea3dc4794db639d7c[m
+Author: muhammednashat <mnashat.dev@gmail.com>
+Date:   Tue Dec 30 16:57:47 2025 +0200
+
+    sadf
+
+[33mcommit e524029ffcc15aac7cfed23366cf7d5ae73f052a[m
+Author: muhammednashat <mnashat.dev@gmail.com>
+Date:   Sun Dec 28 16:55:42 2025 +0200
+
+    refactor
+
+[33mcommit 604ddb612fafe8a158e1a2484571f367b53d82a6[m
+Author: muhammednashat <mnashat.dev@gmail.com>
+Date:   Thu Dec 25 16:52:50 2025 +0200
+
+    add
+
+[33mcommit c018c44cf015fbae335b8a82f5b788fa1ca4bade[m
+Author: muhammednashat <mnashat.dev@gmail.com>
+Date:   Wed Dec 24 17:04:13 2025 +0200
+
+    complete adding a badge on posts feature
+
+[33mcommit eae4cb523adae9af6b122dc4c2a8b265f0c9f9e3[m
+Author: muhammednashat <mnashat.dev@gmail.com>
+Date:   Tue Dec 23 16:54:31 2025 +0200
+
+     add a badge on chatting icon
+
+[33mcommit c864414410429691fe3557275141082eb18436b6[m
+Author: muhammednashat <mnashat.dev@gmail.com>
+Date:   Thu Dec 18 16:02:04 2025 +0200
+
+    refactor supporter's tools
+
+[33mcommit 15daa2a596f058e7438187241f952d997362e253[m
+Author: muhammednashat <mnashat.dev@gmail.com>
+Date:   Wed Dec 17 14:41:17 2025 +0200
+
+    change rtl badge for patient tools
+
+[33mcommit 7264afaaedf86294402f85b9b12ec1c9ccf81090[m
+Author: muhammednashat <mnashat.dev@gmail.com>
+Date:   Tue Dec 16 16:51:45 2025 +0200
+
+    refactor firebase anlytics
+
+[33mcommit 60b03aa901eab529b9a3ef42167b81e252efdc68[m
+Author: muhammednashat <mnashat.dev@gmail.com>
+Date:   Mon Dec 15 17:01:57 2025 +0200
+
+    update seen by patient
+
+[33mcommit 1fb1daaf580b735a3e0460eea908cdef42f4e36a[m
+Author: muhammednashat <mnashat.dev@gmail.com>
+Date:   Sun Dec 14 14:33:17 2025 +0200
+
+    review the code and test
+
+[33mcommit 6ed3eeb4309b867ffb743d61684eac32601def6b[m
+Author: muhammednashat <mnashat.dev@gmail.com>
+Date:   Thu Dec 11 20:27:20 2025 +0200
+
+     create  abadge for messages' count
+
+[33mcommit f4d2c3dfe998d3d51246f856c21da5db9f3af5ad[m
+Author: muhammednashat <mnashat.dev@gmail.com>
+Date:   Wed Dec 10 18:46:05 2025 +0200
+
+    add comments to profile feature
+
+[33mcommit d82bc75037176abd3700887ef97a0ddac7978365[m
+Author: muhammednashat <mnashat.dev@gmail.com>
+Date:   Mon Dec 8 20:41:46 2025 +0200
+
+     add no interner ui
+
+[33mcommit 911f6bc4c4a2aec6d7756414b1ed0fb049550574[m
+Author: muhammednashat <mnashat.dev@gmail.com>
+Date:   Mon Dec 8 09:45:57 2025 +0200
+
+     test home fragment
+
+[33mcommit 25b8024642d7bdbd079366966b057a8e7c9c9b49[m
+Author: muhammednashat <mnashat.dev@gmail.com>
+Date:   Sun Dec 7 20:22:40 2025 +0200
+
+    refacore supporter home screen
+
+[33mcommit 931bdb22dc6f7449a75b352bb220eb3ab273b8bc[m
+Author: muhammednashat <mnashat.dev@gmail.com>
+Date:   Sun Dec 7 09:23:36 2025 +0200
+
+    refactor supporter tools ui
+
+[33mcommit d9565af754b370f9fa0962d53e883b9269b97657[m
+Author: muhammednashat <mnashat.dev@gmail.com>
+Date:   Sat Dec 6 13:56:41 2025 +0200
+
+    fdad
+
+[33mcommit 962338540a4b78a3ed1c8feee4c7d621ce906438[m
+Author: muhammednashat <mnashat.dev@gmail.com>
+Date:   Wed Dec 3 14:22:58 2025 +0200
+
+     create new ui for supporter tools
+
+[33mcommit 3eb3cdd7a582acb2c6331e851fbe8082f263f803[m
+Author: muhammednashat <mnashat.dev@gmail.com>
+Date:   Tue Dec 2 14:12:49 2025 +0200
+
+     fad
+
+[33mcommit a7a1e3ae2b57e031a991fda186eb1308d5b67786[m
+Author: muhammednashat <mnashat.dev@gmail.com>
+Date:   Mon Dec 1 16:24:14 2025 +0200
+
+    review calender [english ui , functionality]
+
+[33mcommit b04f826ac82ba8fbbb74b67517fc3bd8630846e1[m
+Author: muhammednashat <mnashat.dev@gmail.com>
+Date:   Sun Nov 30 14:27:19 2025 +0200
+
+    change name
+
+[33mcommit 904c56332ea21f6dda29ea5c7fb0d97203657776[m
+Author: muhammednashat <mnashat.dev@gmail.com>
+Date:   Sat Nov 29 16:53:23 2025 +0200
+
+    review englich ui for library content
+
+[33mcommit aee60d1a4feac5eb30a0691edbefc78a042728e3[m
+Author: muhammednashat <mnashat.dev@gmail.com>
+Date:   Thu Nov 27 14:42:02 2025 +0200
+
+    dfad
+
+[33mcommit ffdea94ba9c4db61319faabd48d7544467bdcd6f[m
+Author: muhammednashat <mnashat.dev@gmail.com>
+Date:   Tue Nov 25 16:36:08 2025 +0200
+
+     test no internet again in library feature
+
+[33mcommit 9ba921f884116dcfa11a3ad61825a3b897393850[m
+Author: muhammednashat <mnashat.dev@gmail.com>
+Date:   Mon Nov 24 16:51:05 2025 +0200
+
+    set up no  interner layout
+
+[33mcommit 48e6621b935010820e5933d31cec92c3e80bcd86[m
+Author: muhammednashat <mnashat.dev@gmail.com>
+Date:   Sun Nov 23 14:48:33 2025 +0200
+
+    adfds
+
+[33mcommit 10e5b71e3523f4725667e98200c5b34a12cca453[m
+Author: muhammednashat <mnashat.dev@gmail.com>
+Date:   Sat Nov 22 16:20:47 2025 +0200
+
+    safsdfsd
+
+[33mcommit 15a2a10775235d8b9ef99098ad72e9f212b1f929[m
+Author: muhammednashat <mnashat.dev@gmail.com>
+Date:   Thu Nov 20 16:58:17 2025 +0200
+
+    dfdffd
+
+[33mcommit 32e5e8824a3b09ce32a123444a22f41531df9788[m
+Author: muhammednashat <mnashat.dev@gmail.com>
+Date:   Thu Nov 20 14:27:05 2025 +0200
+
+    ssdf
+
+[33mcommit 79777d5dfdbf2e4534a291b730718e849acadd77[m
+Author: muhammednashat <mnashat.dev@gmail.com>
+Date:   Wed Nov 19 20:43:12 2025 +0200
+
+    fdas
+
+[33mcommit 48ab2dd1517e60627d006e8ffdc625ca2d0781ac[m
+Author: muhammednashat <mnashat.dev@gmail.com>
+Date:   Mon Nov 17 16:16:46 2025 +0200
+
+    afsdfs
+
+[33mcommit 914d41ffda9ef5f480a28ebdbdd03fb68cea54af[m
+Author: muhammednashat <mnashat.dev@gmail.com>
+Date:   Sun Nov 16 13:15:36 2025 +0200
+
+    adsf
+
+[33mcommit eaab911ba3a995377a750e5f752b03ac2e2583b7[m
+Author: muhammednashat <mnashat.dev@gmail.com>
+Date:   Tue Nov 11 13:33:14 2025 +0200
+
+    solve crashing of posts feature
+
+[33mcommit 22c0a3b37f6bb3d7e6f3bfa6b5465d2c52deb7be[m
+Author: muhammednashat <mnashat.dev@gmail.com>
+Date:   Sun Nov 9 14:35:24 2025 +0200
+
+    daf
+
+[33mcommit 619e88eb0647d5a4d9c5dcad3d549f4615ff2d13[m
+Author: muhammednashat <mnashat.dev@gmail.com>
+Date:   Sat Nov 8 13:26:46 2025 +0200
+
+    add tts to misconseption about depression feature
+
+[33mcommit 34a2d15496c92d85877c994cdb6810f7de62fd4c[m
+Author: muhammednashat <mnashat.dev@gmail.com>
+Date:   Thu Nov 6 08:16:01 2025 +0200
+
+    adf
+
+[33mcommit 9e55943608337aaf4de4623b19bca6fca4e6de33[m
+Author: muhammednashat <mnashat.dev@gmail.com>
+Date:   Wed Nov 5 14:38:34 2025 +0200
+
+    adf
+
+[33mcommit ea5b202a80087b0850d4d7d981c5135bf07d3efb[m
+Author: muhammednashat <mnashat.dev@gmail.com>
+Date:   Mon Nov 3 08:32:53 2025 +0200
+
+    comments
+
+[33mcommit a803943f4df1704c83cc0192c45b94efba513fed[m
+Author: muhammednashat <mnashat.dev@gmail.com>
+Date:   Thu Oct 30 10:33:16 2025 +0300
+
+    test new feature
+
+[33mcommit 2947d5add124104fbf2683af2f048505bcb83945[m
+Author: muhammednashat <mnashat.dev@gmail.com>
+Date:   Mon Oct 27 17:13:19 2025 +0300
+
+    test auth  feature and fix login's issue
+
+[33mcommit 6571df73bb1b8e11476bb0cdcd9987eb7189caa8[m
+Author: muhammednashat <mnashat.dev@gmail.com>
+Date:   Sat Oct 25 15:23:10 2025 +0300
+
+    finished misconseption featrue
+
+[33mcommit ad8570f3857eea6d87ec3bfb28ec1c04496532a4[m
+Author: muhammednashat <mnashat.dev@gmail.com>
+Date:   Wed Oct 22 15:17:50 2025 +0300
+
+    updateing text
+
+[33mcommit 01b4760ad3e2a1fb8df735e9c32641dc62efef80[m
+Author: muhammednashat <mnashat.dev@gmail.com>
+Date:   Tue Oct 21 14:50:31 2025 +0300
+
+    add string misconception about depression
+
+[33mcommit 528b159c3221dd634e9c8cd6f75ed45c8324e51b[m
+Author: muhammednashat <mnashat.dev@gmail.com>
+Date:   Mon Oct 20 15:00:06 2025 +0300
+
+    design misconception about depression
+
+[33mcommit f046a280d8b53ea9d48a885026ea049b303418b9[m
+Author: muhammednashat <mnashat.dev@gmail.com>
+Date:   Sun Oct 19 10:23:08 2025 +0300
+
+    testing3
+
+[33mcommit d68e523fb98aeec8f1033b24c0110b74e28c0cfc[m
+Author: muhammednashat <mnashat.dev@gmail.com>
+Date:   Sun Oct 19 10:21:10 2025 +0300
+
+    testing3
+
+[33mcommit 971860b2b91b078970ab7e57aaca5fdd0f6244b2[m
+Author: muhammednashat <mnashat.dev@gmail.com>
+Date:   Sun Oct 19 09:18:45 2025 +0300
+
+    testing
+
+[33mcommit 14270d7b9c7c5d72893b0af6dc8d75d2db8b598c[m
+Author: muhammednashat <mnashat.dev@gmail.com>
+Date:   Sat Oct 18 14:53:33 2025 +0300
+
+    create layout commen misconception about depression
+
+[33mcom

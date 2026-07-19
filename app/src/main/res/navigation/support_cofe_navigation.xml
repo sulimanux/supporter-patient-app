@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/support_cofe_navigation"
+    app:startDestination="@id/cofeIntroFragment">
+
+    <fragment
+        android:id="@+id/cofeIntroFragment"
+        android:name="com.app.sanad.users.supporter.tools.cofe.presintaion.CofeIntroFragment"
+        android:label="fragment_cofe_intro"
+        tools:layout="@layout/fragment_intro" >
+        <action
+            android:id="@+id/action_cofeIntroFragment_to_cofeIntro2Fragment"
+            app:destination="@id/cofeIntro2Fragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/cofeIntro2Fragment"
+        android:name="com.app.sanad.users.supporter.tools.cofe.presintaion.CofeIntro2Fragment"
+        android:label="fragment_cofe_intro2"
+        tools:layout="@layout/fragment_cofe_intro2" >
+        <action
+            android:id="@+id/action_cofeIntro2Fragment_to_cofeIntro3Fragment"
+            app:destination="@id/cofeIntro3Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/cofeIntro3Fragment"
+        android:name="com.app.sanad.users.supporter.tools.cofe.presintaion.CofeIntro3Fragment"
+        android:label="fragment_cofe_intro3"
+        tools:layout="@layout/fragment_cofe_intro3" >
+        <action
+            android:id="@+id/action_cofeIntro3Fragment_to_cofePurposeFragment"
+            app:destination="@id/cofePurposeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/cofePurposeFragment"
+        android:name="com.app.sanad.users.supporter.tools.cofe.presintaion.CofePurposeFragment"
+        android:label="fragment_cofe_purpose"
+        tools:layout="@layout/fragment_cofe_purpose" >
+        <action
+            android:id="@+id/action_cofePurposeFragment_to_cofePurpose2Fragment"
+            app:destination="@id/cofePurpose2Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/cofePurpose2Fragment"
+        android:name="com.app.sanad.users.supporter.tools.cofe.presintaion.CofePurpose2Fragment"
+        android:label="fragment_cofe_purpose2"
+        tools:layout="@layout/fragment_cofe_purpose2" >
+        <action
+            android:id="@+id/action_cofePurpose2Fragment_to_cofeInstructionFragment"
+            app:destination="@id/cofeInstructionFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/cofeInstructionFragment"
+        android:name="com.app.sanad.users.supporter.tools.cofe.presintaion.CofeInstructionFragment"
+        android:label="fragment_cofe_instruction"
+        tools:layout="@layout/fragment_cofe_instruction" >
+        <action
+            android:id="@+id/action_cofeInstructionFragment_to_friendMessageFragment"
+            app:destination="@id/friendMessageFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/friendMessageFragment"
+        android:name="com.app.sanad.users.supporter.tools.cofe.presintaion.FriendMessageFragment"
+        android:label="fragment_friend_message"
+        tools:layout="@layout/fragment_friend_message" >
+        <action
+            android:id="@+id/action_friendMessageFragment_to_cupsMeaningFragment"
+            app:destination="@id/cupsMeaningFragment" />
+        <action
+            android:id="@+id/action_friendMessageFragment_to_cupsMeaningFragment2"
+            app:destination="@id/cupsMeaningFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/cupsMeaningFragment"
+        android:name="com.app.sanad.users.supporter.tools.cofe.presintaion.CupsMeaningFragment"
+        android:label="fragment_cups_meaning"
+        tools:layout="@layout/fragment_cups_meaning" >
+        <action
+            android:id="@+id/action_cupsMeaningFragment_to_supportCofeStep1Fragment"
+            app:destination="@id/supportCofeStep1Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/supportCofeStep1Fragment"
+        android:name="com.app.sanad.users.supporter.tools.cofe.presintaion.SupportCofeStep1Fragment"
+        android:label="fragment_support_cofe_step1"
+        tools:layout="@layout/fragment_support_cofe_step1" >
+        <action
+            android:id="@+id/action_supportCofeStep1Fragment_to_supportCofeStep2Fragment"
+            app:destination="@id/supportCofeStep2Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/supportCofeStep2Fragment"
+        android:name="com.app.sanad.users.supporter.tools.cofe.presintaion.SupportCofeStep2Fragment"
+        android:label="fragment_support_cofe_step2"
+        tools:layout="@layout/fragment_support_cofe_step2" >
+        <action
+            android:id="@+id/action_supportCofeStep2Fragment_to_supportCofeStep3Fragment"
+            app:destination="@id/supportCofeStep3Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/supportCofeStep3Fragment"
+        android:name="com.app.sanad.users.supporter.tools.cofe.presintaion.SupportCofeStep3Fragment"
+        android:label="fragment_support_cofe_step3"
+        tools:layout="@layout/fragment_support_cofe_step3" >
+        <action
+            android:id="@+id/action_supportCofeStep3Fragment_to_whatShouldDoFragment"
+            app:destination="@id/whatShouldDoFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/whatShouldDoFragment"
+        android:name="com.app.sanad.users.supporter.tools.cofe.presintaion.WhatShouldDoFragment"
+        android:label="fragment_what_should_do"
+        tools:layout="@layout/fragment_what_should_do" >
+        <action
+            android:id="@+id/action_whatShouldDoFragment_to_supportResponseFragment"
+            app:destination="@id/supportResponseFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/supportResponseFragment"
+        android:name="com.app.sanad.users.supporter.tools.cofe.presintaion.SupportResponseFragment"
+        android:label="fragment_support_response"
+        tools:layout="@layout/fragment_support_response" >
+        <action
+            android:id="@+id/action_supportResponseFragment_to_thanksFragment"
+            app:destination="@id/thanksFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/thanksFragment"
+        android:name="com.app.sanad.users.supporter.tools.cofe.presintaion.ThanksFragment"
+        android:label="fragment_thanks"
+        tools:layout="@layout/fragment_thanks" >
+        <action
+            android:id="@+id/action_thanksFragment_to_exitCofeFragment2"
+            app:destination="@id/exitCofeFragment2" />
+    </fragment>
+    <fragment
+        android:id="@+id/exitCofeFragment2"
+        android:name="com.app.sanad.users.supporter.tools.cofe.presintaion.ExitCofeFragment"
+        android:label="fragment_exit_cofe2"
+        tools:layout="@layout/fragment_exit_cofe2" />
+</navigation>

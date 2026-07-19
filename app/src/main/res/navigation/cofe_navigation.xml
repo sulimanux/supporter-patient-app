@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/cofe_navigation.xml"
+    app:startDestination="@id/introFragment">
+
+    <fragment
+        android:id="@+id/introFragment"
+        android:name="com.app.sanad.users.patient.tools.coffeeideas.presentaion.IntroFragment"
+        android:label="fragment_intro"
+        tools:layout="@layout/fragment_intro" >
+        <action
+            android:id="@+id/action_introFragment_to_introCofe2Fragment2"
+            app:destination="@id/intro2Fragment2" />
+        <action
+            android:id="@+id/action_introFragment_to_friendIdeaEditingFragment"
+            app:destination="@id/friendIdeaEditingFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/intro2Fragment2"
+        android:name="com.app.sanad.users.patient.tools.coffeeideas.presentaion.Intro2Fragment"
+        android:label="fragment_intro_cofe2"
+        tools:layout="@layout/fragment_intro_cofe2" >
+        <action
+            android:id="@+id/action_intro2Fragment2_to_intro3Fragment2"
+            app:destination="@id/intro3Fragment2" />
+    </fragment>
+    <fragment
+        android:id="@+id/intro3Fragment2"
+        android:name="com.app.sanad.users.patient.tools.coffeeideas.presentaion.Intro3Fragment"
+        android:label="fragment_intro_cofe3"
+        tools:layout="@layout/fragment_intro_cofe3" >
+        <action
+            android:id="@+id/action_intro3Fragment2_to_step1Fragment"
+            app:destination="@id/step1Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/step6Fragment"
+        tools:layout="@layout/fragment_step6"
+
+        android:name="com.app.sanad.users.patient.tools.coffeeideas.presentaion.Step6Fragment"
+        android:label="Step6Fragment" >
+        <action
+            android:id="@+id/action_step6Fragment_to_exitCofeFragment"
+            app:destination="@id/exitCofeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/step1Fragment"
+        tools:layout="@layout/fragment_step1"
+        android:name="com.app.sanad.users.patient.tools.coffeeideas.presentaion.Step1Fragment"
+        android:label="Step1Fragment" >
+        <action
+            android:id="@+id/action_step1Fragment_to_questionsFragment"
+            app:destination="@id/questionsFragment" />
+        <action
+            android:id="@+id/action_step1Fragment_to_step2Fragment"
+            app:destination="@id/step2Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/step3Fragment"
+        tools:layout="@layout/fragment_step3"
+        android:name="com.app.sanad.users.patient.tools.coffeeideas.presentaion.Step3Fragment"
+        android:label="Step3Fragment" >
+        <action
+            android:id="@+id/action_step3Fragment_to_step4Fragment"
+            app:destination="@id/step4Fragment" />
+        <action
+            android:id="@+id/action_step3Fragment_to_friendIdeaEditingFragment"
+            app:destination="@id/friendIdeaEditingFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/step4Fragment"
+        tools:layout="@layout/fragment_step4"
+
+        android:name="com.app.sanad.users.patient.tools.coffeeideas.presentaion.Step4Fragment"
+        android:label="Step4Fragment" >
+        <action
+            android:id="@+id/action_step4Fragment_to_step5Fragment"
+            app:destination="@id/step5Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/step5Fragment"
+        tools:layout="@layout/fragment_step5"
+        android:name="com.app.sanad.users.patient.tools.coffeeideas.presentaion.Step5Fragment"
+        android:label="Step5Fragment" >
+        <action
+            android:id="@+id/action_step5Fragment_to_step6Fragment"
+            app:destination="@id/step6Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/exitCofeFragment"
+        tools:layout="@layout/fragment_exit_cofe"
+        android:name="com.app.sanad.users.patient.tools.coffeeideas.presentaion.ExitCofeFragment"
+        android:label="ExitCofeFragment" />
+    <fragment
+        android:id="@+id/friendIdeaEditingFragment"
+        tools:layout="@layout/fragment_friend_idea_editing"
+        android:name="com.app.sanad.users.patient.tools.coffeeideas.presentaion.FriendIdeaEditingFragment"
+        android:label="FriendIdeaEditingFragment" >
+        <action
+            android:id="@+id/action_friendIdeaEditingFragment_to_step5Fragment"
+            app:destination="@id/step5Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/questionsFragment"
+        android:name="com.app.sanad.users.patient.tools.coffeeideas.presentaion.QuestionsFragment"
+        android:label="QuestionsFragment" >
+        <action
+            android:id="@+id/action_questionsFragment_to_step3Fragment"
+            app:destination="@id/step3Fragment" />
+        <argument
+            android:name="indexCup"
+            app:argType="integer" />
+    </fragment>
+    <fragment
+        android:id="@+id/step2Fragment"
+        android:name="com.app.sanad.users.patient.tools.coffeeideas.presentaion.Step2Fragment"
+        android:label="Step2Fragment" >
+        <action
+            android:id="@+id/action_step2Fragment_to_step3Fragment"
+            app:destination="@id/step3Fragment" />
+    </fragment>
+</navigation>
