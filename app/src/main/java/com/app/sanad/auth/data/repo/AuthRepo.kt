@@ -22,7 +22,6 @@ class AuthRepo(
         return try {
             val (authResult, errorOrId) =
                 createUserWithEmailAndPassword(userProfile.email!!, userProfile.password!!)
-
             if (authResult) {
                 val newUserProfile = newUserProfile(userProfile, errorOrId)
                 storeUserDataRemote(newUserProfile)

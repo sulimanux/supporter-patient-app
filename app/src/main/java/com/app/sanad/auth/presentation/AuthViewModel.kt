@@ -96,9 +96,10 @@ class AuthViewModel @Inject constructor(
     }
 
     // Registers the supporter if invitation is val
-    private suspend fun supporterRegistration(userProfile: UserProfile) {
+    private suspend fun supporterRegistration
+                (userProfile: UserProfile) {
         val result = authRepo.signUp(userProfile)
-        if (result.isNotEmpty()) { "g"
+        if (result.isNotEmpty()) {
             _authStatus.value = result
         } else {
             addPartnerToSupporter(userProfile.id ?: "")
